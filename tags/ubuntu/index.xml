@@ -8,11 +8,11 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 30 Sep 2021 11:08:28 +0500</lastBuildDate><atom:link href="https://ahmed-al-balochi.github.io/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Easily Setup your Distro for Gaming using LibreGaming</title>
-      <link>https://ahmed-al-balochi.github.io/p/easily-setup-your-distro-for-gaming-using-libregaming/</link>
+      <title>LibreGaming: Easily Setup your Distro for Gaming</title>
+      <link>https://ahmed-al-balochi.github.io/p/libregaming-easily-setup-your-distro-for-gaming/</link>
       <pubDate>Thu, 30 Sep 2021 11:08:28 +0500</pubDate>
       
-      <guid>https://ahmed-al-balochi.github.io/p/easily-setup-your-distro-for-gaming-using-libregaming/</guid>
+      <guid>https://ahmed-al-balochi.github.io/p/libregaming-easily-setup-your-distro-for-gaming/</guid>
       <description>Intro LibreGaming Is a program for installing gaming required packages on Linux.
 It works by identifying you Linux distribution and based on that info it installs the right packages for you. Currently supported distributions:
  Ubuntu, of course. Arch Linux, because I use Arch btw. Fedora. And finally OpenSUSE Tumbleweed.  The tool also should work on the above distributions derivatives too.
