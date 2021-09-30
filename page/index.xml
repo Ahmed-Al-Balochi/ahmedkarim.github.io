@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Ahmed Karim</title>
+    <link>https://ahmed-al-balochi.github.io/page/</link>
+    <description>Recent content in Pages on Ahmed Karim</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 30 Sep 2021 09:53:35 +0500</lastBuildDate><atom:link href="https://ahmed-al-balochi.github.io/page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://ahmed-al-balochi.github.io/about/</link>
+      <pubDate>Thu, 30 Sep 2021 09:53:35 +0500</pubDate>
+      
+      <guid>https://ahmed-al-balochi.github.io/about/</guid>
+      <description>About Me I am currently undergoing a bachelor&amp;rsquo;s degree in Computer Science at Riphah International University. Ever since the first computer I built with my brother, I knew Tech is what I am most passionate about. I started my journey learning basic web development, then after I finished that I wanted to take it to the next level by enrolling in a Computer Science degree. I am still on the path to learn more, and I hope that I am doing a great job at teaching you new things.</description>
+    </item>
+    
+    <item>
+      <title>Search</title>
+      <link>https://ahmed-al-balochi.github.io/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ahmed-al-balochi.github.io/search/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
