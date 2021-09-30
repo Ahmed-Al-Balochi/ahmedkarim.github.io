@@ -6,12 +6,109 @@
         <description>Recent content on Ahmed Karim</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Thu, 30 Sep 2021 11:08:28 +0500</lastBuildDate><atom:link href="https://ahmed-al-balochi.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 30 Sep 2021 22:57:59 +0500</lastBuildDate><atom:link href="https://ahmed-al-balochi.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>LibreGaming: لتثبيت حزم الألعاب المطلوبة على لينكس</title>
+        <link>https://ahmed-al-balochi.github.io/LibreGamingAR/</link>
+        <pubDate>Thu, 30 Sep 2021 22:57:59 +0500</pubDate>
+        
+        <guid>https://ahmed-al-balochi.github.io/LibreGamingAR/</guid>
+        <description>&lt;img src="https://ahmed-al-balochi.github.io/post/LibreGaming/tui.png" alt="Featured image of post LibreGaming: لتثبيت حزم الألعاب المطلوبة على لينكس" /&gt;&lt;h1 id=&#34;مقدمة-برنامج&#34;&gt;مقدمة برنامج&lt;/h1&gt;
+&lt;p&gt;ليبرقيمنق برنامج يتيح لتثبيت حزم الألعاب المطلوبة على لينكس.&lt;/p&gt;
+&lt;p&gt;ليبرقيمنق يعمل عن طريق تحديد توزيعة  لينكس الخاصة بك وبناءً على تلك المعلومات ، يقوم بتثبيت الحزم المناسبة لك. التوزيعات المدعومة حاليًا:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubuntu بالطبع.&lt;/li&gt;
+&lt;li&gt;Arch Linux.&lt;/li&gt;
+&lt;li&gt;Fedora.&lt;/li&gt;
+&lt;li&gt;اخيرا OpenSUSE Tumblewee.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ومن المفترض ان الأداة تعمل أيضًا على مشتقات التوزيعات المذكورة أعلاه.&lt;/p&gt;
+&lt;h1 id=&#34;دعونا-نتحدث-عن-الميزات&#34;&gt;دعونا نتحدث عن الميزات&lt;/h1&gt;
+&lt;p&gt;ليبرقيمنق يعتبر نقطة انطلاق رائعة عندما تكون قد قمت للتو بتثبيت نظيف. لا داعي لإضاعة نصف ساعة لمجرد لثبيت برامج الألعاب ومن ثم بدأ اللعب.&lt;/p&gt;
+&lt;p&gt;سيقوم برنامج ليبرقيمنق بتثبيت هذه الحزم نيابة عنك:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Steam.&lt;/li&gt;
+&lt;li&gt;Wine-staging.&lt;/li&gt;
+&lt;li&gt;Gamemode.&lt;/li&gt;
+&lt;li&gt;ProtonGE, using protonup.&lt;/li&gt;
+&lt;li&gt;Lutris Launcher.&lt;/li&gt;
+&lt;li&gt;Heroic Launcher.&lt;/li&gt;
+&lt;li&gt;MangoHud and Goverlay.&lt;/li&gt;
+&lt;li&gt;itch.io Launcher.&lt;/li&gt;
+&lt;li&gt;Athenaeum Launcher.&lt;/li&gt;
+&lt;li&gt;Steam Tinker Launch.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;التثبيتتنصيب&#34;&gt;التثبيت/تنصيب&lt;/h1&gt;
+&lt;p&gt;هناك خياران لتثبيت  ليبرقيمنق.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;يمكنك تثبيت ليبرقيمنق باستخدام هذا الامر&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt; pip3 install libregaming.
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;أو يمكنك استنساخ صفحة قيت هوب وتثبيته.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;طريقة-الاستخدام&#34;&gt;طريقة الاستخدام&lt;/h1&gt;
+&lt;p&gt;استخدام البرنامج سهل للغاية ، بامكانك تخصيص معظم إن لم يكن كل الحزم التي تحتاج إلى التثبيت واستبعاد كل الحزم التي لا تريدها، وبهذه الطريقة تضمن الحد الأدنى من حجم التثبيت.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;    libregaming -h
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;قائمة الخيارات فالمعرفة المزيد من التفاصيل عن خيارات التثبيت، الرجاء الذهاب الى رابط إلى صفحة ليبرقيمنق على قيت هوب في نهاية المقال.&lt;/p&gt;
+&lt;h1 id=&#34;تثبيت-البرامج-عن-طريق-واجهة-مستخدم&#34;&gt;تثبيت البرامج عن طريق واجهة مستخدم&lt;/h1&gt;
+&lt;p&gt;واجه المستخدم هي أسهل طريقة لاستخدام البرنامج. يمكنك استخدام جميع الميزات التي يوفرها ليبرقيمنق دون إدخال امر واحد! للدخول إلى واجهة المستخدم، عليك بإدخال هذا الأمر:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;libregaming --tui
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;ختاما&#34;&gt;ختاما&lt;/h1&gt;
+&lt;p&gt;أود أن أشكر كل أولئك الذين قاموا بتنزيل ليبرقيمنق واستخدموه ، فقد حصل على أكثر من 7 آلاف تنزيل ، واستفساراتكم مرحب بها دائمًا.&lt;/p&gt;
+&lt;p&gt;هذا المقال متاح أيضًا على موقع &lt;a class=&#34;link&#34; href=&#34;https://medium.com/@a7mad98.work/python-program-to-setup-gaming-for-your-linux-distro-74d3c8f25598&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Medium&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;روابط&#34;&gt;روابط&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/Ahmed-Al-Balochi/LibreGaming&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;LibreGaming&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://t.co/qNbPadCaHI?amp=1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My YouTube Channel&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://twitter.com/CTRLpluzA&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My Twitter Profile&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/Ahmed-Al-Balochi&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My GitHub Profile&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.linkedin.com/in/ahmed-al-balochi-b97b9b150/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My LinkedIn Profile&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://patreon.com/user?u=42792180&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My Patreon Page&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;شرح-بالفيديو-على-يوتيوب&#34;&gt;شرح بالفيديو على يوتيوب&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://youtu.be/QJXbxzLbS3Y&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://img.youtube.com/vi/QJXbxzLbS3Y/0.jpg&#34; &gt;
+		&lt;img src=&#34;https://img.youtube.com/vi/QJXbxzLbS3Y/0.jpg&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;LibreGaming Video&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;LibreGaming Video&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/a&gt;&lt;br&gt;
+&lt;em&gt;Note: YouTube Video - Hold Ctrl + Left Click to open in new window&lt;/em&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>LibreGaming: Easily Setup your Distro for Gaming</title>
-        <link>https://ahmed-al-balochi.github.io/p/libregaming-easily-setup-your-distro-for-gaming/</link>
+        <link>https://ahmed-al-balochi.github.io/LibreGaming/</link>
         <pubDate>Thu, 30 Sep 2021 11:08:28 +0500</pubDate>
         
-        <guid>https://ahmed-al-balochi.github.io/p/libregaming-easily-setup-your-distro-for-gaming/</guid>
+        <guid>https://ahmed-al-balochi.github.io/LibreGaming/</guid>
         <description>&lt;img src="https://ahmed-al-balochi.github.io/post/LibreGaming/tui.png" alt="Featured image of post LibreGaming: Easily Setup your Distro for Gaming" /&gt;&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
 &lt;p&gt;LibreGaming Is a program for installing gaming required packages on Linux.&lt;/p&gt;
 &lt;p&gt;It works by identifying you Linux distribution and based on that info it installs the right packages for you.
@@ -85,6 +182,50 @@ To enter the TUI you need to enter this command:&lt;/p&gt;
 &lt;p&gt;I would like to thank all those who downloaded and used LibreGaming, it got more than 7k downloads.and your Feedback is always welcome.&lt;/p&gt;
 &lt;p&gt;This article is also available on &lt;a class=&#34;link&#34; href=&#34;https://medium.com/@a7mad98.work/python-program-to-setup-gaming-for-your-linux-distro-74d3c8f25598&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Medium&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;links&#34;&gt;Links&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/Ahmed-Al-Balochi/LibreGaming&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;LibreGaming&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://t.co/qNbPadCaHI?amp=1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My YouTube Channel&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://twitter.com/CTRLpluzA&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My Twitter Profile&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/Ahmed-Al-Balochi&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My GitHub Profile&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.linkedin.com/in/ahmed-al-balochi-b97b9b150/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My LinkedIn Profile&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://patreon.com/user?u=42792180&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My Patreon Page&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;video-walkthrough&#34;&gt;Video Walkthrough&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://youtu.be/QJXbxzLbS3Y&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://img.youtube.com/vi/QJXbxzLbS3Y/0.jpg&#34; &gt;
+		&lt;img src=&#34;https://img.youtube.com/vi/QJXbxzLbS3Y/0.jpg&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;LibreGaming Video&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;LibreGaming Video&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/a&gt;&lt;br&gt;
+&lt;em&gt;Note: YouTube Video - Hold Ctrl + Left Click to open in new window&lt;/em&gt;&lt;/p&gt;
 </description>
         </item>
         
