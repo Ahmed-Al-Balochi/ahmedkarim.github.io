@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Ahmed Karim</title>
+        <title>Ahmed Al Balochi</title>
         <link>https://ahmed-al-balochi.github.io/</link>
-        <description>Recent content on Ahmed Karim</description>
+        <description>Recent content on Ahmed Al Balochi</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <lastBuildDate>Thu, 30 Sep 2021 22:57:59 +0500</lastBuildDate><atom:link href="https://ahmed-al-balochi.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
@@ -178,11 +178,11 @@ To enter the TUI you need to enter this command:&lt;/p&gt;
 	
 &lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;The Wizard Is the best way to have more control over what gets installed on your system by using Wizard mode in the TUI, enter this command to use the TUI&lt;/p&gt;
-&lt;h2 id=&#34;closing-thoughts&#34;&gt;Closing thoughts&lt;/h2&gt;
+&lt;h1 id=&#34;closing-thoughts&#34;&gt;Closing thoughts&lt;/h1&gt;
 &lt;p&gt;I would like to thank all those who downloaded and used LibreGaming, it got more than 7k downloads.and your Feedback is always welcome.&lt;/p&gt;
 &lt;p&gt;This article is also available on &lt;a class=&#34;link&#34; href=&#34;https://medium.com/@a7mad98.work/python-program-to-setup-gaming-for-your-linux-distro-74d3c8f25598&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Medium&lt;/a&gt;&lt;/p&gt;
-&lt;h4 id=&#34;links&#34;&gt;Links&lt;/h4&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/Ahmed-Al-Balochi/LibreGaming&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
