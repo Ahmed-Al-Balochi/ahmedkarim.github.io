@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Linux Gaming on Ahmed Al Balochi</title>
-    <link>https://ahmed-al-balochi.github.io/tags/linux-gaming/</link>
-    <description>Recent content in Linux Gaming on Ahmed Al Balochi</description>
+    <title>ليبرقيمنق on Ahmed Al Balochi</title>
+    <link>https://ahmed-al-balochi.github.io/tags/%D9%84%D9%8A%D8%A8%D8%B1%D9%82%D9%8A%D9%85%D9%86%D9%82/</link>
+    <description>Recent content in ليبرقيمنق on Ahmed Al Balochi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Sep 2021 22:57:59 +0500</lastBuildDate><atom:link href="https://ahmed-al-balochi.github.io/tags/linux-gaming/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Sep 2021 22:57:59 +0500</lastBuildDate><atom:link href="https://ahmed-al-balochi.github.io/tags/%D9%84%D9%8A%D8%A8%D8%B1%D9%82%D9%8A%D9%85%D9%86%D9%82/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LibreGaming: تثبيت حزم الألعاب المطلوبة على لينكس</title>
       <link>https://ahmed-al-balochi.github.io/LibreGamingAR/</link>
@@ -17,18 +17,6 @@
 ليبرقيمنق يعمل عن طريق تحديد توزيعة لينكس الخاصة بك وبناءً على تلك المعلومات ، يقوم بتثبيت الحزم المناسبة لك. التوزيعات المدعومة حاليًا:
  Ubuntu. Arch Linux. Fedora. OpenSUSE Tumblewee.  ومن المفترض ان الأداة تعمل أيضًا على مشتقات التوزيعات المذكورة أعلاه.
 دعونا نتحدث عن المميزات ليبرقيمنق يعتبر نقطة انطلاق رائعة عندما تكون قد قمت للتو بتثبيت كامل نظيف لنظامك.</description>
-    </item>
-    
-    <item>
-      <title>LibreGaming: Easily Setup your Distro for Gaming</title>
-      <link>https://ahmed-al-balochi.github.io/LibreGaming/</link>
-      <pubDate>Thu, 30 Sep 2021 11:08:28 +0500</pubDate>
-      
-      <guid>https://ahmed-al-balochi.github.io/LibreGaming/</guid>
-      <description>Intro LibreGaming Is a program for installing gaming required packages on Linux.
-It works by identifying you Linux distribution and based on that info it installs the right packages for you. Currently supported distributions:
- Ubuntu, of course. Arch Linux, because I use Arch btw. Fedora. And finally OpenSUSE Tumbleweed.  The tool also should work on the above distributions derivatives too.
-Lets talk features: The tool is a great starting point when you have just made a clean install.</description>
     </item>
     
   </channel>
