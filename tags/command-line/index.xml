@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Command Line on Ahmed Al Balochi</title>
+    <link>https://ahmed-al-balochi.github.io/tags/command-line/</link>
+    <description>Recent content in Command Line on Ahmed Al Balochi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Oct 2021 17:11:47 +0500</lastBuildDate><atom:link href="https://ahmed-al-balochi.github.io/tags/command-line/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Top 5 Terminal Utilities</title>
+      <link>https://ahmed-al-balochi.github.io/best-terminal-utilities/</link>
+      <pubDate>Sat, 16 Oct 2021 17:11:47 +0500</pubDate>
+      
+      <guid>https://ahmed-al-balochi.github.io/best-terminal-utilities/</guid>
+      <description>Intro These are incredible utilities that I have been using for a while now. I am confident that you will find a use for at least one of them. Lets dive in!
+Alacritty Is a great Terminal Emulator for those people who want blazing fast performance. It has many features, but my favorites are:
+ Hardware acceleration. Cross-platform, it runs on Linux, BSD, macOS, and Windows.  Installation For Debian/Ubuntu</description>
+    </item>
+    
+  </channel>
+</rss>

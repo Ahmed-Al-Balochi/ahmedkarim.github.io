@@ -6,7 +6,25 @@
     <description>Recent content in Categories on Ahmed Al Balochi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Oct 2021 20:01:47 +0500</lastBuildDate><atom:link href="https://ahmed-al-balochi.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Oct 2021 18:08:32 +0500</lastBuildDate><atom:link href="https://ahmed-al-balochi.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux</title>
+      <link>https://ahmed-al-balochi.github.io/categories/linux/</link>
+      <pubDate>Sat, 16 Oct 2021 18:08:32 +0500</pubDate>
+      
+      <guid>https://ahmed-al-balochi.github.io/categories/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MacOS</title>
+      <link>https://ahmed-al-balochi.github.io/categories/macos/</link>
+      <pubDate>Sat, 16 Oct 2021 18:08:32 +0500</pubDate>
+      
+      <guid>https://ahmed-al-balochi.github.io/categories/macos/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>AI</title>
       <link>https://ahmed-al-balochi.github.io/categories/ai/</link>
@@ -31,15 +49,6 @@
       <pubDate>Thu, 14 Oct 2021 20:01:47 +0500</pubDate>
       
       <guid>https://ahmed-al-balochi.github.io/categories/ios/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>https://ahmed-al-balochi.github.io/categories/linux/</link>
-      <pubDate>Thu, 30 Sep 2021 22:57:59 +0500</pubDate>
-      
-      <guid>https://ahmed-al-balochi.github.io/categories/linux/</guid>
       <description></description>
     </item>
     
