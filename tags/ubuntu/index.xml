@@ -6,20 +6,7 @@
     <description>Recent content in Ubuntu on Ahmed Al Balochi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 Oct 2021 18:08:32 +0500</lastBuildDate><atom:link href="https://ahmed-al-balochi.github.io/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>5 Essential Tools for Window Managers</title>
-      <link>https://ahmed-al-balochi.github.io/WM-Tools/</link>
-      <pubDate>Sat, 16 Oct 2021 18:08:32 +0500</pubDate>
-      
-      <guid>https://ahmed-al-balochi.github.io/WM-Tools/</guid>
-      <description>Intro These are my favorite Window manager(WM) utilities. They will help you switch from the traditional Desktop Environments(DE).
-So, without further a due let&amp;rsquo;s begin.
-Terminal I know it&amp;rsquo;s a no-brainer, but a terminal is a key component of a WM setup. So, a great Terminal means a great Window manager session.
-Great GNU/Linux Terminals:
- Alacritty. My favorite Terminal Emulator Kitty. Terminator. Konsole. Gnome Terminal.  Installation For Debian/Ubuntu</description>
-    </item>
-    
+    <lastBuildDate>Thu, 30 Sep 2021 22:57:59 +0500</lastBuildDate><atom:link href="https://ahmed-al-balochi.github.io/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LibreGaming: تثبيت حزم الألعاب المطلوبة على لينكس</title>
       <link>https://ahmed-al-balochi.github.io/LibreGamingAR/</link>
