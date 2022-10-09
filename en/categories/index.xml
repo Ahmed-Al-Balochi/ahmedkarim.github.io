@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Categories on Ahmed Al Balochi</title>
+        <link>https://ahmed-al-balochi.github.io/en/categories/</link>
+        <description>Recent content in Categories on Ahmed Al Balochi</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Sat, 16 Oct 2021 17:11:47 +0500</lastBuildDate><atom:link href="https://ahmed-al-balochi.github.io/en/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Linux</title>
+        <link>https://ahmed-al-balochi.github.io/en/categories/linux/</link>
+        <pubDate>Sat, 16 Oct 2021 17:11:47 +0500</pubDate>
+        
+        <guid>https://ahmed-al-balochi.github.io/en/categories/linux/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>MacOS</title>
+        <link>https://ahmed-al-balochi.github.io/en/categories/macos/</link>
+        <pubDate>Sat, 16 Oct 2021 17:11:47 +0500</pubDate>
+        
+        <guid>https://ahmed-al-balochi.github.io/en/categories/macos/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>AI</title>
+        <link>https://ahmed-al-balochi.github.io/en/categories/ai/</link>
+        <pubDate>Thu, 14 Oct 2021 20:01:47 +0500</pubDate>
+        
+        <guid>https://ahmed-al-balochi.github.io/en/categories/ai/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Android</title>
+        <link>https://ahmed-al-balochi.github.io/en/categories/android/</link>
+        <pubDate>Thu, 14 Oct 2021 20:01:47 +0500</pubDate>
+        
+        <guid>https://ahmed-al-balochi.github.io/en/categories/android/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>iOS</title>
+        <link>https://ahmed-al-balochi.github.io/en/categories/ios/</link>
+        <pubDate>Thu, 14 Oct 2021 20:01:47 +0500</pubDate>
+        
+        <guid>https://ahmed-al-balochi.github.io/en/categories/ios/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>

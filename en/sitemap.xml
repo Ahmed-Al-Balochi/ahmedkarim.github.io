@@ -2,81 +2,81 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ahmed-al-balochi.github.io/</loc>
+    <loc>https://ahmed-al-balochi.github.io/en/</loc>
     <lastmod>2021-10-16T17:11:47+05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://ahmed-al-balochi.github.io/ar/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
                 href="https://ahmed-al-balochi.github.io/"
                 />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ahmed-al-balochi.github.io/en/"
+                />
   </url><url>
-    <loc>https://ahmed-al-balochi.github.io/categories/</loc>
+    <loc>https://ahmed-al-balochi.github.io/en/categories/</loc>
     <lastmod>2021-10-16T17:11:47+05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://ahmed-al-balochi.github.io/ar/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
                 href="https://ahmed-al-balochi.github.io/categories/"
                 />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ahmed-al-balochi.github.io/en/categories/"
+                />
   </url><url>
-    <loc>https://ahmed-al-balochi.github.io/tags/cli/</loc>
+    <loc>https://ahmed-al-balochi.github.io/en/tags/cli/</loc>
     <lastmod>2021-10-16T17:11:47+05:00</lastmod>
   </url><url>
-    <loc>https://ahmed-al-balochi.github.io/tags/command-line/</loc>
+    <loc>https://ahmed-al-balochi.github.io/en/tags/command-line/</loc>
     <lastmod>2021-10-16T17:11:47+05:00</lastmod>
   </url><url>
-    <loc>https://ahmed-al-balochi.github.io/categories/linux/</loc>
+    <loc>https://ahmed-al-balochi.github.io/en/categories/linux/</loc>
     <lastmod>2021-10-16T17:11:47+05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://ahmed-al-balochi.github.io/ar/categories/linux/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
                 href="https://ahmed-al-balochi.github.io/categories/linux/"
                 />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ahmed-al-balochi.github.io/en/categories/linux/"
+                />
   </url><url>
-    <loc>https://ahmed-al-balochi.github.io/categories/macos/</loc>
+    <loc>https://ahmed-al-balochi.github.io/en/categories/macos/</loc>
     <lastmod>2021-10-16T17:11:47+05:00</lastmod>
   </url><url>
-    <loc>https://ahmed-al-balochi.github.io/post/</loc>
+    <loc>https://ahmed-al-balochi.github.io/en/post/</loc>
     <lastmod>2021-10-16T17:11:47+05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://ahmed-al-balochi.github.io/ar/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
                 href="https://ahmed-al-balochi.github.io/post/"
                 />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ahmed-al-balochi.github.io/en/post/"
+                />
   </url><url>
-    <loc>https://ahmed-al-balochi.github.io/tags/</loc>
+    <loc>https://ahmed-al-balochi.github.io/en/tags/</loc>
     <lastmod>2021-10-16T17:11:47+05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://ahmed-al-balochi.github.io/ar/tags/"
+                href="https://ahmed-al-balochi.github.io/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ahmed-al-balochi.github.io/tags/"
+                href="https://ahmed-al-balochi.github.io/en/tags/"
                 />
   </url><url>
-    <loc>https://ahmed-al-balochi.github.io/tags/terminal/</loc>
+    <loc>https://ahmed-al-balochi.github.io/en/tags/terminal/</loc>
     <lastmod>2021-10-16T17:11:47+05:00</lastmod>
   </url><url>
     <loc>https://ahmed-al-balochi.github.io/best-terminal-utilities/</loc>
@@ -85,64 +85,64 @@
     <loc>https://ahmed-al-balochi.github.io/4-AI-based-apps-that-don&#39;t-suck/</loc>
     <lastmod>2021-10-14T20:01:47+05:00</lastmod>
   </url><url>
-    <loc>https://ahmed-al-balochi.github.io/tags/ai/</loc>
+    <loc>https://ahmed-al-balochi.github.io/en/tags/ai/</loc>
     <lastmod>2021-10-14T20:01:47+05:00</lastmod>
   </url><url>
-    <loc>https://ahmed-al-balochi.github.io/categories/ai/</loc>
+    <loc>https://ahmed-al-balochi.github.io/en/categories/ai/</loc>
     <lastmod>2021-10-14T20:01:47+05:00</lastmod>
   </url><url>
-    <loc>https://ahmed-al-balochi.github.io/tags/ai-apps-for-android/</loc>
+    <loc>https://ahmed-al-balochi.github.io/en/tags/ai-apps-for-android/</loc>
     <lastmod>2021-10-14T20:01:47+05:00</lastmod>
   </url><url>
-    <loc>https://ahmed-al-balochi.github.io/tags/ai-apps-for-ios/</loc>
+    <loc>https://ahmed-al-balochi.github.io/en/tags/ai-apps-for-ios/</loc>
     <lastmod>2021-10-14T20:01:47+05:00</lastmod>
   </url><url>
-    <loc>https://ahmed-al-balochi.github.io/categories/android/</loc>
+    <loc>https://ahmed-al-balochi.github.io/en/categories/android/</loc>
     <lastmod>2021-10-14T20:01:47+05:00</lastmod>
   </url><url>
-    <loc>https://ahmed-al-balochi.github.io/tags/artificial-intelligence/</loc>
+    <loc>https://ahmed-al-balochi.github.io/en/tags/artificial-intelligence/</loc>
     <lastmod>2021-10-14T20:01:47+05:00</lastmod>
   </url><url>
-    <loc>https://ahmed-al-balochi.github.io/categories/ios/</loc>
+    <loc>https://ahmed-al-balochi.github.io/en/categories/ios/</loc>
     <lastmod>2021-10-14T20:01:47+05:00</lastmod>
   </url><url>
-    <loc>https://ahmed-al-balochi.github.io/tags/arch-linux/</loc>
+    <loc>https://ahmed-al-balochi.github.io/en/tags/arch-linux/</loc>
     <lastmod>2021-09-30T11:08:28+05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://ahmed-al-balochi.github.io/ar/tags/arch-linux/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
                 href="https://ahmed-al-balochi.github.io/tags/arch-linux/"
                 />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ahmed-al-balochi.github.io/en/tags/arch-linux/"
+                />
   </url><url>
-    <loc>https://ahmed-al-balochi.github.io/tags/fedora/</loc>
+    <loc>https://ahmed-al-balochi.github.io/en/tags/fedora/</loc>
     <lastmod>2021-09-30T11:08:28+05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://ahmed-al-balochi.github.io/ar/tags/fedora/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
                 href="https://ahmed-al-balochi.github.io/tags/fedora/"
                 />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ahmed-al-balochi.github.io/en/tags/fedora/"
+                />
   </url><url>
-    <loc>https://ahmed-al-balochi.github.io/tags/libregaming/</loc>
+    <loc>https://ahmed-al-balochi.github.io/en/tags/libregaming/</loc>
     <lastmod>2021-09-30T11:08:28+05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://ahmed-al-balochi.github.io/ar/tags/libregaming/"
+                href="https://ahmed-al-balochi.github.io/tags/libregaming/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ahmed-al-balochi.github.io/tags/libregaming/"
+                href="https://ahmed-al-balochi.github.io/en/tags/libregaming/"
                 />
   </url><url>
     <loc>https://ahmed-al-balochi.github.io/LibreGaming/</loc>
@@ -158,71 +158,81 @@
                 href="https://ahmed-al-balochi.github.io/LibreGaming/"
                 />
   </url><url>
-    <loc>https://ahmed-al-balochi.github.io/tags/linux-gaming/</loc>
+    <loc>https://ahmed-al-balochi.github.io/en/tags/linux-gaming/</loc>
     <lastmod>2021-09-30T11:08:28+05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://ahmed-al-balochi.github.io/ar/tags/linux-gaming/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
                 href="https://ahmed-al-balochi.github.io/tags/linux-gaming/"
                 />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ahmed-al-balochi.github.io/en/tags/linux-gaming/"
+                />
   </url><url>
-    <loc>https://ahmed-al-balochi.github.io/tags/opensuse-tumbleweed/</loc>
+    <loc>https://ahmed-al-balochi.github.io/en/tags/opensuse-tumbleweed/</loc>
     <lastmod>2021-09-30T11:08:28+05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://ahmed-al-balochi.github.io/ar/tags/opensuse-tumbleweed/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
                 href="https://ahmed-al-balochi.github.io/tags/opensuse-tumbleweed/"
                 />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ahmed-al-balochi.github.io/en/tags/opensuse-tumbleweed/"
+                />
   </url><url>
-    <loc>https://ahmed-al-balochi.github.io/tags/ubuntu/</loc>
+    <loc>https://ahmed-al-balochi.github.io/en/tags/ubuntu/</loc>
     <lastmod>2021-09-30T11:08:28+05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://ahmed-al-balochi.github.io/ar/tags/ubuntu/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
                 href="https://ahmed-al-balochi.github.io/tags/ubuntu/"
                 />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ahmed-al-balochi.github.io/en/tags/ubuntu/"
+                />
   </url><url>
-    <loc>https://ahmed-al-balochi.github.io/about/</loc>
+    <loc>https://ahmed-al-balochi.github.io/en/about/</loc>
     <lastmod>2021-09-30T09:53:35+05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://ahmed-al-balochi.github.io/ar/%D9%86%D8%A8%D8%B0%D8%A9-%D8%B9%D9%86%D9%8A/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
                 href="https://ahmed-al-balochi.github.io/about/"
                 />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ahmed-al-balochi.github.io/en/about/"
+                />
   </url><url>
-    <loc>https://ahmed-al-balochi.github.io/page/</loc>
+    <loc>https://ahmed-al-balochi.github.io/en/page/</loc>
     <lastmod>2021-09-30T09:53:35+05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://ahmed-al-balochi.github.io/ar/page/"
+                href="https://ahmed-al-balochi.github.io/page/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ahmed-al-balochi.github.io/page/"
+                href="https://ahmed-al-balochi.github.io/en/page/"
                 />
   </url><url>
-    <loc>https://ahmed-al-balochi.github.io/search/</loc>
+    <loc>https://ahmed-al-balochi.github.io/en/search/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://ahmed-al-balochi.github.io/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ahmed-al-balochi.github.io/en/search/"
+                />
   </url>
 </urlset>
