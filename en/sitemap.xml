@@ -2,6 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ahmed-al-balochi.github.io/</loc>
+    <lastmod>2021-10-16T17:11:47+05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://ahmed-al-balochi.github.io/ar/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ahmed-al-balochi.github.io/"
+                />
+  </url><url>
     <loc>https://ahmed-al-balochi.github.io/categories/</loc>
     <lastmod>2021-10-16T17:11:47+05:00</lastmod>
     <xhtml:link
@@ -20,19 +33,6 @@
   </url><url>
     <loc>https://ahmed-al-balochi.github.io/tags/command-line/</loc>
     <lastmod>2021-10-16T17:11:47+05:00</lastmod>
-  </url><url>
-    <loc>https://ahmed-al-balochi.github.io/</loc>
-    <lastmod>2021-10-16T17:11:47+05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://ahmed-al-balochi.github.io/ar/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ahmed-al-balochi.github.io/"
-                />
   </url><url>
     <loc>https://ahmed-al-balochi.github.io/categories/linux/</loc>
     <lastmod>2021-10-16T17:11:47+05:00</lastmod>
