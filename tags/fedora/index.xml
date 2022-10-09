@@ -1,35 +1,128 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Fedora on Ahmed Al Balochi</title>
-    <link>https://ahmed-al-balochi.github.io/tags/fedora/</link>
-    <description>Recent content in Fedora on Ahmed Al Balochi</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 30 Sep 2021 22:57:59 +0500</lastBuildDate><atom:link href="https://ahmed-al-balochi.github.io/tags/fedora/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>LibreGaming: تثبيت حزم الألعاب المطلوبة على لينكس</title>
-      <link>https://ahmed-al-balochi.github.io/LibreGamingAR/</link>
-      <pubDate>Thu, 30 Sep 2021 22:57:59 +0500</pubDate>
-      
-      <guid>https://ahmed-al-balochi.github.io/LibreGamingAR/</guid>
-      <description>مقدمة برنامج ليبرقيمنق برنامج يتيح لك تثبيت حزم الألعاب المطلوبة على لينكس.
-ليبرقيمنق يعمل عن طريق تحديد توزيعة لينكس الخاصة بك وبناءً على تلك المعلومات ، يقوم بتثبيت الحزم المناسبة لك. التوزيعات المدعومة حاليًا:
- Ubuntu. Arch Linux. Fedora. OpenSUSE Tumblewee.  ومن المفترض ان الأداة تعمل أيضًا على مشتقات التوزيعات المذكورة أعلاه.
-دعونا نتحدث عن المميزات ليبرقيمنق يعتبر نقطة انطلاق رائعة عندما تكون قد قمت للتو بتثبيت كامل نظيف لنظامك(فورمات).</description>
-    </item>
-    
-    <item>
-      <title>LibreGaming: Easily Setup your Distro for Gaming</title>
-      <link>https://ahmed-al-balochi.github.io/LibreGaming/</link>
-      <pubDate>Thu, 30 Sep 2021 11:08:28 +0500</pubDate>
-      
-      <guid>https://ahmed-al-balochi.github.io/LibreGaming/</guid>
-      <description>Intro LibreGaming Is a program for installing gaming required packages on Linux.
-It works by identifying you Linux distribution and based on that info it installs the right packages for you. Currently supported distributions:
- Ubuntu, of course. Arch Linux, because I use Arch btw. Fedora. And finally OpenSUSE Tumbleweed.  The tool also should work on the above distributions derivatives too.
-Lets talk features: The tool is a great starting point when you have just made a clean install.</description>
-    </item>
-    
-  </channel>
+    <channel>
+        <title>Fedora on Example Site</title>
+        <link>https://ahmed-al-balochi.github.io/tags/fedora/</link>
+        <description>Recent content in Fedora on Example Site</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Thu, 30 Sep 2021 11:08:28 +0500</lastBuildDate><atom:link href="https://ahmed-al-balochi.github.io/tags/fedora/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>LibreGaming: Easily Setup your Distro for Gaming</title>
+        <link>https://ahmed-al-balochi.github.io/LibreGaming/</link>
+        <pubDate>Thu, 30 Sep 2021 11:08:28 +0500</pubDate>
+        
+        <guid>https://ahmed-al-balochi.github.io/LibreGaming/</guid>
+        <description>&lt;img src="https://ahmed-al-balochi.github.io/post/LibreGaming/tui.png" alt="Featured image of post LibreGaming: Easily Setup your Distro for Gaming" /&gt;&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+&lt;p&gt;LibreGaming Is a program for installing gaming required packages on Linux.&lt;/p&gt;
+&lt;p&gt;It works by identifying you Linux distribution and based on that info it installs the right packages for you.
+Currently supported distributions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubuntu, of course.&lt;/li&gt;
+&lt;li&gt;Arch Linux, because I use Arch btw.&lt;/li&gt;
+&lt;li&gt;Fedora.&lt;/li&gt;
+&lt;li&gt;And finally OpenSUSE Tumbleweed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The tool also should work on the above distributions derivatives too.&lt;/p&gt;
+&lt;h2 id=&#34;lets-talk-features&#34;&gt;Lets talk features:&lt;/h2&gt;
+&lt;p&gt;The tool is a great starting point when you have just made a clean install. No need to waste half an hour just to play games.&lt;/p&gt;
+&lt;p&gt;LibreGaming will install these packages for you:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Steam.&lt;/li&gt;
+&lt;li&gt;Wine-staging.&lt;/li&gt;
+&lt;li&gt;Gamemode.&lt;/li&gt;
+&lt;li&gt;ProtonGE, using protonup.&lt;/li&gt;
+&lt;li&gt;Lutris Launcher.&lt;/li&gt;
+&lt;li&gt;Heroic Launcher.&lt;/li&gt;
+&lt;li&gt;MangoHud and Goverlay.&lt;/li&gt;
+&lt;li&gt;itch.io Launcher.&lt;/li&gt;
+&lt;li&gt;Athenaeum Launcher.&lt;/li&gt;
+&lt;li&gt;Steam Tinker Launch.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;installation&#34;&gt;Installation:&lt;/h2&gt;
+&lt;p&gt;There are two options to install LibreGaming.&lt;/p&gt;
+&lt;p&gt;You can install LibreGaming using pip3. For example,&lt;code&gt;pip3 install libregaming&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Or you can clone the GitHub repo and install it.&lt;/p&gt;
+&lt;p&gt;Moving on to Usage:&lt;/p&gt;
+&lt;p&gt;LibreGaming is very easy to use, you tailor most if not all the packages you need to install and exclude all the ones that you don’t use, this way it’s guaranteed a minimal install.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;    libregaming -h
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Is what you need to run to display all the available options.&lt;/p&gt;
+&lt;p&gt;The list of options are plenty and it will take up most on this article to cover, so I am skipping it. However, for more details I have provided the link to LibreGaming GitHub Page.&lt;/p&gt;
+&lt;h2 id=&#34;tuiterminal-user-interface&#34;&gt;TUI(Terminal User Interface)&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://ahmed-al-balochi.github.io/post/LibreGaming/tui.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;TUI image&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;The TUI Is the easiest way to use LibreGaming. You can use all the features that LibreGaming provides without entering commands.
+To enter the TUI you need to enter this command:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;libregaming --tui
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;wizard&#34;&gt;Wizard&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://ahmed-al-balochi.github.io/post/LibreGaming/wizard.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Wizard image&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;The Wizard Is the best way to have more control over what gets installed on your system by using Wizard mode in the TUI, enter this command to use the TUI&lt;/p&gt;
+&lt;h1 id=&#34;closing-thoughts&#34;&gt;Closing thoughts&lt;/h1&gt;
+&lt;p&gt;I would like to thank all those who downloaded and used LibreGaming, it got more than 7k downloads.and your Feedback is always welcome.&lt;/p&gt;
+&lt;p&gt;This article is also available on &lt;a class=&#34;link&#34; href=&#34;https://medium.com/@a7mad98.work/python-program-to-setup-gaming-for-your-linux-distro-74d3c8f25598&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Medium&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/Ahmed-Al-Balochi/LibreGaming&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;LibreGaming&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;📽 &lt;a class=&#34;link&#34; href=&#34;https://t.co/qNbPadCaHI?amp=1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My YouTube Channel&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;📽 &lt;a class=&#34;link&#34; href=&#34;https://odysee.com/$/invite/@CTRLplusA:7&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My Odysee Channel&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;🐦 &lt;a class=&#34;link&#34; href=&#34;https://twitter.com/CTRLpluzA&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My Twitter Profile&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;💻 &lt;a class=&#34;link&#34; href=&#34;https://github.com/Ahmed-Al-Balochi&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My GitHub Profile&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;💼 &lt;a class=&#34;link&#34; href=&#34;https://www.linkedin.com/in/ahmed-al-balochi-b97b9b150/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My LinkedIn Profile&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;💰 &lt;a class=&#34;link&#34; href=&#34;https://patreon.com/user?u=42792180&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My Patreon Page&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;video-walkthrough&#34;&gt;Video Walkthrough&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://youtu.be/QJXbxzLbS3Y&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img src=&#34;https://img.youtube.com/vi/QJXbxzLbS3Y/0.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;LibreGaming Video&#34;
+	
+	
+&gt;&lt;/a&gt;&lt;br&gt;
+&lt;em&gt;Note: YouTube Video - Hold Ctrl + Left Click to open in new window&lt;/em&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
 </rss>

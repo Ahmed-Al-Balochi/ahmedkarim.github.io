@@ -1,29 +1,60 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Pages on Ahmed Al Balochi</title>
-    <link>https://ahmed-al-balochi.github.io/page/</link>
-    <description>Recent content in Pages on Ahmed Al Balochi</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 30 Sep 2021 09:53:35 +0500</lastBuildDate><atom:link href="https://ahmed-al-balochi.github.io/page/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About</title>
-      <link>https://ahmed-al-balochi.github.io/about/</link>
-      <pubDate>Thu, 30 Sep 2021 09:53:35 +0500</pubDate>
-      
-      <guid>https://ahmed-al-balochi.github.io/about/</guid>
-      <description>About Me I am currently undergoing a bachelor&amp;rsquo;s degree in Computer Science at Riphah International University. Ever since the first computer I built with my brother, I knew Tech is what I am most passionate about. I started my journey learning basic web development, then after I finished that I wanted to take it to the next level by enrolling in a Computer Science degree. I am still on the path to learn more, and I hope that I am doing a great job at teaching you new things.</description>
-    </item>
-    
-    <item>
-      <title>Search</title>
-      <link>https://ahmed-al-balochi.github.io/search/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ahmed-al-balochi.github.io/search/</guid>
-      <description></description>
-    </item>
-    
-  </channel>
+    <channel>
+        <title>Pages on Example Site</title>
+        <link>https://ahmed-al-balochi.github.io/page/</link>
+        <description>Recent content in Pages on Example Site</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Thu, 30 Sep 2021 09:53:35 +0500</lastBuildDate><atom:link href="https://ahmed-al-balochi.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>About</title>
+        <link>https://ahmed-al-balochi.github.io/about/</link>
+        <pubDate>Thu, 30 Sep 2021 09:53:35 +0500</pubDate>
+        
+        <guid>https://ahmed-al-balochi.github.io/about/</guid>
+        <description>&lt;h1 id=&#34;about-me&#34;&gt;About Me&lt;/h1&gt;
+&lt;p&gt;I am currently undergoing a bachelor&amp;rsquo;s degree in Computer Science at Riphah International University.
+Ever since the first computer I built with my brother, I knew Tech is what I am most passionate about. I started my journey learning basic web development, then after I finished that I wanted to take it to the next level by enrolling in a Computer Science degree.
+I am still on the path to learn more, and I hope that I am doing a great job at teaching you new things.&lt;/p&gt;
+&lt;h1 id=&#34;contact-me-on&#34;&gt;Contact Me on&lt;/h1&gt;
+&lt;p&gt;Email:  &lt;a class=&#34;link&#34; href=&#34;mailto:a7mad98.work@gmail.com&#34; &gt;a7mad98.work@gmail.com&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;links&#34;&gt;Links&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;📽 &lt;a class=&#34;link&#34; href=&#34;https://t.co/qNbPadCaHI?amp=1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My YouTube Channel&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;📽 &lt;a class=&#34;link&#34; href=&#34;https://odysee.com/$/invite/@CTRLplusA:7&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My Odysee Channel&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;🐦 &lt;a class=&#34;link&#34; href=&#34;https://twitter.com/ahmedal_balochi&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My Twitter Profile&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;💻 &lt;a class=&#34;link&#34; href=&#34;https://github.com/Ahmed-Al-Balochi&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My GitHub Profile&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;💼 &lt;a class=&#34;link&#34; href=&#34;https://www.linkedin.com/in/ahmed-al-balochi-b97b9b150/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My LinkedIn Profile&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;💰 &lt;a class=&#34;link&#34; href=&#34;https://patreon.com/user?u=42792180&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My Patreon Page&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>Search</title>
+        <link>https://ahmed-al-balochi.github.io/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://ahmed-al-balochi.github.io/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
 </rss>

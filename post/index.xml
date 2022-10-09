@@ -1,57 +1,368 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on Ahmed Al Balochi</title>
-    <link>https://ahmed-al-balochi.github.io/post/</link>
-    <description>Recent content in Posts on Ahmed Al Balochi</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 16 Oct 2021 17:11:47 +0500</lastBuildDate><atom:link href="https://ahmed-al-balochi.github.io/post/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Top 5: Linux Terminal Applications and Utilities</title>
-      <link>https://ahmed-al-balochi.github.io/best-terminal-utilities/</link>
-      <pubDate>Sat, 16 Oct 2021 17:11:47 +0500</pubDate>
-      
-      <guid>https://ahmed-al-balochi.github.io/best-terminal-utilities/</guid>
-      <description>Intro These are incredible utilities that I have been using for a while now. I am confident that you will find a use for at least one of them. Lets dive in!
-Alacritty Is a great Terminal Emulator for those people who want blazing fast performance. It has many features, but my favorites are:
- Hardware acceleration. Cross-platform, it runs on Linux, BSD, macOS, and Windows.  Installation For Debian/Ubuntu</description>
-    </item>
-    
-    <item>
-      <title>4 AI based apps that don&#39;t suck</title>
-      <link>https://ahmed-al-balochi.github.io/4-AI-based-apps-that-don&#39;t-suck/</link>
-      <pubDate>Thu, 14 Oct 2021 20:01:47 +0500</pubDate>
-      
-      <guid>https://ahmed-al-balochi.github.io/4-AI-based-apps-that-don&#39;t-suck/</guid>
-      <description>Intro These apps are great at what they do; I think you will find use of at least one of them.
-Youper Youper is an app for people who want to talk about their mental health problems.
-Pros  Excellent UI/UX design. When you first install the app, it tells you that you need to evaluate your mental health by speaking to a mental health professional.  After evaluating your mental health, you can have a conversation a virtual AI that helps you to talk about your problems.</description>
-    </item>
-    
-    <item>
-      <title>LibreGaming: تثبيت حزم الألعاب المطلوبة على لينكس</title>
-      <link>https://ahmed-al-balochi.github.io/LibreGamingAR/</link>
-      <pubDate>Thu, 30 Sep 2021 22:57:59 +0500</pubDate>
-      
-      <guid>https://ahmed-al-balochi.github.io/LibreGamingAR/</guid>
-      <description>مقدمة برنامج ليبرقيمنق برنامج يتيح لك تثبيت حزم الألعاب المطلوبة على لينكس.
-ليبرقيمنق يعمل عن طريق تحديد توزيعة لينكس الخاصة بك وبناءً على تلك المعلومات ، يقوم بتثبيت الحزم المناسبة لك. التوزيعات المدعومة حاليًا:
- Ubuntu. Arch Linux. Fedora. OpenSUSE Tumblewee.  ومن المفترض ان الأداة تعمل أيضًا على مشتقات التوزيعات المذكورة أعلاه.
-دعونا نتحدث عن المميزات ليبرقيمنق يعتبر نقطة انطلاق رائعة عندما تكون قد قمت للتو بتثبيت كامل نظيف لنظامك(فورمات).</description>
-    </item>
-    
-    <item>
-      <title>LibreGaming: Easily Setup your Distro for Gaming</title>
-      <link>https://ahmed-al-balochi.github.io/LibreGaming/</link>
-      <pubDate>Thu, 30 Sep 2021 11:08:28 +0500</pubDate>
-      
-      <guid>https://ahmed-al-balochi.github.io/LibreGaming/</guid>
-      <description>Intro LibreGaming Is a program for installing gaming required packages on Linux.
-It works by identifying you Linux distribution and based on that info it installs the right packages for you. Currently supported distributions:
- Ubuntu, of course. Arch Linux, because I use Arch btw. Fedora. And finally OpenSUSE Tumbleweed.  The tool also should work on the above distributions derivatives too.
-Lets talk features: The tool is a great starting point when you have just made a clean install.</description>
-    </item>
-    
-  </channel>
+    <channel>
+        <title>Posts on Example Site</title>
+        <link>https://ahmed-al-balochi.github.io/post/</link>
+        <description>Recent content in Posts on Example Site</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Sat, 16 Oct 2021 17:11:47 +0500</lastBuildDate><atom:link href="https://ahmed-al-balochi.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Top 5: Linux Terminal Applications and Utilities</title>
+        <link>https://ahmed-al-balochi.github.io/best-terminal-utilities/</link>
+        <pubDate>Sat, 16 Oct 2021 17:11:47 +0500</pubDate>
+        
+        <guid>https://ahmed-al-balochi.github.io/best-terminal-utilities/</guid>
+        <description>&lt;img src="https://ahmed-al-balochi.github.io/post/terminal-apps/pic.png" alt="Featured image of post Top 5: Linux Terminal Applications and Utilities" /&gt;&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+&lt;p&gt;These are incredible utilities that I have been using for a while now. I am confident that you will find a use for at least one of them. Lets dive in!&lt;/p&gt;
+&lt;h2 id=&#34;alacritty&#34;&gt;Alacritty&lt;/h2&gt;
+&lt;p&gt;Is a great Terminal Emulator for those people who want blazing fast performance.
+It has many features, but my favorites are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hardware acceleration.&lt;/li&gt;
+&lt;li&gt;Cross-platform, it runs on Linux, BSD, macOS, and Windows.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;installation&#34;&gt;Installation&lt;/h3&gt;
+&lt;p&gt;For Debian/Ubuntu&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo apt install alacritty
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;For Arch Linux&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo pacman -S alacritty
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;zsh&#34;&gt;Zsh&lt;/h2&gt;
+&lt;p&gt;It&amp;rsquo;s another way to interact with your shell inside a terminal or a tty. It has a great community around it, many themes available that can tailor to any user out there.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Note: in the video version of this article I go in-depth on how to set up the theming for Zsh.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;installation-1&#34;&gt;Installation&lt;/h3&gt;
+&lt;p&gt;For Debian/Ubuntu&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo apt install zsh
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;For Arch Linux&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo pacman -S zsh
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;htop&#34;&gt;Htop&lt;/h2&gt;
+&lt;p&gt;Is a great utility to display which process or program that is hogging all your resources. Yes, I am looking at your VLC. You can configure it to look just like the way want by hacking on it for a bit.&lt;/p&gt;
+&lt;h3 id=&#34;installation-2&#34;&gt;Installation&lt;/h3&gt;
+&lt;p&gt;For Debian/Ubuntu&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo apt install htop
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;For Arch Linux&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo pacman -S htop
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;vifm&#34;&gt;Vifm&lt;/h2&gt;
+&lt;p&gt;If you have ever dreamed of a terminal-based file explorer with Vim keybinding then you are in luck, Vifm does that and more.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Vifm has great integration with Vim.&lt;/li&gt;
+&lt;li&gt;Vifm fast and lightweight.&lt;/li&gt;
+&lt;li&gt;Support for a recycle bin.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;installation-3&#34;&gt;Installation&lt;/h3&gt;
+&lt;p&gt;For Debian/Ubuntu&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo apt install vifm
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;For Arch Linux&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo pacman -S vifm
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;pushd&#34;&gt;Pushd&lt;/h2&gt;
+&lt;p&gt;Pushd allows you to change directories while also remembering past entered directories with the ability to change back to them. Basically, it&amp;rsquo;s a beefed-up cd command.&lt;/p&gt;
+&lt;h3 id=&#34;installation-4&#34;&gt;Installation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;It should be installed by default on most Linux distros.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;bounus&#34;&gt;Bounus&lt;/h2&gt;
+&lt;p&gt;If you want to look cool when your friends are around or show that you are a great hacker or computer wizard. then you need these terminal utilities.&lt;/p&gt;
+&lt;h3 id=&#34;cmatrix&#34;&gt;Cmatrix&lt;/h3&gt;
+&lt;p&gt;Just as the name states it displays the famous matrix characters inside your terminal.&lt;/p&gt;
+&lt;h3 id=&#34;installation-5&#34;&gt;Installation&lt;/h3&gt;
+&lt;p&gt;For Debian/Ubuntu&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo apt install cmatrix
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;For Arch Linux&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo pacman -S cmatrix
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;no-more-secrets&#34;&gt;No More Secrets&lt;/h3&gt;
+&lt;p&gt;It recreates the famous data decryption effect seen on screen in the 1992 hacker movie Sneakers.&lt;/p&gt;
+&lt;h3 id=&#34;installation-6&#34;&gt;Installation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;It&amp;rsquo;s not available in most distro&amp;rsquo;s repositories. So, you might need to build and install it yourself.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;I hope you found this list useful. Sound off in the comments on what your favorites Terminal utilities?&lt;/p&gt;
+&lt;h2 id=&#34;video-walkthrough&#34;&gt;Video Walkthrough&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://youtu.be/eXPDvBfJwRM&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img src=&#34;https://img.youtube.com/vi/eXPDvBfJwRM/0.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Video&#34;
+	
+	
+&gt;&lt;/a&gt;
+&lt;em&gt;Note: YouTube Video - Hold Ctrl + Left Click to open in new window&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ahmed-karim&#34;&gt;Ahmed Karim&lt;/h2&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;📽 &lt;a class=&#34;link&#34; href=&#34;https://t.co/qNbPadCaHI?amp=1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My YouTube Channel&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;📽 &lt;a class=&#34;link&#34; href=&#34;https://odysee.com/$/invite/@CTRLplusA:7&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My Odysee Channel&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;🐦 &lt;a class=&#34;link&#34; href=&#34;https://twitter.com/CTRLpluzA&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My Twitter Profile&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;💻 &lt;a class=&#34;link&#34; href=&#34;https://github.com/Ahmed-Al-Balochi&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My GitHub Profile&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;💼 &lt;a class=&#34;link&#34; href=&#34;https://www.linkedin.com/in/ahmed-al-balochi-b97b9b150/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My LinkedIn Profile&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;💰 &lt;a class=&#34;link&#34; href=&#34;https://patreon.com/user?u=42792180&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My Patreon Page&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>4 AI based apps that don&#39;t suck</title>
+        <link>https://ahmed-al-balochi.github.io/4-AI-based-apps-that-don&#39;t-suck/</link>
+        <pubDate>Thu, 14 Oct 2021 20:01:47 +0500</pubDate>
+        
+        <guid>https://ahmed-al-balochi.github.io/4-AI-based-apps-that-don&#39;t-suck/</guid>
+        <description>&lt;img src="https://ahmed-al-balochi.github.io/post/AI-apps/ai.jpg" alt="Featured image of post 4 AI based apps that don&#39;t suck" /&gt;&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+&lt;p&gt;These apps are great at what they do; I think you will find use of at least one of them.&lt;/p&gt;
+&lt;h2 id=&#34;youper&#34;&gt;Youper&lt;/h2&gt;
+&lt;p&gt;Youper is an app for people who want to talk about their mental health problems.&lt;/p&gt;
+&lt;h3 id=&#34;pros&#34;&gt;Pros&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Excellent UI/UX design.&lt;/li&gt;
+&lt;li&gt;When you first install the app, it tells you that you need to evaluate your mental health by speaking to a mental health professional. &lt;/li&gt;
+&lt;li&gt;After evaluating your mental health, you can have a conversation a virtual AI that helps you to talk about your problems. This way you can always talk about your problems whether someone is available or not.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;cons&#34;&gt;Cons&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;There are a lot of therapy sessions available in the app but most of them are locked, and you need to have a subscription to open them.&lt;/li&gt;
+&lt;li&gt;The app won’t work until you have completed your mental health evaluation.&lt;/li&gt;
+&lt;li&gt;While it&amp;rsquo;s really cool to talk to the AI about your problems, but you always feel like you are talking to an AI and not a real person.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;download-link&#34;&gt;Download Link&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=br.com.youper&amp;amp;hl=en&amp;amp;gl=US&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;For Android Click Here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://apps.apple.com/us/app/youper-mental-health/id1060691513&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;For iOS Click Here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ai-dungeon&#34;&gt;AI Dungeon&lt;/h2&gt;
+&lt;p&gt;AI Dungeon is just like what the title says. It’s a Role-Playing Game(RPG) that uses AI to handle your progress and choices inside the game. &lt;/p&gt;
+&lt;h3 id=&#34;pros-1&#34;&gt;Pros&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Excellent UI/UX design.&lt;/li&gt;
+&lt;li&gt;Plenty of rich stories that are actually great.&lt;/li&gt;
+&lt;li&gt;You can create your own character, you can choose its name, gender, race, class, where you start in the game(location), and you chose if your choices affect the whole game world which really makes it like a real game.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;cons-1&#34;&gt;Cons&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;You can only interact with the game by writing text into a box, which can feel repetitive after a long session of gaming.&lt;/li&gt;
+&lt;li&gt;You need to create an account to unlock most of the stories.&lt;/li&gt;
+&lt;li&gt;The AI sometimes takes a bit to respond to your input.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;download-link-1&#34;&gt;Download Link&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=com.aidungeon&amp;amp;hl=en&amp;amp;gl=US&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;For Android Click Here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://apps.apple.com/us/app/ai-dungeon/id1491268416&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;For iOS Click Here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;hopper&#34;&gt;Hopper&lt;/h2&gt;
+&lt;p&gt;Hooper is an AI-based application that looks for the flights and cheapest hotel rooms around the year.&lt;/p&gt;
+&lt;h3 id=&#34;pros-2&#34;&gt;Pros&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Excellent UI/UX design.&lt;/li&gt;
+&lt;li&gt;it works by predicting the prices based on historic data. For example:&lt;/li&gt;
+&lt;li&gt;you can search for a flight between any two cities and based on the historic data it displays all the cheapest months that have the lowest ticket prices. The same thing also applies to the hotel rooms.&lt;/li&gt;
+&lt;li&gt;It gives a green color to the cheapest prices, and yellow for not so cheap prices, and red for high prices.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;cons-2&#34;&gt;Cons&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;It&amp;rsquo;s only limited to hotels and flights and nothing else. And what I would like to see is that it supports other things like museums or restaurants based on the location that you provided.&lt;/li&gt;
+&lt;li&gt;It&amp;rsquo;s also very bandwidth-heavy, so to have the best experience you need to have a good enough internet connection.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;download-link-2&#34;&gt;Download Link&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=com.hopper.mountainview.play&amp;amp;hl=en&amp;amp;gl=US&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;For Android Click Here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://apps.apple.com/us/app/hopper-flight-hotel-deals/id904052407&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;For iOS Click Here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;elsa&#34;&gt;Elsa&lt;/h2&gt;
+&lt;p&gt;Elsa is a great application for anyone to practice English and learn the language.&lt;/p&gt;
+&lt;h3 id=&#34;pros-3&#34;&gt;Pros&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Has Excellent UI/UX design.&lt;/li&gt;
+&lt;li&gt;It allows you to practice all the skills in order to become an excellent English speaker. It helps you develop your reading, writing, listening, and speaking skills.&lt;/li&gt;
+&lt;li&gt;It has excellent lessons depending on your level in English.&lt;/li&gt;
+&lt;li&gt;Elsa does all of that with the help of AI.&lt;/li&gt;
+&lt;li&gt;It has a large community that can also help you become great in English.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;cons-3&#34;&gt;Cons&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The free tier is limited in terms of features&lt;/li&gt;
+&lt;li&gt;Sometimes it crashes when you’re practicing English.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;download-link-3&#34;&gt;Download Link&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=us.nobarriers.elsa&amp;amp;hl=en&amp;amp;gl=US&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;For Android Click Here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://apps.apple.com/us/app/elsa-learn-and-speak-english/id1083804886&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;For iOS Click Here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;conclution&#34;&gt;Conclution&lt;/h2&gt;
+&lt;p&gt;I hope you found this list useful, comment below on what AI based apps that you use?&lt;/p&gt;
+&lt;h2 id=&#34;ahmed-karim&#34;&gt;Ahmed Karim&lt;/h2&gt;
+&lt;h3 id=&#34;links&#34;&gt;Links&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;📽 &lt;a class=&#34;link&#34; href=&#34;https://t.co/qNbPadCaHI?amp=1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My YouTube Channel&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;📽 &lt;a class=&#34;link&#34; href=&#34;https://odysee.com/$/invite/@CTRLplusA:7&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My Odysee Channel&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;🐦 &lt;a class=&#34;link&#34; href=&#34;https://twitter.com/CTRLpluzA&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My Twitter Profile&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;💻 &lt;a class=&#34;link&#34; href=&#34;https://github.com/Ahmed-Al-Balochi&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My GitHub Profile&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;💼 &lt;a class=&#34;link&#34; href=&#34;https://www.linkedin.com/in/ahmed-al-balochi-b97b9b150/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My LinkedIn Profile&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;💰 &lt;a class=&#34;link&#34; href=&#34;https://patreon.com/user?u=42792180&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My Patreon Page&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>LibreGaming: Easily Setup your Distro for Gaming</title>
+        <link>https://ahmed-al-balochi.github.io/LibreGaming/</link>
+        <pubDate>Thu, 30 Sep 2021 11:08:28 +0500</pubDate>
+        
+        <guid>https://ahmed-al-balochi.github.io/LibreGaming/</guid>
+        <description>&lt;img src="https://ahmed-al-balochi.github.io/post/LibreGaming/tui.png" alt="Featured image of post LibreGaming: Easily Setup your Distro for Gaming" /&gt;&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+&lt;p&gt;LibreGaming Is a program for installing gaming required packages on Linux.&lt;/p&gt;
+&lt;p&gt;It works by identifying you Linux distribution and based on that info it installs the right packages for you.
+Currently supported distributions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubuntu, of course.&lt;/li&gt;
+&lt;li&gt;Arch Linux, because I use Arch btw.&lt;/li&gt;
+&lt;li&gt;Fedora.&lt;/li&gt;
+&lt;li&gt;And finally OpenSUSE Tumbleweed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The tool also should work on the above distributions derivatives too.&lt;/p&gt;
+&lt;h2 id=&#34;lets-talk-features&#34;&gt;Lets talk features:&lt;/h2&gt;
+&lt;p&gt;The tool is a great starting point when you have just made a clean install. No need to waste half an hour just to play games.&lt;/p&gt;
+&lt;p&gt;LibreGaming will install these packages for you:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Steam.&lt;/li&gt;
+&lt;li&gt;Wine-staging.&lt;/li&gt;
+&lt;li&gt;Gamemode.&lt;/li&gt;
+&lt;li&gt;ProtonGE, using protonup.&lt;/li&gt;
+&lt;li&gt;Lutris Launcher.&lt;/li&gt;
+&lt;li&gt;Heroic Launcher.&lt;/li&gt;
+&lt;li&gt;MangoHud and Goverlay.&lt;/li&gt;
+&lt;li&gt;itch.io Launcher.&lt;/li&gt;
+&lt;li&gt;Athenaeum Launcher.&lt;/li&gt;
+&lt;li&gt;Steam Tinker Launch.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;installation&#34;&gt;Installation:&lt;/h2&gt;
+&lt;p&gt;There are two options to install LibreGaming.&lt;/p&gt;
+&lt;p&gt;You can install LibreGaming using pip3. For example,&lt;code&gt;pip3 install libregaming&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Or you can clone the GitHub repo and install it.&lt;/p&gt;
+&lt;p&gt;Moving on to Usage:&lt;/p&gt;
+&lt;p&gt;LibreGaming is very easy to use, you tailor most if not all the packages you need to install and exclude all the ones that you don’t use, this way it’s guaranteed a minimal install.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;    libregaming -h
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Is what you need to run to display all the available options.&lt;/p&gt;
+&lt;p&gt;The list of options are plenty and it will take up most on this article to cover, so I am skipping it. However, for more details I have provided the link to LibreGaming GitHub Page.&lt;/p&gt;
+&lt;h2 id=&#34;tuiterminal-user-interface&#34;&gt;TUI(Terminal User Interface)&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://ahmed-al-balochi.github.io/post/LibreGaming/tui.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;TUI image&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;The TUI Is the easiest way to use LibreGaming. You can use all the features that LibreGaming provides without entering commands.
+To enter the TUI you need to enter this command:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;libregaming --tui
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;wizard&#34;&gt;Wizard&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://ahmed-al-balochi.github.io/post/LibreGaming/wizard.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Wizard image&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;The Wizard Is the best way to have more control over what gets installed on your system by using Wizard mode in the TUI, enter this command to use the TUI&lt;/p&gt;
+&lt;h1 id=&#34;closing-thoughts&#34;&gt;Closing thoughts&lt;/h1&gt;
+&lt;p&gt;I would like to thank all those who downloaded and used LibreGaming, it got more than 7k downloads.and your Feedback is always welcome.&lt;/p&gt;
+&lt;p&gt;This article is also available on &lt;a class=&#34;link&#34; href=&#34;https://medium.com/@a7mad98.work/python-program-to-setup-gaming-for-your-linux-distro-74d3c8f25598&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Medium&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/Ahmed-Al-Balochi/LibreGaming&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;LibreGaming&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;📽 &lt;a class=&#34;link&#34; href=&#34;https://t.co/qNbPadCaHI?amp=1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My YouTube Channel&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;📽 &lt;a class=&#34;link&#34; href=&#34;https://odysee.com/$/invite/@CTRLplusA:7&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My Odysee Channel&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;🐦 &lt;a class=&#34;link&#34; href=&#34;https://twitter.com/CTRLpluzA&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My Twitter Profile&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;💻 &lt;a class=&#34;link&#34; href=&#34;https://github.com/Ahmed-Al-Balochi&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My GitHub Profile&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;💼 &lt;a class=&#34;link&#34; href=&#34;https://www.linkedin.com/in/ahmed-al-balochi-b97b9b150/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My LinkedIn Profile&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;💰 &lt;a class=&#34;link&#34; href=&#34;https://patreon.com/user?u=42792180&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My Patreon Page&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;video-walkthrough&#34;&gt;Video Walkthrough&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://youtu.be/QJXbxzLbS3Y&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img src=&#34;https://img.youtube.com/vi/QJXbxzLbS3Y/0.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;LibreGaming Video&#34;
+	
+	
+&gt;&lt;/a&gt;&lt;br&gt;
+&lt;em&gt;Note: YouTube Video - Hold Ctrl + Left Click to open in new window&lt;/em&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
 </rss>
