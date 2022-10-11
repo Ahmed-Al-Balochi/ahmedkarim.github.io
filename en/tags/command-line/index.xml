@@ -2,17 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Command Line on Ahmed Al Balochi</title>
-        <link>https://ahmed-al-balochi.github.io/en/tags/command-line/</link>
+        <link>https://tech-ahmed.com/en/tags/command-line/</link>
         <description>Recent content in Command Line on Ahmed Al Balochi</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <lastBuildDate>Sat, 16 Oct 2021 17:11:47 +0500</lastBuildDate><atom:link href="https://ahmed-al-balochi.github.io/en/tags/command-line/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 16 Oct 2021 17:11:47 +0500</lastBuildDate><atom:link href="https://tech-ahmed.com/en/tags/command-line/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Top 5: Linux Terminal Applications and Utilities</title>
-        <link>https://ahmed-al-balochi.github.io/best-terminal-utilities/</link>
+        <link>https://tech-ahmed.com/best-terminal-utilities/</link>
         <pubDate>Sat, 16 Oct 2021 17:11:47 +0500</pubDate>
         
-        <guid>https://ahmed-al-balochi.github.io/best-terminal-utilities/</guid>
-        <description>&lt;img src="https://ahmed-al-balochi.github.io/post/terminal-apps/pic.png" alt="Featured image of post Top 5: Linux Terminal Applications and Utilities" /&gt;&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+        <guid>https://tech-ahmed.com/best-terminal-utilities/</guid>
+        <description>&lt;img src="https://tech-ahmed.com/post/terminal-apps/pic.png" alt="Featured image of post Top 5: Linux Terminal Applications and Utilities" /&gt;&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
 &lt;p&gt;These are incredible utilities that I have been using for a while now. I am confident that you will find a use for at least one of them. Lets dive in!&lt;/p&gt;
 &lt;h2 id=&#34;alacritty&#34;&gt;Alacritty&lt;/h2&gt;
 &lt;p&gt;Is a great Terminal Emulator for those people who want blazing fast performance.
@@ -91,7 +90,6 @@ It has many features, but my favorites are:&lt;/p&gt;
 	
 &gt;&lt;/a&gt;
 &lt;em&gt;Note: YouTube Video - Hold Ctrl + Left Click to open in new window&lt;/em&gt;&lt;/p&gt;
-&lt;h2 id=&#34;ahmed-karim&#34;&gt;Ahmed Karim&lt;/h2&gt;
 &lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -103,11 +101,11 @@ It has many features, but my favorites are:&lt;/p&gt;
     &gt;My Odysee Channel&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;🐦 &lt;a class=&#34;link&#34; href=&#34;https://twitter.com/CTRLpluzA&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;p&gt;🐦 &lt;a class=&#34;link&#34; href=&#34;https://twitter.com/ahmedal_balochi&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;My Twitter Profile&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;💻 &lt;a class=&#34;link&#34; href=&#34;https://github.com/Ahmed-Al-Balochi&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;p&gt;💻 &lt;a class=&#34;link&#34; href=&#34;https://github.com/ahmed-al-balochi&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;My GitHub Profile&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
