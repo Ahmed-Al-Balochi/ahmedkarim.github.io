@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://tech-ahmed.com/</loc>
-    <lastmod>2021-09-30T22:57:59+05:00</lastmod>
+    <lastmod>2022-10-15T22:57:59+05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -14,6 +14,72 @@
                 hreflang="ar"
                 href="https://tech-ahmed.com/"
                 />
+  </url><url>
+    <loc>https://tech-ahmed.com/categories/</loc>
+    <lastmod>2022-10-15T22:57:59+05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tech-ahmed.com/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://tech-ahmed.com/categories/"
+                />
+  </url><url>
+    <loc>https://tech-ahmed.com/tags/git/</loc>
+    <lastmod>2022-10-15T22:57:59+05:00</lastmod>
+  </url><url>
+    <loc>https://tech-ahmed.com/tags/github/</loc>
+    <lastmod>2022-10-15T22:57:59+05:00</lastmod>
+  </url><url>
+    <loc>https://tech-ahmed.com/tags/github-pages/</loc>
+    <lastmod>2022-10-15T22:57:59+05:00</lastmod>
+  </url><url>
+    <loc>https://tech-ahmed.com/tags/link-tree/</loc>
+    <lastmod>2022-10-15T22:57:59+05:00</lastmod>
+  </url><url>
+    <loc>https://tech-ahmed.com/tags/littlelink/</loc>
+    <lastmod>2022-10-15T22:57:59+05:00</lastmod>
+  </url><url>
+    <loc>https://tech-ahmed.com/littlelink/</loc>
+    <lastmod>2022-10-15T22:57:59+05:00</lastmod>
+  </url><url>
+    <loc>https://tech-ahmed.com/post/</loc>
+    <lastmod>2022-10-15T22:57:59+05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tech-ahmed.com/en/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://tech-ahmed.com/post/"
+                />
+  </url><url>
+    <loc>https://tech-ahmed.com/tags/</loc>
+    <lastmod>2022-10-15T22:57:59+05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tech-ahmed.com/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://tech-ahmed.com/tags/"
+                />
+  </url><url>
+    <loc>https://tech-ahmed.com/categories/web/</loc>
+    <lastmod>2022-10-15T22:57:59+05:00</lastmod>
+  </url><url>
+    <loc>https://tech-ahmed.com/tags/%D8%B1%D9%88%D8%A7%D8%A8%D8%B7-%D8%B4%D8%AE%D8%B5%D9%8A%D8%A9/</loc>
+    <lastmod>2022-10-15T22:57:59+05:00</lastmod>
+  </url><url>
+    <loc>https://tech-ahmed.com/categories/%D9%88%D9%8A%D8%A8/</loc>
+    <lastmod>2022-10-15T22:57:59+05:00</lastmod>
   </url><url>
     <loc>https://tech-ahmed.com/tags/arch-linux/</loc>
     <lastmod>2021-09-30T22:57:59+05:00</lastmod>
@@ -26,19 +92,6 @@
                 rel="alternate"
                 hreflang="ar"
                 href="https://tech-ahmed.com/tags/arch-linux/"
-                />
-  </url><url>
-    <loc>https://tech-ahmed.com/categories/</loc>
-    <lastmod>2021-09-30T22:57:59+05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tech-ahmed.com/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://tech-ahmed.com/categories/"
                 />
   </url><url>
     <loc>https://tech-ahmed.com/tags/fedora/</loc>
@@ -117,32 +170,6 @@
                 rel="alternate"
                 hreflang="ar"
                 href="https://tech-ahmed.com/tags/opensuse-tumbleweed/"
-                />
-  </url><url>
-    <loc>https://tech-ahmed.com/post/</loc>
-    <lastmod>2021-09-30T22:57:59+05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tech-ahmed.com/en/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://tech-ahmed.com/post/"
-                />
-  </url><url>
-    <loc>https://tech-ahmed.com/tags/</loc>
-    <lastmod>2021-09-30T22:57:59+05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tech-ahmed.com/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://tech-ahmed.com/tags/"
                 />
   </url><url>
     <loc>https://tech-ahmed.com/tags/ubuntu/</loc>

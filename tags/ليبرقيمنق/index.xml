@@ -1,98 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>ليبرقيمنق on Ahmed Al Balochi</title>
-        <link>https://tech-ahmed.com/tags/%D9%84%D9%8A%D8%A8%D8%B1%D9%82%D9%8A%D9%85%D9%86%D9%82/</link>
-        <description>Recent content in ليبرقيمنق on Ahmed Al Balochi</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <lastBuildDate>Thu, 30 Sep 2021 22:57:59 +0500</lastBuildDate><atom:link href="https://tech-ahmed.com/tags/%D9%84%D9%8A%D8%A8%D8%B1%D9%82%D9%8A%D9%85%D9%86%D9%82/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>LibreGaming: تثبيت حزم الألعاب المطلوبة على لينكس</title>
-        <link>https://tech-ahmed.com/LibreGaming/</link>
-        <pubDate>Thu, 30 Sep 2021 22:57:59 +0500</pubDate>
-        
-        <guid>https://tech-ahmed.com/LibreGaming/</guid>
-        <description>&lt;img src="https://tech-ahmed.com/post/LibreGaming/tui.png" alt="Featured image of post LibreGaming: تثبيت حزم الألعاب المطلوبة على لينكس" /&gt;&lt;h2 id=&#34;مقدمة-برنامج&#34;&gt;مقدمة برنامج&lt;/h2&gt;
-&lt;p&gt;ليبرقيمنق برنامج يتيح لك تثبيت حزم الألعاب المطلوبة على لينكس.&lt;/p&gt;
-&lt;p&gt;ليبرقيمنق يعمل عن طريق تحديد توزيعة  لينكس الخاصة بك وبناءً على تلك المعلومات ، يقوم بتثبيت الحزم المناسبة لك. التوزيعات المدعومة حاليًا:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Ubuntu.&lt;/li&gt;
-&lt;li&gt;Arch Linux.&lt;/li&gt;
-&lt;li&gt;Fedora.&lt;/li&gt;
-&lt;li&gt;OpenSUSE Tumblewee.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;ومن المفترض ان الأداة تعمل أيضًا على مشتقات التوزيعات المذكورة أعلاه.&lt;/p&gt;
-&lt;h2 id=&#34;المميزات&#34;&gt;المميزات&lt;/h2&gt;
-&lt;p&gt;ليبرقيمنق يعتبر نقطة انطلاق رائعة عندما تكون قد قمت للتو بتثبيت كامل نظيف لنظامك(فورمات). لا داعي لإضاعة نصف ساعة لمجرد لثبيت برامج الألعاب ومن ثم بدأ اللعب.&lt;/p&gt;
-&lt;p&gt;سيقوم برنامج ليبرقيمنق بتثبيت هذه الحزم نيابة عنك:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Steam.&lt;/li&gt;
-&lt;li&gt;Wine-staging.&lt;/li&gt;
-&lt;li&gt;Gamemode.&lt;/li&gt;
-&lt;li&gt;ProtonGE, using protonup.&lt;/li&gt;
-&lt;li&gt;Lutris Launcher.&lt;/li&gt;
-&lt;li&gt;Heroic Launcher.&lt;/li&gt;
-&lt;li&gt;MangoHud and Goverlay.&lt;/li&gt;
-&lt;li&gt;itch.io Launcher.&lt;/li&gt;
-&lt;li&gt;Athenaeum Launcher.&lt;/li&gt;
-&lt;li&gt;Steam Tinker Launch.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;التثبيتتنصيب&#34;&gt;التثبيت/تنصيب&lt;/h2&gt;
-&lt;p&gt;هناك خياريين لتثبيت ليبرقيمنق.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;يمكنك تثبيت ليبرقيمنق باستخدام هذا الامر&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt; pip3 install libregaming.
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;أو يمكنك استنساخ صفحة قيت هوب وتثبيته.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;طريقة-الاستخدام&#34;&gt;طريقة الاستخدام&lt;/h2&gt;
-&lt;p&gt;استخدام البرنامج سهل للغاية ، بامكانك تخصيص معظم إن لم يكن كل الحزم التي تحتاج إلى التثبيت واستبعاد كل الحزم التي لا تريدها، وبهذه الطريقة تضمن الحد الأدنى من حجم التثبيت.&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;    libregaming -h
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;لمعرفة المزيد من التفاصيل عن خيارات التثبيت، الرجاء الذهاب الى رابط صفحة ليبرقيمنق على قيت هوب المذكور في نهاية المقال.&lt;/p&gt;
-&lt;h2 id=&#34;ختاما&#34;&gt;ختاما&lt;/h2&gt;
-&lt;p&gt;أود أن أشكر كل الذين قاموا بتنزيل ليبرقيمنق واستخدموه ، فقد حصل على أكثر من 7 آلاف تنزيل ، واستفساراتكم مرحب بها دائمًا.&lt;/p&gt;
-&lt;h2 id=&#34;شرح-بالفيديو-على-يوتيوب&#34;&gt;شرح بالفيديو على يوتيوب&lt;/h2&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://youtu.be/QI8Ai8BTMwo&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img src=&#34;https://img.youtube.com/vi/QI8Ai8BTMwo/0.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;LibreGaming Video&#34;
-	
-	
-&gt;&lt;/a&gt;&lt;br&gt;
-لفتح الفيديو في صفحة جديدة قم بالضغط مطولاً على زر CTRL الأيسر&lt;/p&gt;
-&lt;h2 id=&#34;أتشرف-بمتابعتكم-لي&#34;&gt;أتشرف بمتابعتكم لي&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;📽 &lt;a class=&#34;link&#34; href=&#34;https://t.co/qNbPadCaHI?amp=1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;قناتي على YouTube &lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;📽 &lt;a class=&#34;link&#34; href=&#34;https://odysee.com/$/invite/@CTRLplusA:7&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;قناتي على موقع Odysee &lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;🐦 &lt;a class=&#34;link&#34; href=&#34;https://twitter.com/ahmedal_balochi&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;تويتر&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;💻 &lt;a class=&#34;link&#34; href=&#34;https://github.com/Ahmed-Al-Balochi&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;صفحتي على GitHub &lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;💼 &lt;a class=&#34;link&#34; href=&#34;https://www.linkedin.com/in/ahmed-al-balochi-b97b9b150/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;صفحتي على  LinkedIn &lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;💰 &lt;a class=&#34;link&#34; href=&#34;https://patreon.com/user?u=42792180&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;صفحتي على Patreon &lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        </item>
-        
-    </channel>
+  <channel>
+    <title>ليبرقيمنق on Ahmed Al Balochi</title>
+    <link>https://tech-ahmed.com/tags/%D9%84%D9%8A%D8%A8%D8%B1%D9%82%D9%8A%D9%85%D9%86%D9%82/</link>
+    <description>Recent content in ليبرقيمنق on Ahmed Al Balochi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 30 Sep 2021 22:57:59 +0500</lastBuildDate><atom:link href="https://tech-ahmed.com/tags/%D9%84%D9%8A%D8%A8%D8%B1%D9%82%D9%8A%D9%85%D9%86%D9%82/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LibreGaming: تثبيت حزم الألعاب المطلوبة على لينكس</title>
+      <link>https://tech-ahmed.com/LibreGaming/</link>
+      <pubDate>Thu, 30 Sep 2021 22:57:59 +0500</pubDate>
+      
+      <guid>https://tech-ahmed.com/LibreGaming/</guid>
+      <description>مقدمة برنامج ليبرقيمنق برنامج يتيح لك تثبيت حزم الألعاب المطلوبة على لينكس.
+ليبرقيمنق يعمل عن طريق تحديد توزيعة لينكس الخاصة بك وبناءً على تلك المعلومات ، يقوم بتثبيت الحزم المناسبة لك. التوزيعات المدعومة حاليًا:
+Ubuntu. Arch Linux. Fedora. OpenSUSE Tumblewee. ومن المفترض ان الأداة تعمل أيضًا على مشتقات التوزيعات المذكورة أعلاه.
+المميزات ليبرقيمنق يعتبر نقطة انطلاق رائعة عندما تكون قد قمت للتو بتثبيت كامل نظيف لنظامك(فورمات). لا داعي لإضاعة نصف ساعة لمجرد لثبيت برامج الألعاب ومن ثم بدأ اللعب.</description>
+    </item>
+    
+  </channel>
 </rss>

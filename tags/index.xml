@@ -1,90 +1,154 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Tags on Ahmed Al Balochi</title>
-        <link>https://tech-ahmed.com/tags/</link>
-        <description>Recent content in Tags on Ahmed Al Balochi</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <lastBuildDate>Thu, 30 Sep 2021 22:57:59 +0500</lastBuildDate><atom:link href="https://tech-ahmed.com/tags/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Arch Linux</title>
-        <link>https://tech-ahmed.com/tags/arch-linux/</link>
-        <pubDate>Thu, 30 Sep 2021 22:57:59 +0500</pubDate>
-        
-        <guid>https://tech-ahmed.com/tags/arch-linux/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Fedora</title>
-        <link>https://tech-ahmed.com/tags/fedora/</link>
-        <pubDate>Thu, 30 Sep 2021 22:57:59 +0500</pubDate>
-        
-        <guid>https://tech-ahmed.com/tags/fedora/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>LibreGaming</title>
-        <link>https://tech-ahmed.com/tags/libregaming/</link>
-        <pubDate>Thu, 30 Sep 2021 22:57:59 +0500</pubDate>
-        
-        <guid>https://tech-ahmed.com/tags/libregaming/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Linux Gaming</title>
-        <link>https://tech-ahmed.com/tags/linux-gaming/</link>
-        <pubDate>Thu, 30 Sep 2021 22:57:59 +0500</pubDate>
-        
-        <guid>https://tech-ahmed.com/tags/linux-gaming/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>OpenSUSE Tumbleweed</title>
-        <link>https://tech-ahmed.com/tags/opensuse-tumbleweed/</link>
-        <pubDate>Thu, 30 Sep 2021 22:57:59 +0500</pubDate>
-        
-        <guid>https://tech-ahmed.com/tags/opensuse-tumbleweed/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Ubuntu</title>
-        <link>https://tech-ahmed.com/tags/ubuntu/</link>
-        <pubDate>Thu, 30 Sep 2021 22:57:59 +0500</pubDate>
-        
-        <guid>https://tech-ahmed.com/tags/ubuntu/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>العاب علي لينكس</title>
-        <link>https://tech-ahmed.com/tags/%D8%A7%D9%84%D8%B9%D8%A7%D8%A8-%D8%B9%D9%84%D9%8A-%D9%84%D9%8A%D9%86%D9%83%D8%B3/</link>
-        <pubDate>Thu, 30 Sep 2021 22:57:59 +0500</pubDate>
-        
-        <guid>https://tech-ahmed.com/tags/%D8%A7%D9%84%D8%B9%D8%A7%D8%A8-%D8%B9%D9%84%D9%8A-%D9%84%D9%8A%D9%86%D9%83%D8%B3/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>برنامج لتثبيت برامج الالعاب على لينكس</title>
-        <link>https://tech-ahmed.com/tags/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-%D9%84%D8%AA%D8%AB%D8%A8%D9%8A%D8%AA-%D8%A8%D8%B1%D8%A7%D9%85%D8%AC-%D8%A7%D9%84%D8%A7%D9%84%D8%B9%D8%A7%D8%A8-%D8%B9%D9%84%D9%89-%D9%84%D9%8A%D9%86%D9%83%D8%B3/</link>
-        <pubDate>Thu, 30 Sep 2021 22:57:59 +0500</pubDate>
-        
-        <guid>https://tech-ahmed.com/tags/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-%D9%84%D8%AA%D8%AB%D8%A8%D9%8A%D8%AA-%D8%A8%D8%B1%D8%A7%D9%85%D8%AC-%D8%A7%D9%84%D8%A7%D9%84%D8%B9%D8%A7%D8%A8-%D8%B9%D9%84%D9%89-%D9%84%D9%8A%D9%86%D9%83%D8%B3/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>شغل العاب الويندوز على لينكس</title>
-        <link>https://tech-ahmed.com/tags/%D8%B4%D8%BA%D9%84-%D8%A7%D9%84%D8%B9%D8%A7%D8%A8-%D8%A7%D9%84%D9%88%D9%8A%D9%86%D8%AF%D9%88%D8%B2-%D8%B9%D9%84%D9%89-%D9%84%D9%8A%D9%86%D9%83%D8%B3/</link>
-        <pubDate>Thu, 30 Sep 2021 22:57:59 +0500</pubDate>
-        
-        <guid>https://tech-ahmed.com/tags/%D8%B4%D8%BA%D9%84-%D8%A7%D9%84%D8%B9%D8%A7%D8%A8-%D8%A7%D9%84%D9%88%D9%8A%D9%86%D8%AF%D9%88%D8%B2-%D8%B9%D9%84%D9%89-%D9%84%D9%8A%D9%86%D9%83%D8%B3/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>ليبرقيمنق</title>
-        <link>https://tech-ahmed.com/tags/%D9%84%D9%8A%D8%A8%D8%B1%D9%82%D9%8A%D9%85%D9%86%D9%82/</link>
-        <pubDate>Thu, 30 Sep 2021 22:57:59 +0500</pubDate>
-        
-        <guid>https://tech-ahmed.com/tags/%D9%84%D9%8A%D8%A8%D8%B1%D9%82%D9%8A%D9%85%D9%86%D9%82/</guid>
-        <description></description>
-        </item>
-        
-    </channel>
+  <channel>
+    <title>Tags on Ahmed Al Balochi</title>
+    <link>https://tech-ahmed.com/tags/</link>
+    <description>Recent content in Tags on Ahmed Al Balochi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 15 Oct 2022 22:57:59 +0500</lastBuildDate><atom:link href="https://tech-ahmed.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git</title>
+      <link>https://tech-ahmed.com/tags/git/</link>
+      <pubDate>Sat, 15 Oct 2022 22:57:59 +0500</pubDate>
+      
+      <guid>https://tech-ahmed.com/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Github</title>
+      <link>https://tech-ahmed.com/tags/github/</link>
+      <pubDate>Sat, 15 Oct 2022 22:57:59 +0500</pubDate>
+      
+      <guid>https://tech-ahmed.com/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Github Pages</title>
+      <link>https://tech-ahmed.com/tags/github-pages/</link>
+      <pubDate>Sat, 15 Oct 2022 22:57:59 +0500</pubDate>
+      
+      <guid>https://tech-ahmed.com/tags/github-pages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Link Tree</title>
+      <link>https://tech-ahmed.com/tags/link-tree/</link>
+      <pubDate>Sat, 15 Oct 2022 22:57:59 +0500</pubDate>
+      
+      <guid>https://tech-ahmed.com/tags/link-tree/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LittleLink</title>
+      <link>https://tech-ahmed.com/tags/littlelink/</link>
+      <pubDate>Sat, 15 Oct 2022 22:57:59 +0500</pubDate>
+      
+      <guid>https://tech-ahmed.com/tags/littlelink/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>روابط شخصية</title>
+      <link>https://tech-ahmed.com/tags/%D8%B1%D9%88%D8%A7%D8%A8%D8%B7-%D8%B4%D8%AE%D8%B5%D9%8A%D8%A9/</link>
+      <pubDate>Sat, 15 Oct 2022 22:57:59 +0500</pubDate>
+      
+      <guid>https://tech-ahmed.com/tags/%D8%B1%D9%88%D8%A7%D8%A8%D8%B7-%D8%B4%D8%AE%D8%B5%D9%8A%D8%A9/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arch Linux</title>
+      <link>https://tech-ahmed.com/tags/arch-linux/</link>
+      <pubDate>Thu, 30 Sep 2021 22:57:59 +0500</pubDate>
+      
+      <guid>https://tech-ahmed.com/tags/arch-linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fedora</title>
+      <link>https://tech-ahmed.com/tags/fedora/</link>
+      <pubDate>Thu, 30 Sep 2021 22:57:59 +0500</pubDate>
+      
+      <guid>https://tech-ahmed.com/tags/fedora/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LibreGaming</title>
+      <link>https://tech-ahmed.com/tags/libregaming/</link>
+      <pubDate>Thu, 30 Sep 2021 22:57:59 +0500</pubDate>
+      
+      <guid>https://tech-ahmed.com/tags/libregaming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux Gaming</title>
+      <link>https://tech-ahmed.com/tags/linux-gaming/</link>
+      <pubDate>Thu, 30 Sep 2021 22:57:59 +0500</pubDate>
+      
+      <guid>https://tech-ahmed.com/tags/linux-gaming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OpenSUSE Tumbleweed</title>
+      <link>https://tech-ahmed.com/tags/opensuse-tumbleweed/</link>
+      <pubDate>Thu, 30 Sep 2021 22:57:59 +0500</pubDate>
+      
+      <guid>https://tech-ahmed.com/tags/opensuse-tumbleweed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ubuntu</title>
+      <link>https://tech-ahmed.com/tags/ubuntu/</link>
+      <pubDate>Thu, 30 Sep 2021 22:57:59 +0500</pubDate>
+      
+      <guid>https://tech-ahmed.com/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>العاب علي لينكس</title>
+      <link>https://tech-ahmed.com/tags/%D8%A7%D9%84%D8%B9%D8%A7%D8%A8-%D8%B9%D9%84%D9%8A-%D9%84%D9%8A%D9%86%D9%83%D8%B3/</link>
+      <pubDate>Thu, 30 Sep 2021 22:57:59 +0500</pubDate>
+      
+      <guid>https://tech-ahmed.com/tags/%D8%A7%D9%84%D8%B9%D8%A7%D8%A8-%D8%B9%D9%84%D9%8A-%D9%84%D9%8A%D9%86%D9%83%D8%B3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>برنامج لتثبيت برامج الالعاب على لينكس</title>
+      <link>https://tech-ahmed.com/tags/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-%D9%84%D8%AA%D8%AB%D8%A8%D9%8A%D8%AA-%D8%A8%D8%B1%D8%A7%D9%85%D8%AC-%D8%A7%D9%84%D8%A7%D9%84%D8%B9%D8%A7%D8%A8-%D8%B9%D9%84%D9%89-%D9%84%D9%8A%D9%86%D9%83%D8%B3/</link>
+      <pubDate>Thu, 30 Sep 2021 22:57:59 +0500</pubDate>
+      
+      <guid>https://tech-ahmed.com/tags/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-%D9%84%D8%AA%D8%AB%D8%A8%D9%8A%D8%AA-%D8%A8%D8%B1%D8%A7%D9%85%D8%AC-%D8%A7%D9%84%D8%A7%D9%84%D8%B9%D8%A7%D8%A8-%D8%B9%D9%84%D9%89-%D9%84%D9%8A%D9%86%D9%83%D8%B3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>شغل العاب الويندوز على لينكس</title>
+      <link>https://tech-ahmed.com/tags/%D8%B4%D8%BA%D9%84-%D8%A7%D9%84%D8%B9%D8%A7%D8%A8-%D8%A7%D9%84%D9%88%D9%8A%D9%86%D8%AF%D9%88%D8%B2-%D8%B9%D9%84%D9%89-%D9%84%D9%8A%D9%86%D9%83%D8%B3/</link>
+      <pubDate>Thu, 30 Sep 2021 22:57:59 +0500</pubDate>
+      
+      <guid>https://tech-ahmed.com/tags/%D8%B4%D8%BA%D9%84-%D8%A7%D9%84%D8%B9%D8%A7%D8%A8-%D8%A7%D9%84%D9%88%D9%8A%D9%86%D8%AF%D9%88%D8%B2-%D8%B9%D9%84%D9%89-%D9%84%D9%8A%D9%86%D9%83%D8%B3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ليبرقيمنق</title>
+      <link>https://tech-ahmed.com/tags/%D9%84%D9%8A%D8%A8%D8%B1%D9%82%D9%8A%D9%85%D9%86%D9%82/</link>
+      <pubDate>Thu, 30 Sep 2021 22:57:59 +0500</pubDate>
+      
+      <guid>https://tech-ahmed.com/tags/%D9%84%D9%8A%D8%A8%D8%B1%D9%82%D9%8A%D9%85%D9%86%D9%82/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
 </rss>
