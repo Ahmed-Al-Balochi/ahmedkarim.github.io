@@ -1,46 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Categories on Ahmed Al Balochi</title>
-    <link>https://tech-ahmed.com/categories/</link>
-    <description>Recent content in Categories on Ahmed Al Balochi</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 15 Oct 2022 22:57:59 +0500</lastBuildDate><atom:link href="https://tech-ahmed.com/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Web</title>
-      <link>https://tech-ahmed.com/categories/web/</link>
-      <pubDate>Sat, 15 Oct 2022 22:57:59 +0500</pubDate>
-      
-      <guid>https://tech-ahmed.com/categories/web/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ويب</title>
-      <link>https://tech-ahmed.com/categories/%D9%88%D9%8A%D8%A8/</link>
-      <pubDate>Sat, 15 Oct 2022 22:57:59 +0500</pubDate>
-      
-      <guid>https://tech-ahmed.com/categories/%D9%88%D9%8A%D8%A8/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>https://tech-ahmed.com/categories/linux/</link>
-      <pubDate>Thu, 30 Sep 2021 22:57:59 +0500</pubDate>
-      
-      <guid>https://tech-ahmed.com/categories/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>لينكس</title>
-      <link>https://tech-ahmed.com/categories/%D9%84%D9%8A%D9%86%D9%83%D8%B3/</link>
-      <pubDate>Thu, 30 Sep 2021 22:57:59 +0500</pubDate>
-      
-      <guid>https://tech-ahmed.com/categories/%D9%84%D9%8A%D9%86%D9%83%D8%B3/</guid>
-      <description></description>
-    </item>
-    
-  </channel>
+    <channel>
+        <title>Categories on Ahmed Al Balochi</title>
+        <link>https://tech-ahmed.com/categories/</link>
+        <description>Recent content in Categories on Ahmed Al Balochi</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <lastBuildDate>Sat, 15 Oct 2022 22:57:59 +0500</lastBuildDate><atom:link href="https://tech-ahmed.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Web</title>
+        <link>https://tech-ahmed.com/categories/web/</link>
+        <pubDate>Sat, 15 Oct 2022 22:57:59 +0500</pubDate>
+        
+        <guid>https://tech-ahmed.com/categories/web/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>ويب</title>
+        <link>https://tech-ahmed.com/categories/%D9%88%D9%8A%D8%A8/</link>
+        <pubDate>Sat, 15 Oct 2022 22:57:59 +0500</pubDate>
+        
+        <guid>https://tech-ahmed.com/categories/%D9%88%D9%8A%D8%A8/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Linux</title>
+        <link>https://tech-ahmed.com/categories/linux/</link>
+        <pubDate>Thu, 30 Sep 2021 22:57:59 +0500</pubDate>
+        
+        <guid>https://tech-ahmed.com/categories/linux/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>لينكس</title>
+        <link>https://tech-ahmed.com/categories/%D9%84%D9%8A%D9%86%D9%83%D8%B3/</link>
+        <pubDate>Thu, 30 Sep 2021 22:57:59 +0500</pubDate>
+        
+        <guid>https://tech-ahmed.com/categories/%D9%84%D9%8A%D9%86%D9%83%D8%B3/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
 </rss>

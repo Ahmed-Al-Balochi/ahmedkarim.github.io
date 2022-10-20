@@ -1,20 +1,279 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Web on Ahmed Al Balochi</title>
-    <link>https://tech-ahmed.com/categories/web/</link>
-    <description>Recent content in Web on Ahmed Al Balochi</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 15 Oct 2022 22:57:59 +0500</lastBuildDate><atom:link href="https://tech-ahmed.com/categories/web/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>LittleLink: البديل المفتوح المصدر لبرنامج Link Tree</title>
-      <link>https://tech-ahmed.com/littlelink/</link>
-      <pubDate>Sat, 15 Oct 2022 22:57:59 +0500</pubDate>
-      
-      <guid>https://tech-ahmed.com/littlelink/</guid>
-      <description>متطلبات مسبقة حساب GitHub. برنامج GitHub Desktop إذا كنت لا تعرف أوامر Git. برنامج قارئ للنصوص مثل VSCodium. مقدمة هل تريد إنشاء روابطك الشخصية ولكن تحدك الخيارات في موقع/برنامج LinkTree. هل تريد إضافة حسابك في Mastadon أو Matrix ولكن لا يوجد خيار للإضافة. أم انت من الذين يحبون الحرية التي توفرها البرامج المفتوحة المصدر؟ إن كان جوابك نعم فإبقى معي لتتعرف على برنامج LittleLink.
-برنامج LittleLink البرنامج بسيط جداً وهو مبني باستخدام أسهل لغات البرمجة وهي HTML و CSS.</description>
-    </item>
-    
-  </channel>
+    <channel>
+        <title>Web on Ahmed Al Balochi</title>
+        <link>https://tech-ahmed.com/categories/web/</link>
+        <description>Recent content in Web on Ahmed Al Balochi</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <lastBuildDate>Sat, 15 Oct 2022 22:57:59 +0500</lastBuildDate><atom:link href="https://tech-ahmed.com/categories/web/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>LittleLink: البديل المفتوح المصدر لبرنامج Link Tree</title>
+        <link>https://tech-ahmed.com/littlelink/</link>
+        <pubDate>Sat, 15 Oct 2022 22:57:59 +0500</pubDate>
+        
+        <guid>https://tech-ahmed.com/littlelink/</guid>
+        <description>&lt;img src="https://tech-ahmed.com/littlelink/LittleLink.png" alt="Featured image of post LittleLink: البديل المفتوح المصدر لبرنامج Link Tree" /&gt;&lt;h2 id=&#34;متطلبات-مسبقة&#34;&gt;متطلبات مسبقة&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;حساب &lt;a class=&#34;link&#34; href=&#34;https://github.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;GitHub&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;برنامج &lt;a class=&#34;link&#34; href=&#34;https://desktop.github.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;GitHub Desktop&lt;/a&gt; إذا كنت لا تعرف أوامر Git.&lt;/li&gt;
+&lt;li&gt;برنامج قارئ للنصوص مثل &lt;a class=&#34;link&#34; href=&#34;https://vscodium.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;VSCodium&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;مقدمة&#34;&gt;مقدمة&lt;/h2&gt;
+&lt;p&gt;هل تريد إنشاء روابطك الشخصية ولكن تحدك الخيارات في موقع/برنامج &lt;a class=&#34;link&#34; href=&#34;https://linktr.ee/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;LinkTree&lt;/a&gt;. هل تريد إضافة حسابك في Mastadon أو Matrix ولكن لا يوجد خيار للإضافة. أم انت من الذين يحبون الحرية التي توفرها البرامج المفتوحة المصدر؟ إن كان جوابك نعم فإبقى معي لتتعرف على برنامج &lt;a class=&#34;link&#34; href=&#34;https://littlelink.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;LittleLink&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;برنامج-littlelink&#34;&gt;برنامج LittleLink&lt;/h2&gt;
+&lt;p&gt;البرنامج بسيط جداً وهو مبني باستخدام أسهل لغات البرمجة وهي HTML و CSS. يقوم البرنامج بإعطائك قالب جاهز بروابط لأغلب المواقع والبرامج. مهمة البرنامج حسب المطورين هي:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;سهولة الاستخدام.&lt;/li&gt;
+&lt;li&gt;سرعة الاستجابة والتحميل للصفحة.&lt;/li&gt;
+&lt;li&gt;تصميم جميل.&lt;/li&gt;
+&lt;li&gt;الحرية في التعديل ففي النهاية هو برنامج مفتوح المصدر.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;طريقة-التحميل&#34;&gt;طريقة التحميل&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;عليك بالذهاب إلى صفحة [LittleLink على موقع GitHub]، ومن القيام بعمل Fork للصفحة.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;https://tech-ahmed.com/littlelink/Fork.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;916&#34;
+	srcset=&#34;https://tech-ahmed.com/littlelink/Fork_hu99a6678b6e16c8a8a5047093a2dbe635_198150_480x0_resize_box_3.png 480w, https://tech-ahmed.com/littlelink/Fork_hu99a6678b6e16c8a8a5047093a2dbe635_198150_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Fork image&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;209&#34;
+		data-flex-basis=&#34;503px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;عليك بتنزيل محتويات الصفحة عن طريق برنامج GitHub Desktop والقيام بحفظها في مجلد جديد.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;https://tech-ahmed.com/littlelink/clone.png&#34;
+	width=&#34;961&#34;
+	height=&#34;662&#34;
+	srcset=&#34;https://tech-ahmed.com/littlelink/clone_hu8159fa285e1bd8d77a783789e6db41d9_30695_480x0_resize_box_3.png 480w, https://tech-ahmed.com/littlelink/clone_hu8159fa285e1bd8d77a783789e6db41d9_30695_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Clone image&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;145&#34;
+		data-flex-basis=&#34;348px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://tech-ahmed.com/littlelink/clone103.png&#34;
+	width=&#34;500&#34;
+	height=&#34;494&#34;
+	srcset=&#34;https://tech-ahmed.com/littlelink/clone103_hu4dca656c49960c8b5c7b5a2b0877b9f8_10950_480x0_resize_box_3.png 480w, https://tech-ahmed.com/littlelink/clone103_hu4dca656c49960c8b5c7b5a2b0877b9f8_10950_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Clone image&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;101&#34;
+		data-flex-basis=&#34;242px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;طريقة-التعديل-على-القالب&#34;&gt;طريقة التعديل على القالب&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;قم بفتح المجلد في برنامج قارئ النصوص.&lt;/li&gt;
+&lt;li&gt;قم بفتح ملف &lt;code&gt;index.html&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;الان يمكنك رؤية محتويات الملف ويمكننا الان التعديل عليه.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;لجعل-صفحتك-مميزة-قم-بالتالي&#34;&gt;لجعل صفحتك مميزة قم بالتالي&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;قم بتغيير &lt;code&gt;&amp;lt;title&amp;gt;LittleLink&amp;lt;/title&amp;gt;&lt;/code&gt; إلى &lt;code&gt;&amp;lt;title&amp;gt;أسمك أو العنوان الذي تريده&amp;lt;/title&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;قم بتحريك الفأرة للأسفل وبتغيير الصورة الرمزية بحفظ الصورة التي تريدها(يجب ان تكون بصيغة png) في مجلد images بأسم avatar وقم بحذف المحتويات الاخرى. ولكي نجعل البرنامج باستخدام الصورة التي تم حفظها يجب تغيير:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;img src=&amp;#34;images/avatar.png&amp;#34; class=&amp;#34;avatar&amp;#34; srcset=&amp;#34;images/avatar@2x.png 2x&amp;#34; alt=&amp;#34;LittleLink Logo&amp;#34;&amp;gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;إلى:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;img src=&amp;#34;images/avatar.jpg&amp;#34; class=&amp;#34;avatar&amp;#34; alt=&amp;#34;LittleLink Logo&amp;#34;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;قم بتغيير &lt;code&gt;&amp;lt;h1&amp;gt;LittleLink&amp;lt;/h1&amp;gt;&lt;/code&gt; إلى &lt;code&gt;&amp;lt;h1&amp;gt;أسمك أو العنوان الذي تريده&amp;lt;/h1&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;قم بتغيير السطر أسفل &lt;code&gt;&amp;lt;!-- Short Bio --&amp;gt;&lt;/code&gt; الذي هو عبارة عن نبذة عنك بتغيير ماهو داخل  &lt;code&gt;&amp;lt;p&amp;gt;...&amp;lt;/p&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;قم بتحريك الفأرة للأسفل وسترى أسطر مرتبة فوقها أسماء المواقع، كل موقع لديه ثلاثة أسطر تحته. قم بحذف المواقع وأسطرها التي لا تريدها.&lt;/li&gt;
+&lt;li&gt;الان كل ما عليك فعله هو إستبدال علامة #  ووضع رابطك. فمثلاً عند وضع رابطك تكون النتيجة هكذا &lt;code&gt;href=&amp;quot;tech-ahmed.com&amp;quot;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;قم بتكرار العملية للمواقع الأخرى.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;إنشاء-رابط-لموقع-غير-موجود-في-القالب&#34;&gt;إنشاء رابط لموقع غير موجود في القالب&lt;/h3&gt;
+&lt;p&gt;لأنشاء رابط لموقع غير موجود في القالب كل ماعليك فعله هو:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;تنزيل ايقونة الموقع بصيغة svg وحفظها في مجلد images/icons.&lt;/li&gt;
+&lt;li&gt;تغيير التالي في الاسطر التالي:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;!-- اسم الموقع --&amp;gt;
+
+&amp;lt;a class=&amp;#34;button button-web&amp;#34; href=&amp;#34;رابط الموقع&amp;#34; target=&amp;#34;_blank&amp;#34; rel=&amp;#34;noopener&amp;#34;&amp;gt;
+
+&amp;lt;img class=&amp;#34;icon&amp;#34; src=&amp;#34;images/icons/اسم الصورة بصيغة svg&amp;#34; alt=&amp;#34;اسم الموقع Logo&amp;#34;&amp;gt;اسم الموقع&amp;lt;/a&amp;gt;
+
+&amp;lt;br&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;فمثلا أنا قمت بإضافة رابط مجتمع Matrix الخاص بقناتي بعمل التالي:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;!-- Matrix --&amp;gt;
+
+&amp;lt;a class=&amp;#34;button button-web&amp;#34; href=&amp;#34;https://matrix.to/#/%23Ahmed-Al-Balochi%3Amatrix.org&amp;#34; target=&amp;#34;_blank&amp;#34; rel=&amp;#34;noopener&amp;#34;&amp;gt;
+
+&amp;lt;img class=&amp;#34;icon&amp;#34; src=&amp;#34;images/icons/matrix.svg&amp;#34; alt=&amp;#34;Matrix Logo&amp;#34;&amp;gt;Matrix group&amp;lt;/a&amp;gt;
+
+&amp;lt;br&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;رفع-التغييرات-الى-github&#34;&gt;رفع التغييرات الى GitHub&lt;/h2&gt;
+&lt;p&gt;قم برفع التعديلات كتالي:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;قم بتشغيل برنامج GitHub Desktop.&lt;/li&gt;
+&lt;li&gt;من المفترض ان تظهر لك على بسار التطبيق الملفات التي قمت بالتعديل عليها.&lt;/li&gt;
+&lt;li&gt;قم بالتأكد من أن كل الملفات المعدلة قد تم تحديدها.&lt;/li&gt;
+&lt;li&gt;انقر على فراغ summary وقم بكتابة نبذة عن التغييرات.&lt;/li&gt;
+&lt;li&gt;قم بالنقر على زر commit to main.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;https://tech-ahmed.com/littlelink/git-commit.png&#34;
+	width=&#34;957&#34;
+	height=&#34;660&#34;
+	srcset=&#34;https://tech-ahmed.com/littlelink/git-commit_hua29e90ea8bdee253e70661c0b737f806_33107_480x0_resize_box_3.png 480w, https://tech-ahmed.com/littlelink/git-commit_hua29e90ea8bdee253e70661c0b737f806_33107_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;GitHub Commit image&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;145&#34;
+		data-flex-basis=&#34;348px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;قم بالنقر على زر push origin.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;https://tech-ahmed.com/littlelink/git-push.png&#34;
+	width=&#34;1123&#34;
+	height=&#34;634&#34;
+	srcset=&#34;https://tech-ahmed.com/littlelink/git-push_hu04111bd7b1c9d366af7f9b2fee6160be_132730_480x0_resize_box_3.png 480w, https://tech-ahmed.com/littlelink/git-push_hu04111bd7b1c9d366af7f9b2fee6160be_132730_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;GitHub Push image&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;425px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ol start=&#34;7&#34;&gt;
+&lt;li&gt;سترى ان التعديلات الان يتم رفعها الى GitHub.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;تفعيل-البرنامج-باستخدام-github-pages&#34;&gt;تفعيل البرنامج باستخدام GitHub Pages&lt;/h2&gt;
+&lt;p&gt;بعد رفع التعديلات، حان وقت استخدامها. لا يوجد لديك موقع او عنوان؟ الحل هو GitHub Pages التي باستخدامها سيتوفر لنا موقع وعنوان لكي نشارك روابطنا مع العالم. طريقة التفعيل والاستخدام جداً سهلة لبدأ بشرح الخطوات.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;قم بالذهاب الى صفحة البرنامج التي هي في حسابك.&lt;/li&gt;
+&lt;li&gt;بعدها انقر على الاعدادات.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;https://tech-ahmed.com/littlelink/git-settings.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;820&#34;
+	srcset=&#34;https://tech-ahmed.com/littlelink/git-settings_hu298c3f447b854c497f32677a933c3383_148120_480x0_resize_box_3.png 480w, https://tech-ahmed.com/littlelink/git-settings_hu298c3f447b854c497f32677a933c3383_148120_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;LittleLink GitHub Settings image&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;234&#34;
+		data-flex-basis=&#34;561px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;قم بتغيير اسم المستودع او الصفحة الى name.github.io. قم بتغيير كلمة name الى اسمك الذي انت تستخدمه على GitHub.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;https://tech-ahmed.com/littlelink/git-settings102.png&#34;
+	width=&#34;1916&#34;
+	height=&#34;870&#34;
+	srcset=&#34;https://tech-ahmed.com/littlelink/git-settings102_hu740e491083566d018e091ac14286d14c_128794_480x0_resize_box_3.png 480w, https://tech-ahmed.com/littlelink/git-settings102_hu740e491083566d018e091ac14286d14c_128794_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;LittleLink GitHub Settings image 2&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;220&#34;
+		data-flex-basis=&#34;528px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;بعد تغيير الاسم قم بالنقر على pages في يسار الصفحة.&lt;/li&gt;
+&lt;li&gt;قم بالنقر على none لاختيار main وقم بالنقر على save.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;https://tech-ahmed.com/littlelink/git-pages102.png&#34;
+	width=&#34;741&#34;
+	height=&#34;362&#34;
+	srcset=&#34;https://tech-ahmed.com/littlelink/git-pages102_huf73b6b60bf11acdde64bf6c3233535c0_34986_480x0_resize_box_3.png 480w, https://tech-ahmed.com/littlelink/git-pages102_huf73b6b60bf11acdde64bf6c3233535c0_34986_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;LittleLink GitHub Pages image&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;204&#34;
+		data-flex-basis=&#34;491px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;الان من المفترض تاخذ العملية عدة دقائق ويكون موقعك جاهز.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;https://tech-ahmed.com/littlelink/git-pages.png&#34;
+	width=&#34;805&#34;
+	height=&#34;611&#34;
+	srcset=&#34;https://tech-ahmed.com/littlelink/git-pages_hu896b000b90ec780fadc019a50a96022f_72319_480x0_resize_box_3.png 480w, https://tech-ahmed.com/littlelink/git-pages_hu896b000b90ec780fadc019a50a96022f_72319_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;LittleLink GitHub Pages image&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;131&#34;
+		data-flex-basis=&#34;316px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;الخاتمة&#34;&gt;الخاتمة&lt;/h2&gt;
+&lt;p&gt;تعرفت على برنامج LittleLink من خلال تصفحي للأنترنت، وكنت أبحث عن برنامج بديل LinkTree بشرط ان يكون مفتوح المصدر. لذا قمت بتجربته وبعمل صفحة تضم &lt;a class=&#34;link&#34; href=&#34;https://links.tech-ahmed.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;روابطي الشخصية&lt;/a&gt;، أنصح بتجربة البرنامج اذا كنت تحب دعم البرمجيات المفتوحة المصدر أو تريد إنشاء شيء مميز خاص بك لسهولة التغيير في القالب اذا كنت مطور للويب.
+أتمنى أن المقال وشرحي للبرنامج كان مفيداً لكم، أتطلع لمعرفة تجربتكم ورأيكم للبرنامج.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;أتشرف بمتابعتكم لي عبر المنصات التالية.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;روابط&#34;&gt;روابط&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;📽 &lt;a class=&#34;link&#34; href=&#34;https://t.co/qNbPadCaHI?amp=1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My YouTube Channel&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;📽 &lt;a class=&#34;link&#34; href=&#34;https://odysee.com/$/invite/@CTRLplusA:7&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My Odysee Channel&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;🐦 &lt;a class=&#34;link&#34; href=&#34;https://twitter.com/ahmedal_balochi&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My Twitter Profile&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;💻 &lt;a class=&#34;link&#34; href=&#34;https://github.com/ahmed-al-balochi&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My GitHub Profile&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;💼 &lt;a class=&#34;link&#34; href=&#34;https://www.linkedin.com/in/ahmed-al-balochi-b97b9b150/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My LinkedIn Profile&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;💰 &lt;a class=&#34;link&#34; href=&#34;https://patreon.com/user?u=42792180&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My Patreon Page&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
 </rss>
