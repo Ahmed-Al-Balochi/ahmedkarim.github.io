@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="" dir="rtl">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='قم بإنشاء روابطك الشخصية بالطريقة التي تريدها.'><title>LittleLink: البديل المفتوح المصدر لبرنامج Link Tree</title>
+
+<link rel='canonical' href='https://tech-ahmed.com/littlelink/'>
+
+<link rel="stylesheet" href="/scss/style.min.18145888f21de6cb02d8cb0891be8240096206785da14eda35f6c23c239b966a.css"><meta property='og:title' content='LittleLink: البديل المفتوح المصدر لبرنامج Link Tree'>
+<meta property='og:description' content='قم بإنشاء روابطك الشخصية بالطريقة التي تريدها.'>
+<meta property='og:url' content='https://tech-ahmed.com/littlelink/'>
+<meta property='og:site_name' content='Ahmed Al Balochi'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Github' /><meta property='article:tag' content='Git' /><meta property='article:tag' content='Github Pages' /><meta property='article:tag' content='Link Tree' /><meta property='article:tag' content='LittleLink' /><meta property='article:tag' content='روابط شخصية' /><meta property='article:published_time' content='2022-10-15T22:57:59&#43;05:00'/><meta property='article:modified_time' content='2022-10-15T22:57:59&#43;05:00'/><meta property='og:image' content='https://tech-ahmed.com/littlelink/LittleLink.png' />
+<meta name="twitter:site" content="@https://twitter.com/ahmedal_balochi">
+    <meta name="twitter:creator" content="@https://twitter.com/ahmedal_balochi"><meta name="twitter:title" content="LittleLink: البديل المفتوح المصدر لبرنامج Link Tree">
+<meta name="twitter:description" content="قم بإنشاء روابطك الشخصية بالطريقة التي تريدها."><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://tech-ahmed.com/littlelink/LittleLink.png' />
+    <link rel="shortcut icon" href="img/logo2.png" />
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-209047568-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6844251833374974"
+crossorigin="anonymous"></script>
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="اخفي القائمة">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu44b1308b2659e9c78ede39c4a8f371df_61519_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Ahmed Al Balochi</a></h1>
+            <h2 class="site-description"></h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://t.co/qNbPadCaHI?amp=1'
+                        target="_blank"
+                        title="YouTube"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" fill="white"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/ahmedal_balochi'
+                        target="_blank"
+                        title="Twitter"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://github.com/ahmed-al-balochi'
+                        target="_blank"
+                        title="GitHub"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://tech-ahmed.com/index.xml'
+                        target="_blank"
+                        title="RSS"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/search/' >
+                
+                
+                    
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>أبحث</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/' >
+                
+                
+                    
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>الرئيسية</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/%D8%B9%D9%86-%D8%A7%D9%84%D9%83%D8%A7%D8%AA%D8%A8' >
+                
+                
+                    
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>عن الكاتب</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='https://www.patreon.com/user?u=42792180' target="_blank">
+                
+                
+                    
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M160 0c17.7 0 32 14.3 32 32V67.7c1.6 .2 3.1 .4 4.7 .7c10.6 1.6 42.1 6.7 55.1 10c17.1 4.3 27.5 21.7 23.2 38.9s-21.7 27.5-38.9 23.2c-9.3-2.4-37.6-7-48.9-8.7c-32.1-4.8-59.6-2.4-78.5 4.9c-18.3 7-25.9 16.9-27.9 28c-1.9 10.7-.5 16.8 1.3 20.6c1.9 4 5.6 8.5 12.9 13.4c16.2 10.8 41.1 17.9 73.3 26.7l2.8 .8c28.4 7.7 63.2 17.2 89 34.3c14.1 9.4 27.3 22.1 35.5 39.7c8.3 17.8 10.1 37.8 6.3 59.1c-6.9 38-33.1 63.4-65.6 76.7c-13.7 5.6-28.6 9.2-44.4 11V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V445.1c-.4-.1-.9-.1-1.3-.2l-.2 0 0 0c-24.4-3.8-64.5-14.3-91.5-26.3c-16.2-7.2-23.4-26.1-16.2-42.2s26.1-23.4 42.2-16.2c20.9 9.3 55.3 18.4 75.2 21.6c31.9 4.7 58.2 2 76-5.3c16.9-6.9 24.6-16.9 26.8-28.9c1.9-10.7 .5-16.8-1.3-20.6c-1.9-4-5.6-8.5-12.9-13.4c-16.2-10.8-41.1-17.9-73.3-26.7l-2.8-.8c-28.4-7.7-63.2-17.2-89-34.3c-14.1-9.4-27.3-22.1-35.5-39.7c-8.3-17.8-10.1-37.8-6.3-59.1C25 114.1 53 89.3 86 76.7c13-5 27.2-8.2 42-10V32c0-17.7 14.3-32 32-32z"/></svg>
+                
+                <span>إدعمني</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+                <li id="i18n-switch">  
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
+                        
+                            <option value="https://tech-ahmed.com/" selected>العربية</option>
+                        
+                            <option value="https://tech-ahmed.com/en/" >English</option>
+                        
+                    </select>
+                </li>
+            
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>الوضع الداكن</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+<main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/littlelink/">
+                <img src="/littlelink/LittleLink_hud1d39962c4663f44017431616a7b5b0d_26360_800x0_resize_box_3.png"
+                        srcset="/littlelink/LittleLink_hud1d39962c4663f44017431616a7b5b0d_26360_800x0_resize_box_3.png 800w, /littlelink/LittleLink_hud1d39962c4663f44017431616a7b5b0d_26360_1600x0_resize_box_3.png 1600w"
+                        width="800" 
+                        height="276" 
+                        loading="lazy"
+                        alt="Featured image of post LittleLink: البديل المفتوح المصدر لبرنامج Link Tree" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/web/" >
+                Web
+            </a>
+        
+            <a href="/categories/%D9%88%D9%8A%D8%A8/" >
+                ويب
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/littlelink/">LittleLink: البديل المفتوح المصدر لبرنامج Link Tree</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            قم بإنشاء روابطك الشخصية بالطريقة التي تريدها.
+        </h3>
+        
+    </div>
+
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Oct 15, 2022</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    تُقرأ خلال 4 دقائق
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+</header>
+
+    <section class="article-content">
+    
+    
+    <h2 id="متطلبات-مسبقة">متطلبات مسبقة</h2>
+<ol>
+<li>حساب <a class="link" href="https://github.com/"  target="_blank" rel="noopener"
+    >GitHub</a>.</li>
+<li>برنامج <a class="link" href="https://desktop.github.com/"  target="_blank" rel="noopener"
+    >GitHub Desktop</a> إذا كنت لا تعرف أوامر Git.</li>
+<li>برنامج قارئ للنصوص مثل <a class="link" href="https://vscodium.com/"  target="_blank" rel="noopener"
+    >VSCodium</a>.</li>
+</ol>
+<h2 id="مقدمة">مقدمة</h2>
+<p>هل تريد إنشاء روابطك الشخصية ولكن تحدك الخيارات في موقع/برنامج <a class="link" href="https://linktr.ee/"  target="_blank" rel="noopener"
+    >LinkTree</a>. هل تريد إضافة حسابك في Mastadon أو Matrix ولكن لا يوجد خيار للإضافة. أم انت من الذين يحبون الحرية التي توفرها البرامج المفتوحة المصدر؟ إن كان جوابك نعم فإبقى معي لتتعرف على برنامج <a class="link" href="https://littlelink.io/"  target="_blank" rel="noopener"
+    >LittleLink</a>.</p>
+<h2 id="برنامج-littlelink">برنامج LittleLink</h2>
+<p>البرنامج بسيط جداً وهو مبني باستخدام أسهل لغات البرمجة وهي HTML و CSS. يقوم البرنامج بإعطائك قالب جاهز بروابط لأغلب المواقع والبرامج. مهمة البرنامج حسب المطورين هي:</p>
+<ol>
+<li>سهولة الاستخدام.</li>
+<li>سرعة الاستجابة والتحميل للصفحة.</li>
+<li>تصميم جميل.</li>
+<li>الحرية في التعديل ففي النهاية هو برنامج مفتوح المصدر.</li>
+</ol>
+<h2 id="طريقة-التحميل">طريقة التحميل</h2>
+<ol>
+<li>عليك بالذهاب إلى صفحة [LittleLink على موقع GitHub]، ومن القيام بعمل Fork للصفحة.</li>
+</ol>
+<p><img src="/littlelink/Fork.png"
+	width="1920"
+	height="916"
+	srcset="/littlelink/Fork_hu99a6678b6e16c8a8a5047093a2dbe635_198150_480x0_resize_box_3.png 480w, /littlelink/Fork_hu99a6678b6e16c8a8a5047093a2dbe635_198150_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="Fork image"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="209"
+		data-flex-basis="503px"
+	
+></p>
+<ol start="2">
+<li>عليك بتنزيل محتويات الصفحة عن طريق برنامج GitHub Desktop والقيام بحفظها في مجلد جديد.</li>
+</ol>
+<p><img src="/littlelink/clone.png"
+	width="961"
+	height="662"
+	srcset="/littlelink/clone_hu8159fa285e1bd8d77a783789e6db41d9_30695_480x0_resize_box_3.png 480w, /littlelink/clone_hu8159fa285e1bd8d77a783789e6db41d9_30695_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="Clone image"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="145"
+		data-flex-basis="348px"
+	
+></p>
+<p><img src="/littlelink/clone103.png"
+	width="500"
+	height="494"
+	srcset="/littlelink/clone103_hu4dca656c49960c8b5c7b5a2b0877b9f8_10950_480x0_resize_box_3.png 480w, /littlelink/clone103_hu4dca656c49960c8b5c7b5a2b0877b9f8_10950_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="Clone image"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="101"
+		data-flex-basis="242px"
+	
+></p>
+<h2 id="طريقة-التعديل-على-القالب">طريقة التعديل على القالب</h2>
+<ol>
+<li>قم بفتح المجلد في برنامج قارئ النصوص.</li>
+<li>قم بفتح ملف <code>index.html</code>.</li>
+<li>الان يمكنك رؤية محتويات الملف ويمكننا الان التعديل عليه.</li>
+</ol>
+<h3 id="لجعل-صفحتك-مميزة-قم-بالتالي">لجعل صفحتك مميزة قم بالتالي</h3>
+<ol>
+<li>قم بتغيير <code>&lt;title&gt;LittleLink&lt;/title&gt;</code> إلى <code>&lt;title&gt;أسمك أو العنوان الذي تريده&lt;/title&gt;</code>.</li>
+<li>قم بتحريك الفأرة للأسفل وبتغيير الصورة الرمزية بحفظ الصورة التي تريدها(يجب ان تكون بصيغة png) في مجلد images بأسم avatar وقم بحذف المحتويات الاخرى. ولكي نجعل البرنامج باستخدام الصورة التي تم حفظها يجب تغيير:</li>
+</ol>
+<pre tabindex="0"><code>&lt;img src=&#34;images/avatar.png&#34; class=&#34;avatar&#34; srcset=&#34;images/avatar@2x.png 2x&#34; alt=&#34;LittleLink Logo&#34;&gt; 
+</code></pre><p>إلى:</p>
+<pre tabindex="0"><code>&lt;img src=&#34;images/avatar.jpg&#34; class=&#34;avatar&#34; alt=&#34;LittleLink Logo&#34;&gt;
+</code></pre><ol start="3">
+<li>قم بتغيير <code>&lt;h1&gt;LittleLink&lt;/h1&gt;</code> إلى <code>&lt;h1&gt;أسمك أو العنوان الذي تريده&lt;/h1&gt;</code>.</li>
+<li>قم بتغيير السطر أسفل <code>&lt;!-- Short Bio --&gt;</code> الذي هو عبارة عن نبذة عنك بتغيير ماهو داخل  <code>&lt;p&gt;...&lt;/p&gt;</code>.</li>
+<li>قم بتحريك الفأرة للأسفل وسترى أسطر مرتبة فوقها أسماء المواقع، كل موقع لديه ثلاثة أسطر تحته. قم بحذف المواقع وأسطرها التي لا تريدها.</li>
+<li>الان كل ما عليك فعله هو إستبدال علامة #  ووضع رابطك. فمثلاً عند وضع رابطك تكون النتيجة هكذا <code>href=&quot;tech-ahmed.com&quot;</code>.</li>
+<li>قم بتكرار العملية للمواقع الأخرى.</li>
+</ol>
+<h3 id="إنشاء-رابط-لموقع-غير-موجود-في-القالب">إنشاء رابط لموقع غير موجود في القالب</h3>
+<p>لأنشاء رابط لموقع غير موجود في القالب كل ماعليك فعله هو:</p>
+<ol>
+<li>تنزيل ايقونة الموقع بصيغة svg وحفظها في مجلد images/icons.</li>
+<li>تغيير التالي في الاسطر التالي:</li>
+</ol>
+<pre tabindex="0"><code>&lt;!-- اسم الموقع --&gt;
+
+&lt;a class=&#34;button button-web&#34; href=&#34;رابط الموقع&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+&lt;img class=&#34;icon&#34; src=&#34;images/icons/اسم الصورة بصيغة svg&#34; alt=&#34;اسم الموقع Logo&#34;&gt;اسم الموقع&lt;/a&gt;
+
+&lt;br&gt;
+</code></pre><p>فمثلا أنا قمت بإضافة رابط مجتمع Matrix الخاص بقناتي بعمل التالي:</p>
+<pre tabindex="0"><code>&lt;!-- Matrix --&gt;
+
+&lt;a class=&#34;button button-web&#34; href=&#34;https://matrix.to/#/%23Ahmed-Al-Balochi%3Amatrix.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+&lt;img class=&#34;icon&#34; src=&#34;images/icons/matrix.svg&#34; alt=&#34;Matrix Logo&#34;&gt;Matrix group&lt;/a&gt;
+
+&lt;br&gt;
+</code></pre><h2 id="رفع-التغييرات-الى-github">رفع التغييرات الى GitHub</h2>
+<p>قم برفع التعديلات كتالي:</p>
+<ol>
+<li>قم بتشغيل برنامج GitHub Desktop.</li>
+<li>من المفترض ان تظهر لك على بسار التطبيق الملفات التي قمت بالتعديل عليها.</li>
+<li>قم بالتأكد من أن كل الملفات المعدلة قد تم تحديدها.</li>
+<li>انقر على فراغ summary وقم بكتابة نبذة عن التغييرات.</li>
+<li>قم بالنقر على زر commit to main.</li>
+</ol>
+<p><img src="/littlelink/git-commit.png"
+	width="957"
+	height="660"
+	srcset="/littlelink/git-commit_hua29e90ea8bdee253e70661c0b737f806_33107_480x0_resize_box_3.png 480w, /littlelink/git-commit_hua29e90ea8bdee253e70661c0b737f806_33107_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="GitHub Commit image"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="145"
+		data-flex-basis="348px"
+	
+></p>
+<ol start="6">
+<li>قم بالنقر على زر push origin.</li>
+</ol>
+<p><img src="/littlelink/git-push.png"
+	width="1123"
+	height="634"
+	srcset="/littlelink/git-push_hu04111bd7b1c9d366af7f9b2fee6160be_132730_480x0_resize_box_3.png 480w, /littlelink/git-push_hu04111bd7b1c9d366af7f9b2fee6160be_132730_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="GitHub Push image"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="177"
+		data-flex-basis="425px"
+	
+></p>
+<ol start="7">
+<li>سترى ان التعديلات الان يتم رفعها الى GitHub.</li>
+</ol>
+<h2 id="تفعيل-البرنامج-باستخدام-github-pages">تفعيل البرنامج باستخدام GitHub Pages</h2>
+<p>بعد رفع التعديلات، حان وقت استخدامها. لا يوجد لديك موقع او عنوان؟ الحل هو GitHub Pages التي باستخدامها سيتوفر لنا موقع وعنوان لكي نشارك روابطنا مع العالم. طريقة التفعيل والاستخدام جداً سهلة لبدأ بشرح الخطوات.</p>
+<ol>
+<li>قم بالذهاب الى صفحة البرنامج التي هي في حسابك.</li>
+<li>بعدها انقر على الاعدادات.</li>
+</ol>
+<p><img src="/littlelink/git-settings.png"
+	width="1920"
+	height="820"
+	srcset="/littlelink/git-settings_hu298c3f447b854c497f32677a933c3383_148120_480x0_resize_box_3.png 480w, /littlelink/git-settings_hu298c3f447b854c497f32677a933c3383_148120_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="LittleLink GitHub Settings image"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="234"
+		data-flex-basis="561px"
+	
+></p>
+<ol start="3">
+<li>قم بتغيير اسم المستودع او الصفحة الى name.github.io. قم بتغيير كلمة name الى اسمك الذي انت تستخدمه على GitHub.</li>
+</ol>
+<p><img src="/littlelink/git-settings102.png"
+	width="1916"
+	height="870"
+	srcset="/littlelink/git-settings102_hu740e491083566d018e091ac14286d14c_128794_480x0_resize_box_3.png 480w, /littlelink/git-settings102_hu740e491083566d018e091ac14286d14c_128794_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="LittleLink GitHub Settings image 2"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="220"
+		data-flex-basis="528px"
+	
+></p>
+<ol start="4">
+<li>بعد تغيير الاسم قم بالنقر على pages في يسار الصفحة.</li>
+<li>قم بالنقر على none لاختيار main وقم بالنقر على save.</li>
+</ol>
+<p><img src="/littlelink/git-pages102.png"
+	width="741"
+	height="362"
+	srcset="/littlelink/git-pages102_huf73b6b60bf11acdde64bf6c3233535c0_34986_480x0_resize_box_3.png 480w, /littlelink/git-pages102_huf73b6b60bf11acdde64bf6c3233535c0_34986_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="LittleLink GitHub Pages image"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="204"
+		data-flex-basis="491px"
+	
+></p>
+<ol start="6">
+<li>الان من المفترض تاخذ العملية عدة دقائق ويكون موقعك جاهز.</li>
+</ol>
+<p><img src="/littlelink/git-pages.png"
+	width="805"
+	height="611"
+	srcset="/littlelink/git-pages_hu896b000b90ec780fadc019a50a96022f_72319_480x0_resize_box_3.png 480w, /littlelink/git-pages_hu896b000b90ec780fadc019a50a96022f_72319_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="LittleLink GitHub Pages image"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="131"
+		data-flex-basis="316px"
+	
+></p>
+<h2 id="الخاتمة">الخاتمة</h2>
+<p>تعرفت على برنامج LittleLink من خلال تصفحي للأنترنت، وكنت أبحث عن برنامج بديل LinkTree بشرط ان يكون مفتوح المصدر. لذا قمت بتجربته وبعمل صفحة تضم <a class="link" href="https://links.tech-ahmed.com"  target="_blank" rel="noopener"
+    >روابطي الشخصية</a>، أنصح بتجربة البرنامج اذا كنت تحب دعم البرمجيات المفتوحة المصدر أو تريد إنشاء شيء مميز خاص بك لسهولة التغيير في القالب اذا كنت مطور للويب.
+أتمنى أن المقال وشرحي للبرنامج كان مفيداً لكم، أتطلع لمعرفة تجربتكم ورأيكم للبرنامج.</p>
+<ul>
+<li>أتشرف بمتابعتكم لي عبر المنصات التالية.</li>
+</ul>
+<h2 id="روابط">روابط</h2>
+<ul>
+<li>
+<p>📽 <a class="link" href="https://t.co/qNbPadCaHI?amp=1"  target="_blank" rel="noopener"
+    >My YouTube Channel</a></p>
+</li>
+<li>
+<p>📽 <a class="link" href="https://odysee.com/$/invite/@CTRLplusA:7"  target="_blank" rel="noopener"
+    >My Odysee Channel</a></p>
+</li>
+<li>
+<p>🐦 <a class="link" href="https://twitter.com/ahmedal_balochi"  target="_blank" rel="noopener"
+    >My Twitter Profile</a></p>
+</li>
+<li>
+<p>💻 <a class="link" href="https://github.com/ahmed-al-balochi"  target="_blank" rel="noopener"
+    >My GitHub Profile</a></p>
+</li>
+<li>
+<p>💼 <a class="link" href="https://www.linkedin.com/in/ahmed-al-balochi-b97b9b150/"  target="_blank" rel="noopener"
+    >My LinkedIn Profile</a></p>
+</li>
+<li>
+<p>💰 <a class="link" href="https://patreon.com/user?u=42792180"  target="_blank" rel="noopener"
+    >My Patreon Page</a></p>
+</li>
+</ul>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/github/">Github</a>
+        
+            <a href="/tags/git/">Git</a>
+        
+            <a href="/tags/github-pages/">Github Pages</a>
+        
+            <a href="/tags/link-tree/">Link Tree</a>
+        
+            <a href="/tags/littlelink/">LittleLink</a>
+        
+            <a href="/tags/%D8%B1%D9%88%D8%A7%D8%A8%D8%B7-%D8%B4%D8%AE%D8%B5%D9%8A%D8%A9/">روابط شخصية</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.css"integrity="sha256-J&#43;iAE0sgH8QSz9hpcDxXIftnj65JEZgNhGcgReTTK9s="crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.js"integrity="sha256-InsNdER1b2xUewP&#43;pKCUJpkhiqwHgqiPXDlIk7GzBu4="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/contrib/auto-render.min.js"integrity="sha256-y39Mpg7V3D4lhBX4x6O0bUqTV4pSrfgwEfGKfxkOdgI="crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+        renderMathInElement(document.querySelector(`.article-content`), {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ]
+        });})
+</script>
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    <script src="https://utteranc.es/client.js" 
+        repo="ahmed-al-balochi/blog"
+        issue-term="pathname"
+        
+        crossorigin="anonymous"
+        async
+        >
+</script>
+
+<style>
+    .utterances {
+        max-width: unset;
+    }
+</style>
+
+<script>
+    function setUtterancesTheme(theme) {
+        let utterances = document.querySelector('.utterances iframe');
+        if (utterances) {
+            utterances.contentWindow.postMessage(
+                {
+                    type: 'set-theme',
+                    theme: `github-${theme}`
+                },
+                'https://utteranc.es'
+            );
+        }
+    }
+
+    addEventListener('message', event => {
+        if (event.origin !== 'https://utteranc.es') return;
+        setUtterancesTheme(document.documentElement.dataset.scheme)
+    });
+
+    window.addEventListener('onColorSchemeChange', (e) => {
+        setUtterancesTheme(e.detail)
+    })
+</script>
+
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2022 Ahmed Al Balochi
+    </section>
+    
+    <section class="powerby">
+        مبني بستخدام <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        قالب <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.14.0">Stack</a></b> مصمم من <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">جدول المحتويات</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#متطلبات-مسبقة">متطلبات مسبقة</a></li>
+    <li><a href="#مقدمة">مقدمة</a></li>
+    <li><a href="#برنامج-littlelink">برنامج LittleLink</a></li>
+    <li><a href="#طريقة-التحميل">طريقة التحميل</a></li>
+    <li><a href="#طريقة-التعديل-على-القالب">طريقة التعديل على القالب</a>
+      <ul>
+        <li><a href="#لجعل-صفحتك-مميزة-قم-بالتالي">لجعل صفحتك مميزة قم بالتالي</a></li>
+        <li><a href="#إنشاء-رابط-لموقع-غير-موجود-في-القالب">إنشاء رابط لموقع غير موجود في القالب</a></li>
+      </ul>
+    </li>
+    <li><a href="#رفع-التغييرات-الى-github">رفع التغييرات الى GitHub</a></li>
+    <li><a href="#تفعيل-البرنامج-باستخدام-github-pages">تفعيل البرنامج باستخدام GitHub Pages</a></li>
+    <li><a href="#الخاتمة">الخاتمة</a></li>
+    <li><a href="#روابط">روابط</a></li>
+  </ul>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
