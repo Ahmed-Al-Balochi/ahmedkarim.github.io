@@ -125,7 +125,7 @@ It has many features, but my favorites are:&lt;/p&gt;
         <pubDate>Thu, 30 Sep 2021 11:08:28 +0500</pubDate>
         
         <guid>https://tech-ahmed.com/LibreGaming.en/</guid>
-        <description>&lt;img src="https://tech-ahmed.com/post/LibreGaming/tui.png" alt="Featured image of post LibreGaming: Easily Setup your Distro for Gaming" /&gt;&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+        <description>&lt;img src="https://tech-ahmed.com/post/LibreGaming/LibreGaming.png" alt="Featured image of post LibreGaming: Easily Setup your Distro for Gaming" /&gt;&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
 &lt;p&gt;LibreGaming Is a program for installing gaming required packages on Linux.&lt;/p&gt;
 &lt;p&gt;It works by identifying you Linux distribution and based on that info it installs the right packages for you.
 Currently supported distributions:&lt;/p&gt;
