@@ -383,18 +383,16 @@
 &lt;h2 id=&#34;ختاما&#34;&gt;ختاما&lt;/h2&gt;
 &lt;p&gt;أود أن أشكر كل الذين قاموا بتنزيل ليبرقيمنق واستخدموه ، فقد حصل على أكثر من 7 آلاف تنزيل ، واستفساراتكم مرحب بها دائمًا.&lt;/p&gt;
 &lt;h2 id=&#34;شرح-بالفيديو-على-يوتيوب&#34;&gt;شرح بالفيديو على يوتيوب&lt;/h2&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://youtu.be/QI8Ai8BTMwo&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img src=&#34;https://img.youtube.com/vi/QI8Ai8BTMwo/0.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;LibreGaming Video&#34;
-	
-	
-&gt;&lt;/a&gt;&lt;br&gt;
-لفتح الفيديو في صفحة جديدة قم بالضغط مطولاً على زر CTRL الأيسر&lt;/p&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/QI8Ai8BTMwo&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;لفتح الفيديو في صفحة جديدة قم بالضغط مطولاً على زر CTRL الأيسر&lt;/p&gt;
 &lt;h2 id=&#34;أتشرف-بمتابعتكم-لي&#34;&gt;أتشرف بمتابعتكم لي&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
