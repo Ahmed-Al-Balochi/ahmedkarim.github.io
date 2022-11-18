@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://tech-ahmed.com/en/</loc>
-    <lastmod>2021-10-16T17:11:47+05:00</lastmod>
+    <lastmod>2022-11-17T11:08:28+05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
@@ -15,8 +15,21 @@
                 href="https://tech-ahmed.com/en/"
                 />
   </url><url>
+    <loc>https://tech-ahmed.com/en/tags/arch-linux/</loc>
+    <lastmod>2022-11-17T11:08:28+05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://tech-ahmed.com/tags/arch-linux/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tech-ahmed.com/en/tags/arch-linux/"
+                />
+  </url><url>
     <loc>https://tech-ahmed.com/en/categories/</loc>
-    <lastmod>2021-10-16T17:11:47+05:00</lastmod>
+    <lastmod>2022-11-17T11:08:28+05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
@@ -28,14 +41,47 @@
                 href="https://tech-ahmed.com/en/categories/"
                 />
   </url><url>
-    <loc>https://tech-ahmed.com/en/tags/cli/</loc>
-    <lastmod>2021-10-16T17:11:47+05:00</lastmod>
+    <loc>https://tech-ahmed.com/en/tags/fedora/</loc>
+    <lastmod>2022-11-17T11:08:28+05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://tech-ahmed.com/tags/fedora/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tech-ahmed.com/en/tags/fedora/"
+                />
   </url><url>
-    <loc>https://tech-ahmed.com/en/tags/command-line/</loc>
-    <lastmod>2021-10-16T17:11:47+05:00</lastmod>
+    <loc>https://tech-ahmed.com/en/tags/libregaming/</loc>
+    <lastmod>2022-11-17T11:08:28+05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://tech-ahmed.com/tags/libregaming/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tech-ahmed.com/en/tags/libregaming/"
+                />
+  </url><url>
+    <loc>https://tech-ahmed.com/LibreGaming.en/</loc>
+    <lastmod>2022-11-17T11:08:28+05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://tech-ahmed.com/LibreGaming/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tech-ahmed.com/LibreGaming.en/"
+                />
   </url><url>
     <loc>https://tech-ahmed.com/en/categories/linux/</loc>
-    <lastmod>2021-10-16T17:11:47+05:00</lastmod>
+    <lastmod>2022-11-17T11:08:28+05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
@@ -47,11 +93,47 @@
                 href="https://tech-ahmed.com/en/categories/linux/"
                 />
   </url><url>
-    <loc>https://tech-ahmed.com/en/categories/macos/</loc>
-    <lastmod>2021-10-16T17:11:47+05:00</lastmod>
+    <loc>https://tech-ahmed.com/en/tags/linux-gaming/</loc>
+    <lastmod>2022-11-17T11:08:28+05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://tech-ahmed.com/tags/linux-gaming/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tech-ahmed.com/en/tags/linux-gaming/"
+                />
+  </url><url>
+    <loc>https://tech-ahmed.com/en/categories/open-source-software/</loc>
+    <lastmod>2022-11-17T11:08:28+05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://tech-ahmed.com/categories/open-source-software/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tech-ahmed.com/en/categories/open-source-software/"
+                />
+  </url><url>
+    <loc>https://tech-ahmed.com/en/tags/opensuse-tumbleweed/</loc>
+    <lastmod>2022-11-17T11:08:28+05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://tech-ahmed.com/tags/opensuse-tumbleweed/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tech-ahmed.com/en/tags/opensuse-tumbleweed/"
+                />
   </url><url>
     <loc>https://tech-ahmed.com/en/post/</loc>
-    <lastmod>2021-10-16T17:11:47+05:00</lastmod>
+    <lastmod>2022-11-17T11:08:28+05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
@@ -64,7 +146,7 @@
                 />
   </url><url>
     <loc>https://tech-ahmed.com/en/tags/</loc>
-    <lastmod>2021-10-16T17:11:47+05:00</lastmod>
+    <lastmod>2022-11-17T11:08:28+05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
@@ -75,6 +157,41 @@
                 hreflang="en"
                 href="https://tech-ahmed.com/en/tags/"
                 />
+  </url><url>
+    <loc>https://tech-ahmed.com/en/tags/ubuntu/</loc>
+    <lastmod>2022-11-17T11:08:28+05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://tech-ahmed.com/tags/ubuntu/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tech-ahmed.com/en/tags/ubuntu/"
+                />
+  </url><url>
+    <loc>https://tech-ahmed.com/en/categories/%D8%A8%D8%B1%D8%A7%D9%85%D8%AC-%D9%85%D9%81%D8%AA%D9%88%D8%AD%D8%A9-%D8%A7%D9%84%D9%85%D8%B5%D8%AF%D8%B1/</loc>
+    <lastmod>2022-11-17T11:08:28+05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://tech-ahmed.com/categories/%D8%A8%D8%B1%D8%A7%D9%85%D8%AC-%D9%85%D9%81%D8%AA%D9%88%D8%AD%D8%A9-%D8%A7%D9%84%D9%85%D8%B5%D8%AF%D8%B1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tech-ahmed.com/en/categories/%D8%A8%D8%B1%D8%A7%D9%85%D8%AC-%D9%85%D9%81%D8%AA%D9%88%D8%AD%D8%A9-%D8%A7%D9%84%D9%85%D8%B5%D8%AF%D8%B1/"
+                />
+  </url><url>
+    <loc>https://tech-ahmed.com/en/tags/cli/</loc>
+    <lastmod>2021-10-16T17:11:47+05:00</lastmod>
+  </url><url>
+    <loc>https://tech-ahmed.com/en/tags/command-line/</loc>
+    <lastmod>2021-10-16T17:11:47+05:00</lastmod>
+  </url><url>
+    <loc>https://tech-ahmed.com/en/categories/macos/</loc>
+    <lastmod>2021-10-16T17:11:47+05:00</lastmod>
   </url><url>
     <loc>https://tech-ahmed.com/en/tags/terminal/</loc>
     <lastmod>2021-10-16T17:11:47+05:00</lastmod>
@@ -105,97 +222,6 @@
   </url><url>
     <loc>https://tech-ahmed.com/en/categories/ios/</loc>
     <lastmod>2021-10-14T20:01:47+05:00</lastmod>
-  </url><url>
-    <loc>https://tech-ahmed.com/en/tags/arch-linux/</loc>
-    <lastmod>2021-09-30T11:08:28+05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://tech-ahmed.com/tags/arch-linux/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tech-ahmed.com/en/tags/arch-linux/"
-                />
-  </url><url>
-    <loc>https://tech-ahmed.com/en/tags/fedora/</loc>
-    <lastmod>2021-09-30T11:08:28+05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://tech-ahmed.com/tags/fedora/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tech-ahmed.com/en/tags/fedora/"
-                />
-  </url><url>
-    <loc>https://tech-ahmed.com/en/tags/libregaming/</loc>
-    <lastmod>2021-09-30T11:08:28+05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://tech-ahmed.com/tags/libregaming/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tech-ahmed.com/en/tags/libregaming/"
-                />
-  </url><url>
-    <loc>https://tech-ahmed.com/LibreGaming.en/</loc>
-    <lastmod>2021-09-30T11:08:28+05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://tech-ahmed.com/LibreGaming/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tech-ahmed.com/LibreGaming.en/"
-                />
-  </url><url>
-    <loc>https://tech-ahmed.com/en/tags/linux-gaming/</loc>
-    <lastmod>2021-09-30T11:08:28+05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://tech-ahmed.com/tags/linux-gaming/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tech-ahmed.com/en/tags/linux-gaming/"
-                />
-  </url><url>
-    <loc>https://tech-ahmed.com/en/tags/opensuse-tumbleweed/</loc>
-    <lastmod>2021-09-30T11:08:28+05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://tech-ahmed.com/tags/opensuse-tumbleweed/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tech-ahmed.com/en/tags/opensuse-tumbleweed/"
-                />
-  </url><url>
-    <loc>https://tech-ahmed.com/en/tags/ubuntu/</loc>
-    <lastmod>2021-09-30T11:08:28+05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://tech-ahmed.com/tags/ubuntu/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tech-ahmed.com/en/tags/ubuntu/"
-                />
   </url><url>
     <loc>https://tech-ahmed.com/en/about/</loc>
     <lastmod>2021-09-30T09:53:35+05:00</lastmod>

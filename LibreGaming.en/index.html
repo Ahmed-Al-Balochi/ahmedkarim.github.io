@@ -9,7 +9,7 @@
 <meta property='og:description' content='Python Program that downloads gaming required packages based on your Linux Distribution.'>
 <meta property='og:url' content='https://tech-ahmed.com/LibreGaming.en/'>
 <meta property='og:site_name' content='Ahmed Al Balochi'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Linux Gaming' /><meta property='article:tag' content='LibreGaming' /><meta property='article:tag' content='Ubuntu' /><meta property='article:tag' content='Fedora' /><meta property='article:tag' content='Arch Linux' /><meta property='article:tag' content='OpenSUSE Tumbleweed' /><meta property='article:published_time' content='2021-09-30T11:08:28&#43;05:00'/><meta property='article:modified_time' content='2021-09-30T11:08:28&#43;05:00'/><meta property='og:image' content='https://tech-ahmed.com/post/LibreGaming/LibreGaming.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Linux Gaming' /><meta property='article:tag' content='LibreGaming' /><meta property='article:tag' content='Ubuntu' /><meta property='article:tag' content='Fedora' /><meta property='article:tag' content='Arch Linux' /><meta property='article:tag' content='OpenSUSE Tumbleweed' /><meta property='article:published_time' content='2022-11-17T11:08:28&#43;05:00'/><meta property='article:modified_time' content='2022-11-17T11:08:28&#43;05:00'/><meta property='og:image' content='https://tech-ahmed.com/post/LibreGaming/LibreGaming.png' />
 <meta name="twitter:site" content="@https://twitter.com/ahmedal_balochi">
     <meta name="twitter:creator" content="@https://twitter.com/ahmedal_balochi"><meta name="twitter:title" content="LibreGaming: Easily Setup your Distro for Gaming">
 <meta name="twitter:description" content="Python Program that downloads gaming required packages based on your Linux Distribution."><meta name="twitter:card" content="summary_large_image">
@@ -313,6 +313,14 @@ crossorigin="anonymous"></script>
                 Linux
             </a>
         
+            <a href="/en/categories/open-source-software/" >
+                Open Source Software
+            </a>
+        
+            <a href="/en/categories/%D8%A8%D8%B1%D8%A7%D9%85%D8%AC-%D9%85%D9%81%D8%AA%D9%88%D8%AD%D8%A9-%D8%A7%D9%84%D9%85%D8%B5%D8%AF%D8%B1/" >
+                برامج مفتوحة المصدر
+            </a>
+        
     </header>
     
 
@@ -341,7 +349,7 @@ crossorigin="anonymous"></script>
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Sep 30, 2021</time>
+                <time class="article-time--published">Nov 17, 2022</time>
             </div>
         
 
@@ -356,7 +364,7 @@ crossorigin="anonymous"></script>
 
 
                 <time class="article-time--reading">
-                    2 minute read
+                    5 minute read
                 </time>
             </div>
         
@@ -389,7 +397,27 @@ crossorigin="anonymous"></script>
     <section class="article-content">
     
     
-    <h2 id="intro">Intro</h2>
+    <p><a class="link" href="https://pepy.tech/project/libregaming"  target="_blank" rel="noopener"
+    ><img src="https://static.pepy.tech/personalized-badge/libregaming?period=total&amp;units=international_system&amp;left_color=black&amp;right_color=brightgreen&amp;left_text=Downloads"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Downloads"
+	
+	
+></a> <img src="https://img.shields.io/pypi/v/libregaming?color=ge&amp;label=Version"
+	
+	
+	
+	loading="lazy"
+	
+		alt="PyPI"
+	
+	
+></p>
+<h2 id="intro">Intro</h2>
 <p>LibreGaming Is a program for installing gaming required packages on Linux.</p>
 <p>It works by identifying you Linux distribution and based on that info it installs the right packages for you.
 Currently supported distributions:</p>
@@ -415,17 +443,239 @@ Currently supported distributions:</p>
 <li>Athenaeum Launcher.</li>
 <li>Steam Tinker Launch.</li>
 </ol>
+<h2 id="prerequisites">Prerequisites:</h2>
+<p>Before you install LibreGaming you need to get the following:</p>
+<ul>
+<li>
+<p>You need your drivers installed beforehand for maximum performance under Linux. you can install them by going to this <a class="link" href="https://github.com/lutris/docs/blob/master/InstallingDrivers.md"  target="_blank" rel="noopener"
+    >page</a></p>
+</li>
+<li>
+<p>To run this LibreGaming script you need python3 installed if not already. to install python3 click <a class="link" href="https://github.com/Ahmed-Al-Balochi/LibreGaming#dependencies"  target="_blank" rel="noopener"
+    >Here</a>.</p>
+</li>
+<li>
+<p>Also you need to enable free and nonfree packages if you are using Fedora to install steam. You can find the commands to enable free and nonfree packages for Fedora <a class="link" href="https://docs.fedoraproject.org/en-US/quick-docs/setup_rpmfusion/#proc_enabling-the-rpmfusion-repositories-using-command-line-utilities_enabling-the-rpmfusion-repositories"  target="_blank" rel="noopener"
+    >here</a>:</p>
+</li>
+<li>
+<p>For OpenSUSE Tumbleweed you need to enable packman repos to install Steam and other packages. You can find that <a class="link" href="https://en.opensuse.org/Additional_package_repositories"  target="_blank" rel="noopener"
+    >here</a></p>
+</li>
+<li>
+<p>If you are using Arch Linux or an Arch based system you need to enable 32bit packages found in multilib repo you can enable it by going to this <a class="link" href="https://wiki.archlinux.org/title/official_repositories#multilib"  target="_blank" rel="noopener"
+    >Arch wiki page</a>.</p>
+</li>
+</ul>
+<h2 id="dependencies">Dependencies:</h2>
+<ul>
+<li>git</li>
+</ul>
+<ol>
+<li>Install git For Ubuntu:</li>
+</ol>
+<pre tabindex="0"><code>sudo apt install git
+</code></pre><ol start="2">
+<li>Install git For Arch Linux:</li>
+</ol>
+<pre tabindex="0"><code>sudo pacman -S git
+</code></pre><ol start="3">
+<li>Install git For Fedora:</li>
+</ol>
+<pre tabindex="0"><code>sudo dnf install git
+</code></pre><ol start="4">
+<li>Install git For OpenSUSE Tumbleweed:</li>
+</ol>
+<pre tabindex="0"><code>sudo zypper install git
+</code></pre><ul>
+<li>python3</li>
+</ul>
+<ol>
+<li>Install Python3 For Ubuntu:</li>
+</ol>
+<pre tabindex="0"><code>sudo apt install python3
+</code></pre><ol start="3">
+<li>Install Python3 For Arch Linux:</li>
+</ol>
+<pre tabindex="0"><code>sudo pacman -S python
+</code></pre><ol start="3">
+<li>Install Python3 For Fedora:</li>
+</ol>
+<pre tabindex="0"><code>sudo dnf install python3
+</code></pre><ol start="4">
+<li>Install Python3 For OpenSUSE Tumbleweed:</li>
+</ol>
+<pre tabindex="0"><code>sudo zypper install python3
+</code></pre><ul>
+<li>python3-pip.</li>
+</ul>
+<ol>
+<li>Install python3-pip For Ubuntu:</li>
+</ol>
+<pre tabindex="0"><code>sudo apt install python3-pip
+</code></pre><ol start="2">
+<li>Install python3-pip For Arch Linux:</li>
+</ol>
+<pre tabindex="0"><code>sudo pacman -S python-pip
+</code></pre><ol start="3">
+<li>Install python3-pip For Fedora:</li>
+</ol>
+<pre tabindex="0"><code>sudo dnf install python3-pip
+</code></pre><ol start="4">
+<li>Install python3-pip For OpenSUSE Tumbleweed:</li>
+</ol>
+<pre tabindex="0"><code>sudo zypper install python3-pip
+</code></pre><ul>
+<li><a class="link" href="https://flatpak.org/setup/"  target="_blank" rel="noopener"
+    >Flatpak</a> is needed for installing Athenaeum.</li>
+</ul>
+<h2 id="packages">Packages:</h2>
+<ul>
+<li>These Packages are installed using <code>LibreGaming -b </code></li>
+</ul>
+<ol>
+<li><a class="link" href="https://store.steampowered.com/"  target="_blank" rel="noopener"
+    >Steam</a>.</li>
+<li><a class="link" href="https://www.winehq.org/"  target="_blank" rel="noopener"
+    >Wine-Staging</a>.</li>
+<li><a class="link" href="https://github.com/FeralInteractive/gamemode"  target="_blank" rel="noopener"
+    >Gamemode</a>.</li>
+</ol>
+<h3 id="optional_packages">Optional_Packages</h3>
+<ul>
+<li>These Packages + the ones above can be installed using <code>LibreGaming -g </code></li>
+</ul>
+<ol>
+<li><a class="link" href="https://github.com/lutris/lutris.git"  target="_blank" rel="noopener"
+    >Lutris</a>.</li>
+<li><a class="link" href="https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher.git"  target="_blank" rel="noopener"
+    >Heroic</a> (Needs AUR enabled on Arch Linux)</li>
+<li><a class="link" href="https://github.com/flightlessmango/MangoHud.git"  target="_blank" rel="noopener"
+    >mangohud</a> and <a class="link" href="https://github.com/benjamimgois/goverlay.git"  target="_blank" rel="noopener"
+    >goverlay</a>(Needs AUR enabled on Arch Linux).</li>
+</ol>
+<h4 id="other_packages">Other_Packages</h4>
+<ul>
+<li>These Packages have their own install option and they are not included in the above packages. They need to be installed seperatly, to know more click <a class="link" href="https://github.com/Ahmed-Al-Balochi/LibreGaming#usage"  target="_blank" rel="noopener"
+    >here</a></li>
+</ul>
+<ol>
+<li><a class="link" href="https://github.com/GloriousEggroll/proton-ge-custom"  target="_blank" rel="noopener"
+    >ProtonGE</a>(You Must run Steam at least once before installing ProtonGE).</li>
+<li><a class="link" href="https://gitlab.com/librebob/athenaeum.git"  target="_blank" rel="noopener"
+    >Athenaeum</a> Launcher for FOSS games.</li>
+<li><a class="link" href="https://itch.io/app"  target="_blank" rel="noopener"
+    >itch.io</a> a Launcher for indie games.</li>
+<li><a class="link" href="https://github.com/frostworx/steamtinkerlaunch"  target="_blank" rel="noopener"
+    >Steam Tinker Launch</a>(Only for Arch Linux).</li>
+</ol>
 <h2 id="installation">Installation:</h2>
-<p>There are two options to install LibreGaming.</p>
-<p>You can install LibreGaming using pip3. For example,<code>pip3 install libregaming</code>.</p>
-<p>Or you can clone the GitHub repo and install it.</p>
-<p>Moving on to Usage:</p>
-<p>LibreGaming is very easy to use, you tailor most if not all the packages you need to install and exclude all the ones that you don’t use, this way it’s guaranteed a minimal install.</p>
-<pre tabindex="0"><code>    libregaming -h
-</code></pre><p>Is what you need to run to display all the available options.</p>
-<p>The list of options are plenty and it will take up most on this article to cover, so I am skipping it. However, for more details I have provided the link to LibreGaming GitHub Page.</p>
-<h1 id="closing-thoughts">Closing thoughts</h1>
-<p>I would like to thank all those who downloaded and used LibreGaming, it got more than 7k downloads.and your Feedback is always welcome.</p>
+<h3 id="gui">GUI</h3>
+<ul>
+<li>To use the GUI interface you need to download the <code>LibreGamingQt-x86_64.AppImage</code> from the <a class="link" href="https://github.com/Ahmed-Al-Balochi/LibreGaming/releases"  target="_blank" rel="noopener"
+    >releases page</a> and give it execute privileges and run it!</li>
+</ul>
+<p><img src="/post/LibreGaming/execute-privileges.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="execute privileges"
+	
+	
+></p>
+<h3 id="cli">CLI</h3>
+<ul>
+<li>You can install LibreGaming using pip if you have it installed. click <a class="link" href="https://github.com/Ahmed-Al-Balochi/LibreGaming#dependencies"  target="_blank" rel="noopener"
+    >Here</a> to install pip3:</li>
+</ul>
+<pre tabindex="0"><code>sudo pip3 install LibreGaming
+</code></pre><ul>
+<li>Or you can install LibreGaming script by entering these commands:</li>
+</ul>
+<pre tabindex="0"><code>git clone https://github.com/Ahmed-Al-Balochi/LibreGaming.git LibreGaming/ 
+cd LibreGaming/
+sudo python3 setup.py install --user
+</code></pre><ul>
+<li>To update LibreGaming when there is a new release enter this command:</li>
+</ul>
+<pre tabindex="0"><code>sudo pip3 install LibreGaming -U
+</code></pre><ul>
+<li>LibreGaming: command not found.</li>
+</ul>
+<p>This error can be solved by setting up the PATH in your shell you can do this by entering these lines in your shell file(.bashrc or .zshrc) and by default your shell file is hidden. to show hidden files enter <code>ls -al</code> in the terminal.</p>
+<ul>
+<li>Note that the LibreGaming Script is saved in ~/.local/bin directory by default.</li>
+</ul>
+<pre tabindex="0"><code>### PATH
+
+if [ -d &#34;$HOME/.local/bin&#34; ] ;
+  then PATH=&#34;$HOME/.local/bin:$PATH&#34;
+fi
+</code></pre><h2 id="usage">Usage:</h2>
+<ul>
+<li>Note: you can also run this script using <code>libregaming</code> command if you don&rsquo;t like <code>LibreGaming</code>. Both can be used, so choose what you prefer.</li>
+<li>To install all the Gaming packages mentioned in the packages section enter this command:</li>
+</ul>
+<pre tabindex="0"><code>sudo LibreGaming -g
+</code></pre><ul>
+<li>To install Basic Packages(Wine, Steam, Gamemode):</li>
+</ul>
+<pre tabindex="0"><code>sudo LibreGaming -b
+</code></pre><ul>
+<li>To install Lutris Launcher enter this command:</li>
+</ul>
+<pre tabindex="0"><code>sudo LibreGaming --lutris 
+</code></pre><ul>
+<li>To install Heroic Launcher enter this command (Don&rsquo;t use sudo if you are using OpenSUSE):</li>
+</ul>
+<pre tabindex="0"><code>sudo LibreGaming --heroic
+</code></pre><ul>
+<li>To install MangoHud &amp; Goverlay enter this command:</li>
+</ul>
+<pre tabindex="0"><code>sudo LibreGaming -o
+</code></pre><ul>
+<li>To install ProtonGE enter this command:</li>
+</ul>
+<pre tabindex="0"><code>LibreGaming -p
+</code></pre><ul>
+<li>To install Athenaeum Launcher enter this command:</li>
+</ul>
+<pre tabindex="0"><code>LibreGaming -ath
+</code></pre><ul>
+<li>To install itch.io Launcher enter this command:</li>
+</ul>
+<pre tabindex="0"><code>LibreGaming --itch
+</code></pre><ul>
+<li>To install Minigalaxy Launcher enter this command:</li>
+</ul>
+<pre tabindex="0"><code>LibreGaming --minigalaxy
+</code></pre><ul>
+<li>To install Steam Tinker Launch(For Arch Linux only) enter this command:</li>
+</ul>
+<pre tabindex="0"><code>LibreGaming --stl
+</code></pre><h3 id="protonup_commands">Protonup_Commands</h3>
+<ul>
+<li>To list all the available releases of ProtonGE enter this command:</li>
+</ul>
+<pre tabindex="0"><code>LibreGaming --release
+</code></pre><ul>
+<li>To list all the installed verions of ProtonGE enter this command:</li>
+</ul>
+<pre tabindex="0"><code>LibreGaming -l
+</code></pre><ul>
+<li>To install a specfic release of ProtonGE enter this command:
+for example:</li>
+</ul>
+<pre tabindex="0"><code>LibreGaming -t 6.13-GE-1
+</code></pre><ul>
+<li>To delete a specfic release of ProtonGE enter this command:
+for example:</li>
+</ul>
+<pre tabindex="0"><code>LibreGaming -r 6.13-GE-1
+</code></pre><h2 id="closing-thoughts">Closing thoughts</h2>
+<p>I would like to thank all those who downloaded and used LibreGaming, it got more than 39k downloads.and your Feedback is always welcome.</p>
 <p>This article is also available on <a class="link" href="https://medium.com/@a7mad98.work/python-program-to-setup-gaming-for-your-linux-distro-74d3c8f25598"  target="_blank" rel="noopener"
     >Medium</a></p>
 <h2 id="links">Links</h2>
@@ -469,6 +719,15 @@ Currently supported distributions:</p>
     </iframe>
 </div>
 
+<h3 id="other-videos-showcasing-libregaming">Other videos showcasing LibreGaming</h3>
+<ul>
+<li>This is a video demonstrating LibreGaming made by TechHut:
+<a class="link" href="https://www.youtube.com/watch?v=2f2zdViFDYg"  target="_blank" rel="noopener"
+    >https://www.youtube.com/watch?v=2f2zdViFDYg</a></li>
+<li>This is a video demonstrating LibreGaming made by @BrodieRobertson:
+<a class="link" href="https://www.youtube.com/watch?v=sOch-qZMLq0&amp;t=309s"  target="_blank" rel="noopener"
+    >https://www.youtube.com/watch?v=sOch-qZMLq0&t=309s</a></li>
+</ul>
 
 </section>
 
@@ -727,12 +986,31 @@ Currently supported distributions:</p>
   <ul>
     <li><a href="#intro">Intro</a></li>
     <li><a href="#lets-talk-features">Lets talk features:</a></li>
-    <li><a href="#installation">Installation:</a></li>
-  </ul>
-
-  <ul>
+    <li><a href="#prerequisites">Prerequisites:</a></li>
+    <li><a href="#dependencies">Dependencies:</a></li>
+    <li><a href="#packages">Packages:</a>
+      <ul>
+        <li><a href="#optional_packages">Optional_Packages</a></li>
+      </ul>
+    </li>
+    <li><a href="#installation">Installation:</a>
+      <ul>
+        <li><a href="#gui">GUI</a></li>
+        <li><a href="#cli">CLI</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage:</a>
+      <ul>
+        <li><a href="#protonup_commands">Protonup_Commands</a></li>
+      </ul>
+    </li>
+    <li><a href="#closing-thoughts">Closing thoughts</a></li>
     <li><a href="#links">Links</a></li>
-    <li><a href="#video-walkthrough">Video Walkthrough</a></li>
+    <li><a href="#video-walkthrough">Video Walkthrough</a>
+      <ul>
+        <li><a href="#other-videos-showcasing-libregaming">Other videos showcasing LibreGaming</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
         </div>

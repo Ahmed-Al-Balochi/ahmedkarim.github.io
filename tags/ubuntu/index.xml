@@ -5,15 +5,35 @@
         <link>https://tech-ahmed.com/tags/ubuntu/</link>
         <description>Recent content in Ubuntu on Ahmed Al Balochi</description>
         <generator>Hugo -- gohugo.io</generator>
-        <lastBuildDate>Thu, 30 Sep 2021 22:57:59 +0500</lastBuildDate><atom:link href="https://tech-ahmed.com/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 17 Nov 2022 22:57:59 +0500</lastBuildDate><atom:link href="https://tech-ahmed.com/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>LibreGaming: تثبيت حزم الألعاب المطلوبة على لينكس</title>
         <link>https://tech-ahmed.com/LibreGaming/</link>
-        <pubDate>Thu, 30 Sep 2021 22:57:59 +0500</pubDate>
+        <pubDate>Thu, 17 Nov 2022 22:57:59 +0500</pubDate>
         
         <guid>https://tech-ahmed.com/LibreGaming/</guid>
-        <description>&lt;img src="https://tech-ahmed.com/post/LibreGaming/LibreGaming.png" alt="Featured image of post LibreGaming: تثبيت حزم الألعاب المطلوبة على لينكس" /&gt;&lt;h2 id=&#34;مقدمة-برنامج&#34;&gt;مقدمة برنامج&lt;/h2&gt;
-&lt;p&gt;ليبرقيمنق برنامج يتيح لك تثبيت حزم الألعاب المطلوبة على لينكس.&lt;/p&gt;
-&lt;p&gt;ليبرقيمنق يعمل عن طريق تحديد توزيعة  لينكس الخاصة بك وبناءً على تلك المعلومات ، يقوم بتثبيت الحزم المناسبة لك. التوزيعات المدعومة حاليًا:&lt;/p&gt;
+        <description>&lt;img src="https://tech-ahmed.com/post/LibreGaming/LibreGaming.png" alt="Featured image of post LibreGaming: تثبيت حزم الألعاب المطلوبة على لينكس" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://pepy.tech/project/libregaming&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img src=&#34;https://static.pepy.tech/personalized-badge/libregaming?period=total&amp;amp;units=international_system&amp;amp;left_color=black&amp;amp;right_color=brightgreen&amp;amp;left_text=Downloads&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;عدد التنزيلات&#34;
+	
+	
+&gt;&lt;/a&gt; &lt;img src=&#34;https://img.shields.io/pypi/v/libregaming?color=ge&amp;amp;label=Version&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;أخر نسخة للبرنامج&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;مقدمة-برنامج-libregaming&#34;&gt;مقدمة برنامج LibreGaming&lt;/h2&gt;
+&lt;p&gt;LibreGaming برنامج يتيح لك تثبيت حزم الألعاب المطلوبة على لينكس.&lt;/p&gt;
+&lt;p&gt;LibreGaming يعمل عن طريق تحديد توزيعة  لينكس الخاصة بك وبناءً على تلك المعلومات ، يقوم بتثبيت الحزم المناسبة لك. التوزيعات المدعومة حاليًا:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Ubuntu.&lt;/li&gt;
 &lt;li&gt;Arch Linux.&lt;/li&gt;
@@ -22,46 +42,257 @@
 &lt;/ul&gt;
 &lt;p&gt;ومن المفترض ان الأداة تعمل أيضًا على مشتقات التوزيعات المذكورة أعلاه.&lt;/p&gt;
 &lt;h2 id=&#34;المميزات&#34;&gt;المميزات&lt;/h2&gt;
-&lt;p&gt;ليبرقيمنق يعتبر نقطة انطلاق رائعة عندما تكون قد قمت للتو بتثبيت كامل نظيف لنظامك(فورمات). لا داعي لإضاعة نصف ساعة لمجرد لثبيت برامج الألعاب ومن ثم بدأ اللعب.&lt;/p&gt;
-&lt;p&gt;سيقوم برنامج ليبرقيمنق بتثبيت هذه الحزم نيابة عنك:&lt;/p&gt;
+&lt;p&gt;LibreGaming يعتبر نقطة انطلاق رائعة عندما تكون قد قمت للتو بتثبيت كامل نظيف لنظامك(فورمات). لا داعي لإضاعة نصف ساعة لمجرد لثبيت برامج الألعاب ومن ثم بدأ اللعب.&lt;/p&gt;
+&lt;p&gt;سيقوم برنامج LibreGaming بتثبيت هذه الحزم نيابة عنك:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Steam.&lt;/li&gt;
 &lt;li&gt;Wine-staging.&lt;/li&gt;
 &lt;li&gt;Gamemode.&lt;/li&gt;
-&lt;li&gt;ProtonGE, using protonup.&lt;/li&gt;
-&lt;li&gt;Lutris Launcher.&lt;/li&gt;
-&lt;li&gt;Heroic Launcher.&lt;/li&gt;
-&lt;li&gt;MangoHud and Goverlay.&lt;/li&gt;
-&lt;li&gt;itch.io Launcher.&lt;/li&gt;
-&lt;li&gt;Athenaeum Launcher.&lt;/li&gt;
+&lt;li&gt;ProtonGE.&lt;/li&gt;
+&lt;li&gt;Lutris.&lt;/li&gt;
+&lt;li&gt;Heroic.&lt;/li&gt;
+&lt;li&gt;MangoHud و Goverlay.&lt;/li&gt;
+&lt;li&gt;itch.io.&lt;/li&gt;
+&lt;li&gt;Athenaeum.&lt;/li&gt;
 &lt;li&gt;Steam Tinker Launch.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;التثبيتتنصيب&#34;&gt;التثبيت/تنصيب&lt;/h2&gt;
-&lt;p&gt;هناك خياريين لتثبيت ليبرقيمنق.&lt;/p&gt;
+&lt;h2 id=&#34;المتطلبات&#34;&gt;المتطلبات:&lt;/h2&gt;
+&lt;p&gt;قبل تثبيت برنامج LibreGaming عليك بالتأكد من وجود أو تثبيت البرامج التالية:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;قم بالتأكد من تثبيتك لتعريفات كرت الشاشة والمعالج الخاص بك من هذه &lt;a class=&#34;link&#34; href=&#34;https://github.com/lutris/docs/blob/master/InstallingDrivers.md&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;الصفحة&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;لتثبيت برنامج LibreGaming يجب أن تكون حزمة python3 مثبتة. لتثبيت python3 قم بالنقر &lt;a class=&#34;link&#34; href=&#34;https://tech-ahmed.com/LibreGaming/#%D8%A8%D8%B1%D8%A7%D9%85%D8%AC-%D9%8A%D8%B9%D8%AA%D9%85%D8%AF-%D8%B9%D9%84%D9%8A%D9%87%D8%A7-libregaming-dependencies&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;هنا&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;لمستخدمين توزيعة فيدورا يجب تفعيل مستودعات free و nonfree لكي يعمل LibreGaming بنجاح. لتفعيل المستودعات قم بالنقر &lt;a class=&#34;link&#34; href=&#34;https://docs.fedoraproject.org/en-US/quick-docs/setup_rpmfusion/#proc_enabling-the-rpmfusion-repositories-using-command-line-utilities_enabling-the-rpmfusion-repositories&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;هنا&lt;/a&gt;:&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;لمستخدمين توزيعة OpenSUSE Tumbleweed يجب تفعيل مستودعات packman. لتفعيل المستودعات قم بالنقر &lt;a class=&#34;link&#34; href=&#34;https://en.opensuse.org/Additional_package_repositories&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;هنا&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;لمستخدمين توزيعة Arch Linux أو توزيعة مبنية على Arch يجب تفعيل مستودع multilib. قم بالنقر &lt;a class=&#34;link&#34; href=&#34;https://wiki.archlinux.org/title/official_repositories#multilib&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;هنا للتفعيل&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;برامج-يعتمد-عليها-libregaming-dependencies&#34;&gt;برامج يعتمد عليها LibreGaming (Dependencies):&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;برنامج git&lt;/li&gt;
+&lt;/ul&gt;
 &lt;ol&gt;
-&lt;li&gt;يمكنك تثبيت ليبرقيمنق باستخدام هذا الامر&lt;/li&gt;
+&lt;li&gt;لتثبيت البرنامج لتوزيعة Ubuntu:&lt;/li&gt;
 &lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt; pip3 install libregaming.
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo apt install git
 &lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;أو يمكنك استنساخ صفحة قيت هوب وتثبيته.&lt;/li&gt;
+&lt;li&gt;لتثبيت البرنامج لتوزيعة Arch Linux:&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;طريقة-الاستخدام&#34;&gt;طريقة الاستخدام&lt;/h2&gt;
-&lt;p&gt;استخدام البرنامج سهل للغاية ، بامكانك تخصيص معظم إن لم يكن كل الحزم التي تحتاج إلى التثبيت واستبعاد كل الحزم التي لا تريدها، وبهذه الطريقة تضمن الحد الأدنى من حجم التثبيت.&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;    libregaming -h
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;لمعرفة المزيد من التفاصيل عن خيارات التثبيت، الرجاء الذهاب الى رابط صفحة ليبرقيمنق على قيت هوب المذكور في نهاية المقال.&lt;/p&gt;
-&lt;h2 id=&#34;ختاما&#34;&gt;ختاما&lt;/h2&gt;
-&lt;p&gt;أود أن أشكر كل الذين قاموا بتنزيل ليبرقيمنق واستخدموه ، فقد حصل على أكثر من 7 آلاف تنزيل ، واستفساراتكم مرحب بها دائمًا.&lt;/p&gt;
-&lt;h2 id=&#34;شرح-بالفيديو-على-يوتيوب&#34;&gt;شرح بالفيديو على يوتيوب&lt;/h2&gt;
-&lt;div class=&#34;video-wrapper&#34;&gt;
-    &lt;iframe loading=&#34;lazy&#34; 
-            src=&#34;https://www.youtube.com/embed/QI8Ai8BTMwo&#34; 
-            allowfullscreen 
-            title=&#34;YouTube Video&#34;
-    &gt;
-    &lt;/iframe&gt;
-&lt;/div&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo pacman -S git
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;لتثبيت البرنامج لتوزيعة Fedora:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo dnf install git
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;لتثبيت البرنامج لتوزيعة OpenSUSE Tumbleweed:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo zypper install git
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;برنامج python3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;لتثبيت البرنامج لتوزيعة Ubuntu:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo apt install python3
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;لتثبيت البرنامج لتوزيعة Arch Linux:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo pacman -S python
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;لتثبيت البرنامج لتوزيعة Fedora:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo dnf install python3
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;لتثبيت البرنامج لتوزيعة OpenSUSE Tumbleweed:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo zypper install python3
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;برنامج python3-pip.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;لتثبيت البرنامج لتوزيعة Ubuntu:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo apt install python3-pip
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;لتثبيت البرنامج لتوزيعة Arch Linux:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo pacman -S python-pip
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;لتثبيت البرنامج لتوزيعة Fedora:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo dnf install python3-pip
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;لتثبيت البرنامج لتوزيعة OpenSUSE Tumbleweed:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo zypper install python3-pip
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;تحتاج إلى حزمة &lt;a class=&#34;link&#34; href=&#34;https://flatpak.org/setup/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Flatpak&lt;/a&gt; لتثبيت متجر Athenaeum للألعاب المفتوحة المصدر.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;لتثبيت-البرامجالحزم-الأساسية&#34;&gt;لتثبيت البرامج/الحزم الأساسية:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;سيقوم الأمر &lt;code&gt;LibreGaming -b&lt;/code&gt;  بتثبيت البرامج التالية:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://store.steampowered.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Steam&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.winehq.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wine-Staging&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/FeralInteractive/gamemode&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Gamemode&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;لتثبيت-البرامجالحزم-الثانوية&#34;&gt;لتثبيت البرامج/الحزم الثانوية&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;سيقوم الأمر &lt;code&gt;LibreGaming -g &lt;/code&gt; بتثبيت البرامج المذكورة أعلاه مع البرامج المذكورة أسفل:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/lutris/lutris.git&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Lutris&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher.git&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Heroic&lt;/a&gt; (Needs AUR enabled on Arch Linux)&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/flightlessmango/MangoHud.git&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;mangohud&lt;/a&gt; and &lt;a class=&#34;link&#34; href=&#34;https://github.com/benjamimgois/goverlay.git&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;goverlay&lt;/a&gt;(Needs AUR enabled on Arch Linux).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;لتثبيت-البرامجالحزم-الاختيارية&#34;&gt;لتثبيت البرامج/الحزم الاختيارية&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;هذه البرامج لها أوامر خاصة بها مستقلة عن الأومر الأخرى تعمل تحت برنامج LibreGaming. للإستخدام قم بالنقر &lt;a class=&#34;link&#34; href=&#34;https:/tech-ahmed/LibreGaming/#%D8%B7%D8%B1%D9%8A%D9%82%D8%A9-%D8%A7%D9%84%D8%A5%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85%D8%A3%D9%88%D8%A7%D9%85%D8%B1-libregaming&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;هنا.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/GloriousEggroll/proton-ge-custom&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ProtonGE&lt;/a&gt;(يجب تشغيل برنامج ستيم (Steam) على الأقل مرة واحدة قبل تثبيت ProtonGE).&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://gitlab.com/librebob/athenaeum.git&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Athenaeum&lt;/a&gt;  متجر للألعاب المفتوحة المصدر.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://itch.io/app&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;itch.io&lt;/a&gt;  متجر لألعاب من تطوير المطورين المستقلين (Indie).&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/frostworx/steamtinkerlaunch&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Steam Tinker Launch&lt;/a&gt;(Only for Arch Linux).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;التثبيت&#34;&gt;التثبيت:&lt;/h2&gt;
+&lt;h3 id=&#34;باستخدام-واجهة-المستخدم&#34;&gt;باستخدام واجهة المستخدم&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;لأستخدام برنامج LibreGaming بواجهة مستخدم قم بتنزيل &lt;code&gt;LibreGamingQt-x86_64.AppImage&lt;/code&gt; من &lt;a class=&#34;link&#34; href=&#34;https://github.com/Ahmed-Al-Balochi/LibreGaming/releases&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;صفحة التنزيلات على GitHub&lt;/a&gt; وقم بإعطاء البرنامج إذن التنفيذ بالضغط على الزر الأيمن على الماوس من ثم أختيار خيار التنفيذ مثل ماهو موضح في الصورة!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://tech-ahmed.com/post/LibreGaming/execute-privileges.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;execute privileges&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;باستخدام-موجه-الأوامر&#34;&gt;باستخدام موجه الأوامر&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;لتثبيت حزمة LibreGaming عن برنامج pip قم بالنقر &lt;a class=&#34;link&#34; href=&#34;https://tech-ahmed/LibreGaming/#%D8%B7%D8%B1%D9%8A%D9%82%D8%A9-%D8%A7%D9%84%D8%A5%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85%D8%A3%D9%88%D8%A7%D9%85%D8%B1-libregaming&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;هنا.&lt;/a&gt;:&lt;/li&gt;
+&lt;li&gt;بعد تثبيت حزمة pip قم بإدخال الأمر التالي:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo pip3 install LibreGaming
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;لتحديث حزمة LibreGaming عن طريق pip قم بإدخال الأمر التالي:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo pip3 install LibreGaming -U
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;أو يمكنك إستخدام الأوامر التالية لتنزيل برنامج LibreGaming من GitHub:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git clone https://github.com/Ahmed-Al-Balochi/LibreGaming.git LibreGaming/ 
+cd LibreGaming/
+sudo python3 setup.py install --user
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;إذا واجهتك مشكلة &amp;ldquo;LibreGaming: command not found&amp;rdquo;.
+لحل هذه المشكلة، يجب إضافة الأسطر التالية لملف موجه الأوامر (.bashrc أو .zshrc) لتنصيب متغير PATH على جهازك.&lt;/li&gt;
+&lt;li&gt;قد يكون ملف موجه الأوامر مخفي لإظهار الملف فم بإدخال الأمر التالي &lt;code&gt;ls -al&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;ملاحظة: برنامج LibreGaming سيحفظ تلقائياً داخل مجلد &lt;code&gt;.local/bin&lt;/code&gt; على مجلد الهوم.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;### PATH
 
-&lt;p&gt;لفتح الفيديو في صفحة جديدة قم بالضغط مطولاً على زر CTRL الأيسر&lt;/p&gt;
+if [ -d &amp;#34;$HOME/.local/bin&amp;#34; ] ;
+  then PATH=&amp;#34;$HOME/.local/bin:$PATH&amp;#34;
+fi
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;طريقة-الإستخدامأوامر-libregaming&#34;&gt;طريقة الإستخدام/أوامر LibreGaming:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ملاحظة: يمكنك استخدام كلمة &lt;code&gt;libregaming&lt;/code&gt; بدل كلمة &lt;code&gt;LibreGaming&lt;/code&gt; عن إدخال الأومر. كلا الأمرين تعمل، فقم باختيار ما تفضل انت.&lt;/li&gt;
+&lt;li&gt;لتثبيت كل البرامج الأساسية والثانوية قم بادخال الأمر التالي:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo LibreGaming -g
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;لتثبيت البرامج الأساسية فقط (Wine, Steam, Gamemode) قم بادخال الأمر التالي:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo LibreGaming -b
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;لتثبيت برنامج Lutris قم بادخال الأمر التالي:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo LibreGaming --lutris 
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;لتثبيت برنامج Heroic قم بادخال الأمر التالي (لا تستخدم أمر &lt;strong&gt;sudo&lt;/strong&gt; اذا كنت تستخدم توزيعة &lt;strong&gt;OpenSUSE&lt;/strong&gt;):&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo LibreGaming --heroic
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;لتثبيت برنامجي MangoHud و Goverlay قم بادخال الأمر التالي:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo LibreGaming -o
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;لتثبيت ProtonGE قم بادخال الأمر التالي:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;LibreGaming -p
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;لتثبيت متجر Athenaeum قم بادخال الأمر التالي:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;LibreGaming -ath
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;لتثبيت متجر itch.io Launcher قم بادخال الأمر التالي:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;LibreGaming --itch
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;لتثبيت متجر Minigalaxy قم بادخال الأمر التالي:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;LibreGaming --minigalaxy
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;لتثبيت برنامج Steam Tinker Launch(لمستخدمين توزيعة Arch Linux فقط) قم بادخال الأمر التالي:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;LibreGaming --stl
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;أوامر-protonup&#34;&gt;أوامر Protonup&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;لعرض كل نسخ ProtonGE قم بادخال الأمر التالي:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;LibreGaming --release
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;لعرض النسخ التي تم تثبيتها على جهازك ثم بادخال الأمر التالي:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;LibreGaming -l
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;لتثبيت نسخة معينة من ProtonGE قم بادخال الأمر التالي:
+مثلاً:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;LibreGaming -t 6.13-GE-1
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;لحذف نسخة معينة من ProtonGE قم بادخال الأمر التالي:
+مثلاً:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;LibreGaming -r 6.13-GE-1
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;ختاما&#34;&gt;ختاما&lt;/h2&gt;
+&lt;p&gt;أود أن أشكر كل الذين قاموا بتنزيل LibreGaming واستخدموه ، فقد حصل على أكثر من 39 ألف تنزيل ، واستفساراتكم مرحب بها دائمًا.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;صفحة برنامج LibreGaming على &lt;a class=&#34;link&#34; href=&#34;https://github.com/Ahmed-Al-Balochi/LibreGaming&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;أتشرف-بمتابعتكم-لي&#34;&gt;أتشرف بمتابعتكم لي&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -89,6 +320,16 @@
     &gt;صفحتي على Patreon &lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&#34;شرح-بالفيديو-على-يوتيوب&#34;&gt;شرح بالفيديو على يوتيوب&lt;/h2&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/QI8Ai8BTMwo&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
 </description>
         </item>
         

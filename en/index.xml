@@ -5,7 +5,346 @@
         <link>https://tech-ahmed.com/en/</link>
         <description>Recent content on Ahmed Al Balochi</description>
         <generator>Hugo -- gohugo.io</generator>
-        <lastBuildDate>Sat, 16 Oct 2021 17:11:47 +0500</lastBuildDate><atom:link href="https://tech-ahmed.com/en/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 17 Nov 2022 11:08:28 +0500</lastBuildDate><atom:link href="https://tech-ahmed.com/en/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>LibreGaming: Easily Setup your Distro for Gaming</title>
+        <link>https://tech-ahmed.com/LibreGaming.en/</link>
+        <pubDate>Thu, 17 Nov 2022 11:08:28 +0500</pubDate>
+        
+        <guid>https://tech-ahmed.com/LibreGaming.en/</guid>
+        <description>&lt;img src="https://tech-ahmed.com/post/LibreGaming/LibreGaming.png" alt="Featured image of post LibreGaming: Easily Setup your Distro for Gaming" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://pepy.tech/project/libregaming&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img src=&#34;https://static.pepy.tech/personalized-badge/libregaming?period=total&amp;amp;units=international_system&amp;amp;left_color=black&amp;amp;right_color=brightgreen&amp;amp;left_text=Downloads&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Downloads&#34;
+	
+	
+&gt;&lt;/a&gt; &lt;img src=&#34;https://img.shields.io/pypi/v/libregaming?color=ge&amp;amp;label=Version&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;PyPI&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+&lt;p&gt;LibreGaming Is a program for installing gaming required packages on Linux.&lt;/p&gt;
+&lt;p&gt;It works by identifying you Linux distribution and based on that info it installs the right packages for you.
+Currently supported distributions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubuntu, of course.&lt;/li&gt;
+&lt;li&gt;Arch Linux, because I use Arch btw.&lt;/li&gt;
+&lt;li&gt;Fedora.&lt;/li&gt;
+&lt;li&gt;And finally OpenSUSE Tumbleweed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The tool also should work on the above distributions derivatives too.&lt;/p&gt;
+&lt;h2 id=&#34;lets-talk-features&#34;&gt;Lets talk features:&lt;/h2&gt;
+&lt;p&gt;The tool is a great starting point when you have just made a clean install. No need to waste half an hour just to play games.&lt;/p&gt;
+&lt;p&gt;LibreGaming will install these packages for you:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Steam.&lt;/li&gt;
+&lt;li&gt;Wine-staging.&lt;/li&gt;
+&lt;li&gt;Gamemode.&lt;/li&gt;
+&lt;li&gt;ProtonGE, using protonup.&lt;/li&gt;
+&lt;li&gt;Lutris Launcher.&lt;/li&gt;
+&lt;li&gt;Heroic Launcher.&lt;/li&gt;
+&lt;li&gt;MangoHud and Goverlay.&lt;/li&gt;
+&lt;li&gt;itch.io Launcher.&lt;/li&gt;
+&lt;li&gt;Athenaeum Launcher.&lt;/li&gt;
+&lt;li&gt;Steam Tinker Launch.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites:&lt;/h2&gt;
+&lt;p&gt;Before you install LibreGaming you need to get the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;You need your drivers installed beforehand for maximum performance under Linux. you can install them by going to this &lt;a class=&#34;link&#34; href=&#34;https://github.com/lutris/docs/blob/master/InstallingDrivers.md&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;page&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;To run this LibreGaming script you need python3 installed if not already. to install python3 click &lt;a class=&#34;link&#34; href=&#34;https://github.com/Ahmed-Al-Balochi/LibreGaming#dependencies&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Here&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Also you need to enable free and nonfree packages if you are using Fedora to install steam. You can find the commands to enable free and nonfree packages for Fedora &lt;a class=&#34;link&#34; href=&#34;https://docs.fedoraproject.org/en-US/quick-docs/setup_rpmfusion/#proc_enabling-the-rpmfusion-repositories-using-command-line-utilities_enabling-the-rpmfusion-repositories&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;here&lt;/a&gt;:&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;For OpenSUSE Tumbleweed you need to enable packman repos to install Steam and other packages. You can find that &lt;a class=&#34;link&#34; href=&#34;https://en.opensuse.org/Additional_package_repositories&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If you are using Arch Linux or an Arch based system you need to enable 32bit packages found in multilib repo you can enable it by going to this &lt;a class=&#34;link&#34; href=&#34;https://wiki.archlinux.org/title/official_repositories#multilib&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Arch wiki page&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;dependencies&#34;&gt;Dependencies:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;git&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;Install git For Ubuntu:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo apt install git
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Install git For Arch Linux:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo pacman -S git
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Install git For Fedora:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo dnf install git
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Install git For OpenSUSE Tumbleweed:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo zypper install git
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;python3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;Install Python3 For Ubuntu:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo apt install python3
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Install Python3 For Arch Linux:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo pacman -S python
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Install Python3 For Fedora:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo dnf install python3
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Install Python3 For OpenSUSE Tumbleweed:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo zypper install python3
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;python3-pip.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;Install python3-pip For Ubuntu:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo apt install python3-pip
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Install python3-pip For Arch Linux:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo pacman -S python-pip
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Install python3-pip For Fedora:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo dnf install python3-pip
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Install python3-pip For OpenSUSE Tumbleweed:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo zypper install python3-pip
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://flatpak.org/setup/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Flatpak&lt;/a&gt; is needed for installing Athenaeum.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;packages&#34;&gt;Packages:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;These Packages are installed using &lt;code&gt;LibreGaming -b &lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://store.steampowered.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Steam&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.winehq.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wine-Staging&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/FeralInteractive/gamemode&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Gamemode&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;optional_packages&#34;&gt;Optional_Packages&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;These Packages + the ones above can be installed using &lt;code&gt;LibreGaming -g &lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/lutris/lutris.git&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Lutris&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher.git&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Heroic&lt;/a&gt; (Needs AUR enabled on Arch Linux)&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/flightlessmango/MangoHud.git&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;mangohud&lt;/a&gt; and &lt;a class=&#34;link&#34; href=&#34;https://github.com/benjamimgois/goverlay.git&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;goverlay&lt;/a&gt;(Needs AUR enabled on Arch Linux).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;other_packages&#34;&gt;Other_Packages&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;These Packages have their own install option and they are not included in the above packages. They need to be installed seperatly, to know more click &lt;a class=&#34;link&#34; href=&#34;https://github.com/Ahmed-Al-Balochi/LibreGaming#usage&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/GloriousEggroll/proton-ge-custom&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ProtonGE&lt;/a&gt;(You Must run Steam at least once before installing ProtonGE).&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://gitlab.com/librebob/athenaeum.git&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Athenaeum&lt;/a&gt; Launcher for FOSS games.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://itch.io/app&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;itch.io&lt;/a&gt; a Launcher for indie games.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/frostworx/steamtinkerlaunch&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Steam Tinker Launch&lt;/a&gt;(Only for Arch Linux).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;installation&#34;&gt;Installation:&lt;/h2&gt;
+&lt;h3 id=&#34;gui&#34;&gt;GUI&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;To use the GUI interface you need to download the &lt;code&gt;LibreGamingQt-x86_64.AppImage&lt;/code&gt; from the &lt;a class=&#34;link&#34; href=&#34;https://github.com/Ahmed-Al-Balochi/LibreGaming/releases&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;releases page&lt;/a&gt; and give it execute privileges and run it!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://tech-ahmed.com/post/LibreGaming/execute-privileges.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;execute privileges&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;cli&#34;&gt;CLI&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;You can install LibreGaming using pip if you have it installed. click &lt;a class=&#34;link&#34; href=&#34;https://github.com/Ahmed-Al-Balochi/LibreGaming#dependencies&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Here&lt;/a&gt; to install pip3:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo pip3 install LibreGaming
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Or you can install LibreGaming script by entering these commands:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git clone https://github.com/Ahmed-Al-Balochi/LibreGaming.git LibreGaming/ 
+cd LibreGaming/
+sudo python3 setup.py install --user
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;To update LibreGaming when there is a new release enter this command:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo pip3 install LibreGaming -U
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;LibreGaming: command not found.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This error can be solved by setting up the PATH in your shell you can do this by entering these lines in your shell file(.bashrc or .zshrc) and by default your shell file is hidden. to show hidden files enter &lt;code&gt;ls -al&lt;/code&gt; in the terminal.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Note that the LibreGaming Script is saved in ~/.local/bin directory by default.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;### PATH
+
+if [ -d &amp;#34;$HOME/.local/bin&amp;#34; ] ;
+  then PATH=&amp;#34;$HOME/.local/bin:$PATH&amp;#34;
+fi
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;usage&#34;&gt;Usage:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Note: you can also run this script using &lt;code&gt;libregaming&lt;/code&gt; command if you don&amp;rsquo;t like &lt;code&gt;LibreGaming&lt;/code&gt;. Both can be used, so choose what you prefer.&lt;/li&gt;
+&lt;li&gt;To install all the Gaming packages mentioned in the packages section enter this command:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo LibreGaming -g
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;To install Basic Packages(Wine, Steam, Gamemode):&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo LibreGaming -b
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;To install Lutris Launcher enter this command:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo LibreGaming --lutris 
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;To install Heroic Launcher enter this command (Don&amp;rsquo;t use sudo if you are using OpenSUSE):&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo LibreGaming --heroic
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;To install MangoHud &amp;amp; Goverlay enter this command:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo LibreGaming -o
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;To install ProtonGE enter this command:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;LibreGaming -p
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;To install Athenaeum Launcher enter this command:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;LibreGaming -ath
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;To install itch.io Launcher enter this command:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;LibreGaming --itch
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;To install Minigalaxy Launcher enter this command:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;LibreGaming --minigalaxy
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;To install Steam Tinker Launch(For Arch Linux only) enter this command:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;LibreGaming --stl
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;protonup_commands&#34;&gt;Protonup_Commands&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;To list all the available releases of ProtonGE enter this command:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;LibreGaming --release
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;To list all the installed verions of ProtonGE enter this command:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;LibreGaming -l
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;To install a specfic release of ProtonGE enter this command:
+for example:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;LibreGaming -t 6.13-GE-1
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;To delete a specfic release of ProtonGE enter this command:
+for example:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;LibreGaming -r 6.13-GE-1
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;closing-thoughts&#34;&gt;Closing thoughts&lt;/h2&gt;
+&lt;p&gt;I would like to thank all those who downloaded and used LibreGaming, it got more than 39k downloads.and your Feedback is always welcome.&lt;/p&gt;
+&lt;p&gt;This article is also available on &lt;a class=&#34;link&#34; href=&#34;https://medium.com/@a7mad98.work/python-program-to-setup-gaming-for-your-linux-distro-74d3c8f25598&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Medium&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/ahmed-al-balochi/LibreGaming&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;LibreGaming&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;📽 &lt;a class=&#34;link&#34; href=&#34;https://t.co/qNbPadCaHI?amp=1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My YouTube Channel&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;📽 &lt;a class=&#34;link&#34; href=&#34;https://odysee.com/$/invite/@CTRLplusA:7&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My Odysee Channel&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;🐦 &lt;a class=&#34;link&#34; href=&#34;https://twitter.com/ahmedal_balochi&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My Twitter Profile&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;💻 &lt;a class=&#34;link&#34; href=&#34;https://github.com/ahmed-al-balochi&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My GitHub Profile&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;💼 &lt;a class=&#34;link&#34; href=&#34;https://www.linkedin.com/in/ahmed-al-balochi-b97b9b150/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My LinkedIn Profile&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;💰 &lt;a class=&#34;link&#34; href=&#34;https://patreon.com/user?u=42792180&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;My Patreon Page&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;video-walkthrough&#34;&gt;Video Walkthrough&lt;/h2&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/F9GP5Et12qo&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;other-videos-showcasing-libregaming&#34;&gt;Other videos showcasing LibreGaming&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;This is a video demonstrating LibreGaming made by TechHut:
+&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=2f2zdViFDYg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.youtube.com/watch?v=2f2zdViFDYg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;This is a video demonstrating LibreGaming made by @BrodieRobertson:
+&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=sOch-qZMLq0&amp;amp;t=309s&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.youtube.com/watch?v=sOch-qZMLq0&amp;t=309s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
         <title>Top 5: Linux Terminal Applications and Utilities</title>
         <link>https://tech-ahmed.com/best-terminal-utilities/</link>
         <pubDate>Sat, 16 Oct 2021 17:11:47 +0500</pubDate>
@@ -238,94 +577,6 @@ It has many features, but my favorites are:&lt;/p&gt;
     &gt;My Patreon Page&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-</description>
-        </item>
-        <item>
-        <title>LibreGaming: Easily Setup your Distro for Gaming</title>
-        <link>https://tech-ahmed.com/LibreGaming.en/</link>
-        <pubDate>Thu, 30 Sep 2021 11:08:28 +0500</pubDate>
-        
-        <guid>https://tech-ahmed.com/LibreGaming.en/</guid>
-        <description>&lt;img src="https://tech-ahmed.com/post/LibreGaming/LibreGaming.png" alt="Featured image of post LibreGaming: Easily Setup your Distro for Gaming" /&gt;&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
-&lt;p&gt;LibreGaming Is a program for installing gaming required packages on Linux.&lt;/p&gt;
-&lt;p&gt;It works by identifying you Linux distribution and based on that info it installs the right packages for you.
-Currently supported distributions:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Ubuntu, of course.&lt;/li&gt;
-&lt;li&gt;Arch Linux, because I use Arch btw.&lt;/li&gt;
-&lt;li&gt;Fedora.&lt;/li&gt;
-&lt;li&gt;And finally OpenSUSE Tumbleweed.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The tool also should work on the above distributions derivatives too.&lt;/p&gt;
-&lt;h2 id=&#34;lets-talk-features&#34;&gt;Lets talk features:&lt;/h2&gt;
-&lt;p&gt;The tool is a great starting point when you have just made a clean install. No need to waste half an hour just to play games.&lt;/p&gt;
-&lt;p&gt;LibreGaming will install these packages for you:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Steam.&lt;/li&gt;
-&lt;li&gt;Wine-staging.&lt;/li&gt;
-&lt;li&gt;Gamemode.&lt;/li&gt;
-&lt;li&gt;ProtonGE, using protonup.&lt;/li&gt;
-&lt;li&gt;Lutris Launcher.&lt;/li&gt;
-&lt;li&gt;Heroic Launcher.&lt;/li&gt;
-&lt;li&gt;MangoHud and Goverlay.&lt;/li&gt;
-&lt;li&gt;itch.io Launcher.&lt;/li&gt;
-&lt;li&gt;Athenaeum Launcher.&lt;/li&gt;
-&lt;li&gt;Steam Tinker Launch.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;installation&#34;&gt;Installation:&lt;/h2&gt;
-&lt;p&gt;There are two options to install LibreGaming.&lt;/p&gt;
-&lt;p&gt;You can install LibreGaming using pip3. For example,&lt;code&gt;pip3 install libregaming&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Or you can clone the GitHub repo and install it.&lt;/p&gt;
-&lt;p&gt;Moving on to Usage:&lt;/p&gt;
-&lt;p&gt;LibreGaming is very easy to use, you tailor most if not all the packages you need to install and exclude all the ones that you don’t use, this way it’s guaranteed a minimal install.&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;    libregaming -h
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Is what you need to run to display all the available options.&lt;/p&gt;
-&lt;p&gt;The list of options are plenty and it will take up most on this article to cover, so I am skipping it. However, for more details I have provided the link to LibreGaming GitHub Page.&lt;/p&gt;
-&lt;h1 id=&#34;closing-thoughts&#34;&gt;Closing thoughts&lt;/h1&gt;
-&lt;p&gt;I would like to thank all those who downloaded and used LibreGaming, it got more than 7k downloads.and your Feedback is always welcome.&lt;/p&gt;
-&lt;p&gt;This article is also available on &lt;a class=&#34;link&#34; href=&#34;https://medium.com/@a7mad98.work/python-program-to-setup-gaming-for-your-linux-distro-74d3c8f25598&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Medium&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/ahmed-al-balochi/LibreGaming&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;LibreGaming&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;📽 &lt;a class=&#34;link&#34; href=&#34;https://t.co/qNbPadCaHI?amp=1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;My YouTube Channel&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;📽 &lt;a class=&#34;link&#34; href=&#34;https://odysee.com/$/invite/@CTRLplusA:7&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;My Odysee Channel&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;🐦 &lt;a class=&#34;link&#34; href=&#34;https://twitter.com/ahmedal_balochi&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;My Twitter Profile&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;💻 &lt;a class=&#34;link&#34; href=&#34;https://github.com/ahmed-al-balochi&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;My GitHub Profile&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;💼 &lt;a class=&#34;link&#34; href=&#34;https://www.linkedin.com/in/ahmed-al-balochi-b97b9b150/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;My LinkedIn Profile&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;💰 &lt;a class=&#34;link&#34; href=&#34;https://patreon.com/user?u=42792180&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;My Patreon Page&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;video-walkthrough&#34;&gt;Video Walkthrough&lt;/h2&gt;
-&lt;div class=&#34;video-wrapper&#34;&gt;
-    &lt;iframe loading=&#34;lazy&#34; 
-            src=&#34;https://www.youtube.com/embed/F9GP5Et12qo&#34; 
-            allowfullscreen 
-            title=&#34;YouTube Video&#34;
-    &gt;
-    &lt;/iframe&gt;
-&lt;/div&gt;
-
 </description>
         </item>
         <item>
