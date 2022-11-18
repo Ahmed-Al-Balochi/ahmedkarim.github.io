@@ -169,7 +169,7 @@
 &lt;/ol&gt;
 &lt;h3 id=&#34;لتثبيت-البرامجالحزم-الاختيارية&#34;&gt;لتثبيت البرامج/الحزم الاختيارية&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;هذه البرامج لها أوامر خاصة بها مستقلة عن الأومر الأخرى تعمل تحت برنامج LibreGaming. للإستخدام قم بالنقر &lt;a class=&#34;link&#34; href=&#34;https:/tech-ahmed/LibreGaming/#%D8%B7%D8%B1%D9%8A%D9%82%D8%A9-%D8%A7%D9%84%D8%A5%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85%D8%A3%D9%88%D8%A7%D9%85%D8%B1-libregaming&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;هذه البرامج لها أوامر خاصة بها مستقلة عن الأومر الأخرى تعمل تحت برنامج LibreGaming. للإستخدام قم بالنقر &lt;a class=&#34;link&#34; href=&#34;https://tech-ahmed.com/LibreGaming/#%D8%B7%D8%B1%D9%8A%D9%82%D8%A9-%D8%A7%D9%84%D8%A5%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85%D8%A3%D9%88%D8%A7%D9%85%D8%B1-libregaming&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;هنا.&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;ol&gt;
@@ -200,7 +200,7 @@
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;باستخدام-موجه-الأوامر&#34;&gt;باستخدام موجه الأوامر&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;لتثبيت حزمة LibreGaming عن برنامج pip قم بالنقر &lt;a class=&#34;link&#34; href=&#34;https://tech-ahmed/LibreGaming/#%D8%B7%D8%B1%D9%8A%D9%82%D8%A9-%D8%A7%D9%84%D8%A5%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85%D8%A3%D9%88%D8%A7%D9%85%D8%B1-libregaming&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;لتثبيت حزمة LibreGaming عن برنامج pip قم بالنقر &lt;a class=&#34;link&#34; href=&#34;https://tech-ahmed.com/LibreGaming/#%D8%A8%D8%B1%D8%A7%D9%85%D8%AC-%D9%8A%D8%B9%D8%AA%D9%85%D8%AF-%D8%B9%D9%84%D9%8A%D9%87%D8%A7-libregaming-dependencies&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;هنا.&lt;/a&gt;:&lt;/li&gt;
 &lt;li&gt;بعد تثبيت حزمة pip قم بإدخال الأمر التالي:&lt;/li&gt;
 &lt;/ul&gt;
