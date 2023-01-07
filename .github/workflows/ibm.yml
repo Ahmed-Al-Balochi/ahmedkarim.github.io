@@ -19,9 +19,9 @@ env:
   IBM_CLOUD_REGION: us-south
   ICR_NAMESPACE: ${{ secrets.ICR_NAMESPACE }}
   REGISTRY_HOSTNAME: us.icr.io
-  IMAGE_NAME: blog
+  IMAGE_NAME: webblog
   IKS_CLUSTER: cesqe87f0jtpnrnpe7lg
-  DEPLOYMENT_NAME: blog
+  DEPLOYMENT_NAME: webblog
   PORT: 5001
 
 jobs:
