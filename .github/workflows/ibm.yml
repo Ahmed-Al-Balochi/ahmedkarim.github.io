@@ -19,9 +19,9 @@ env:
   IBM_CLOUD_REGION: us-south
   ICR_NAMESPACE: ${{ secrets.ICR_NAMESPACE }}
   REGISTRY_HOSTNAME: us.icr.io
-  IMAGE_NAME: phpfyp
+  IMAGE_NAME: blog
   IKS_CLUSTER: cek8hhcf0gba2h0kvtdg
-  DEPLOYMENT_NAME: phpfyp
+  DEPLOYMENT_NAME: blog
   PORT: 5001
 
 jobs:
