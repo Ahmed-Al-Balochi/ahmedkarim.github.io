@@ -1,5 +1,6 @@
 FROM nginx
 
+
 USER root
 
 # Copy the src
