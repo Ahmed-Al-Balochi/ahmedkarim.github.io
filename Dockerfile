@@ -5,7 +5,7 @@ USER root
 # Copy the src
 WORKDIR /app
 Copy index.html /usr/share/nginx/html
-COPY ./* /app
+COPY . /app
 RUN ls -la /app
 
 USER 1001
